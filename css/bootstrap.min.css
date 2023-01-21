@@ -10010,8 +10010,8 @@ input[type="radio"] {
 .posts {
     /*display: grid;
     grid-gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr); */
-    display: flex;   
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;   */
 }
 
 .posts .post {
