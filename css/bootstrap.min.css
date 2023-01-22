@@ -10008,6 +10008,7 @@ input[type="radio"] {
 /* FILTERED ELEMENTS (POSTS)
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .posts {
+    margin-left: 35px;
     /*display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -10015,8 +10016,8 @@ input[type="radio"] {
 }
 
 .posts .post {
-    background: #fafafa;
-   /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+   /* background: #fafafa;
+   border: 1px solid rgba(0, 0, 0, 0.1);*/
     
 }
 
@@ -10142,12 +10143,13 @@ input[type="radio"] {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to right bottom, #dee2e6, #dbdbdb);
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.507);
+    /*box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.507); 
+    border-radius: 30px;*/
     overflow: hidden;
-    border-radius: 30px;
     transition: all 0.3s;
     position: relative;
-   
+    height: 45%;
+    margin-right: 20px;
   }
 
   .item:hover {
@@ -10157,7 +10159,7 @@ input[type="radio"] {
   .item-photo {
     width: 100%;
     align-self: center;
-    height: 50%;
+    height: 100%;
   }
 
   .item-header {
@@ -10254,3 +10256,75 @@ input[type="radio"] {
         background-image: url(../img/banner/bsas_bosque1png\ png.png);
         }
    
+/*---FOTOS INDEX PROVINCIAS---*/
+
+.container_g {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* padding: 0 30px; */
+    width: 100%;
+  }
+  
+  .container_g .thumbex {
+    width: 100%;
+    min-width: 450px;
+    max-width: 500px;
+    height: 300px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+    /*outline-offset: -15px;
+     background-color: blue;
+    outline: 2px solid white;*/
+  }
+  
+  .container_g .thumbex .thumbnail {
+    overflow: hidden;
+    min-width: 250px;
+    height: 300px;
+    position: relative;
+    opacity: 0.88;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-out;
+  }
+  
+  .container_g .thumbex .thumbnail img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    height: 200%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    backface-visibility: hidden;
+  }
+  
+  .container_g .thumbex .thumbnail span {
+    position: absolute;
+    z-index: 2;
+    top: calc(150px - 20px);
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 50px;
+    margin: 0 45px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.2px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .container_g .thumbex .thumbnail:hover {
+    backface-visibility: hidden;
+    transform: scale(1.15, 1.15);
+    opacity: 1;
+  }
+  
+  .container_g .thumbex .thumbnail:hover span {
+    opacity: 0;
+  }
