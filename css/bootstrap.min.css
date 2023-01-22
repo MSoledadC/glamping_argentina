@@ -2227,6 +2227,7 @@ pre code {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    filter: opacity(0);
 }
 
 .form-control::-ms-expand {
@@ -10008,7 +10009,7 @@ input[type="radio"] {
 /* FILTERED ELEMENTS (POSTS)
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .posts {
-    margin-left: 35px;
+    margin-left: 40px;
     /*display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -10327,4 +10328,8 @@ input[type="radio"] {
   
   .container_g .thumbex .thumbnail:hover span {
     opacity: 0;
+  }
+
+  .titulo_provincias {
+    margin-top: 25px;
   }
