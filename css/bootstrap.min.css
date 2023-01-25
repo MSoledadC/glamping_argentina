@@ -2217,7 +2217,7 @@ pre code {
 
 .form-control {
     display: block;
-    width: 100%;
+    width: 80%;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -2227,7 +2227,7 @@ pre code {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
-    filter: opacity(0);
+    filter: opacity(0.3);
 }
 
 .form-control::-ms-expand {
@@ -6825,7 +6825,8 @@ button.bg-dark:hover {
 .d-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important
+    display: flex !important;
+   
 }
 
 .d-inline-flex {
@@ -9983,7 +9984,7 @@ input[type="radio"] {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .filters {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 .filters * {
@@ -10151,7 +10152,10 @@ input[type="radio"] {
     position: relative;
     height: 100%;
     margin-right: 20px;
-    width: 220px;
+  }
+
+  .intem1 {
+    width: 300%;
   }
 
   .item:hover {
@@ -10340,15 +10344,16 @@ input[type="radio"] {
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    padding: 10px 50px;
-    margin: 0 45px;
+    padding: 2px 50px;
+    margin: 0 30px;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
-    font-weight: 300;
+    font-weight: 500;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.2px;
     transition: all 0.3s ease-out;
+    filter: opacity(0.4);
   }
   
   .container_g .thumbex .thumbnail:hover {
@@ -10362,14 +10367,27 @@ input[type="radio"] {
   }
 
   .titulo_provincias {
-    margin-top: 5px;
+    margin-top: 40px;
   }
 
   .jam {
-    background-color: transparent;
+    background: transparent;
     font-size: xx-small;
-    filter: opacity(0.3);
+    font-family: "Raleway", sans-serif;
+    filter: opacity(0.2);
   }
+
+  
 
   /*---SLIDER*/
 
+  .titulo _inicio {
+    font-size:
+  }
+
+  .d-flex_inicio {
+    display: flex !important;
+    width: 100%;
+    margin-left: 50px;
+    filter: opacity(0.2);
+  }
