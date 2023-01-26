@@ -633,7 +633,7 @@ pre code {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .no-gutters {
@@ -10390,4 +10390,18 @@ input[type="radio"] {
     width: 100%;
     margin-left: 50px;
     filter: opacity(0.2);
+  }
+
+  /*---form reserva*/
+  .text-estadia {
+    text-align: start;
+  }
+
+  .p_reserva{
+    border-bottom: ridge;
+  }
+
+  .p_reservait {
+    text-align: end;
+    font-size: smaller;
   }
