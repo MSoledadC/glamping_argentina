@@ -1607,7 +1607,7 @@
                 <span>Desde $250/noche</span>
                 <h3>Bosque Glamping</h3>
             </div>
-            <a href="#" class="line-button">Reserva</a>
+            <a class="popup-with-form line-button" href="#test-form">Reservas</a> 
         </div>
     </div>
 </div>
@@ -1619,7 +1619,7 @@
                 <span>Desde $250/noche</span>
                 <h3>Pristine Camps</h3>
             </div>
-            <a href="#" class="line-button">Reserva</a>
+            <a class="popup-with-form line-button" href="#test-form">Reservas</a> 
         </div>
     </div>
 </div>
@@ -1631,7 +1631,7 @@
                 <span>Desde $250/noche</span>
                 <h3>Estancia las Marías</h3>
             </div>
-            <a href="#" class="line-button">Reserva</a>
+            <a class="popup-with-form line-button" href="#test-form">Reservas</a> 
         </div>
     </div>
 </div>
@@ -1643,7 +1643,7 @@
                 <span>Desde $250/noche</span>
                 <h3>Aconcagua</h3>
             </div>
-            <a href="#" class="line-button">Reserva</a>
+            <a class="popup-with-form line-button" href="#test-form">Reservas</a> 
         </div>
     </div>
 </div>
@@ -1675,7 +1675,7 @@
               <li>3 Adults & 2 Children size</li>
               <li>Sea view side</li>
             </ul>
-            <a href="#" class="book_now">Reserva</a>
+            <a class="popup-with-form book_now" href="#test-form">Reservas</a> 
           </div>
         </div>
         <div class="col-xl-4 col-md-4">
@@ -1690,7 +1690,7 @@
               <li>3 Adults & 2 Children size</li>
               <li>Sea view side</li>
             </ul>
-            <a href="#" class="book_now">Reserva</a>
+            <a class="popup-with-form book_now" href="#test-form">Reservas</a> 
           </div>
         </div>
         <div class="col-xl-4 col-md-4">
@@ -1705,7 +1705,7 @@
               <li>3 Adults & 2 Children size</li>
               <li>Sea view side</li>
             </ul>
-            <a href="#" class="book_now">Reserva</a>
+            <a class="popup-with-form book_now" href="#test-form">Reservas</a> 
           </div>
         </div>
       </div>
@@ -1877,53 +1877,64 @@
     </div>
   </footer>
 
-  <!-- form itself end-->
-  <form id="test-form" class="white-popup-block mfp-hide">
+   <!-- form itself end-->
+   <form id="test-form" class="white-popup-block mfp-hide">
     <div class="popup_box ">
-      <div class="popup_inner">
-        <h3>Check Availability</h3>
-        <form action="#">
-          <div class="row">
-            <div class="col-xl-6">
-              <input id="datepicker" placeholder="Check in date">
-            </div>
-            <div class="col-xl-6">
-              <input id="datepicker2" placeholder="Check out date">
-            </div>
-            <div class="col-xl-6">
-              <select class="form-select wide" id="default-select" class="">
-                <option data-display="Adult">1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-              </select>
-            </div>
-            <div class="col-xl-6">
-              <select class="form-select wide" id="default-select" class="">
-                <option data-display="Children">1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-              </select>
-            </div>
-            <div class="col-xl-12">
-              <select class="form-select wide" id="default-select" class="">
-                <option data-display="Room type">Room type</option>
-                <option value="1">Laxaries Rooms</option>
-                <option value="2">Deluxe Room</option>
-                <option value="3">Signature Room</option>
-                <option value="4">Couple Room</option>
-              </select>
-            </div>
-            <div class="col-xl-12">
-              <button type="submit" class="boxed-btn3">Check Availability</button>
-            </div>
-          </div>
-        </form>
-      </div>
+        <div class="popup_inner">
+            <h3>Reserva</h3>
+            <form action="#">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <input id="datepicker" placeholder="Fecha Ingreso">
+                    </div>
+                    <div class="col-xl-4">
+                        <input id="datepicker2" placeholder="Fecha Egreso">
+                    </div>
+                    <div class="col-xl-4">
+                        <select class="form-select wide" id="default-select" class="">
+                            <option data-display="Huespedes">1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-12 text-estadia">
+                        <p class="p_reserva">Estadía mínima 1 noche</p>
+                        <p><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x noche </p>
+                        <br>
+                        <p class="p_reserva"><span style="font-weight:bold">Total Reserva 300 dólares estadounidenses</span></p>
+                        <p class="p_reservait">Impuestos y Tarifa de Servicios incluidos</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum quidem,
+                        aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia tempore.
+                        Illo consectetur eligendi non hic?</p>
+                    </div>
+                   <!--  <div class="col-xl-6">
+                        <select class="form-select wide" id="default-select" class="">
+                            <option data-display="Children">1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                        </select>
+                    </div>
+                      <div class="col-xl-12">
+                        <select class="form-select wide" id="default-select" class="">
+                            <option data-display="Room type">Room type</option>
+                            <option value="1">Laxaries Rooms</option>
+                            <option value="2">Deluxe Room</option>
+                            <option value="3">Signature Room</option>
+                            <option value="4">Couple Room</option>
+                        </select>
+                    </div>-->
+                
+                    <div class="col-xl-12">
+                        <button type="submit" class="boxed-btn3">Reserva</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-  </form>
-  <!-- form itself end -->
+</form>
+<!-- form itself end -->
 
 
   <!-- JS here -->
