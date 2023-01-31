@@ -10172,8 +10172,9 @@ input[type="radio"] {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1rem 1rem;
+    margin: 5px;
     gap: 1rem;
+    margin-left: 15px;
   }
 
   .item-title {
