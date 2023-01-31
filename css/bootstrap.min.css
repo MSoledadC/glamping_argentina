@@ -10135,7 +10135,7 @@ input[type="radio"] {
 
   .features {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr;
     max-width: 70rem;
     row-gap: 3rem;
     margin-bottom: 20px;
@@ -10192,11 +10192,12 @@ input[type="radio"] {
   .item-link:visited {
     display: inline-block;
     font-size: 16px;
-    padding: 1.6rem 2.4rem;
+    padding: 10px;
     text-decoration: underline #099268;
     color: rgb(0 157 255);
     /* stick link to the bottom of item */
     margin-top: auto;
+    text-align: center;
   }
 
   .item-link:hover,
