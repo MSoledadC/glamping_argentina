@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="imagen/favicon.ico.png">
+    <!-- Place favicon.ico in the root directory -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/df0028962f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>STONTUR</title>
+</head>
+
+<body>
+    <header class="form_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form class="formulario_contacto_"  action="https://formsubmit.co/estefaniamontiap@gmail.com" method="POST">
+                        <div>
+                         <legend class="titulo_form">Paquete a Medida</legend>
+                         <input type="hidden" name="_subject" value="Paquete a Medida"></div>
+                   <div class="mb-3-contacto">
+                            <label for="Nombre y Apellido" class="form-label-contacto">Nombre y Apellido</label>
+                            <input type="Nombre y Apellido" class="form-control-contacto" id="Nombre y Apellido"
+                                placeholder="Nombre y Apellido Completo" name="Nombre y Apellido" required >
+                        </div>
+                        <div class="mb-3-contacto">
+                            <label for="exampleFormControlInput1" class="form-label-contacto">Email</label>
+                            <input type="email" name="Email" class="form-control-contacto" id="Email address" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3-contacto">
+                            <label for="Celular" class="form-label-contacto">Celular</label>
+                            <input type="Celular" class="form-control-contacto" id="Celular"
+                                placeholder="Ingresar codigo área sin 15..." name="Celular" required>
+                        </div>
+                        <div class="mb-3-contacto">
+                            <label for="Pasajeros" class="form-label-contacto">Pasajeros</label>
+                            <select class="form-control-contacto" id="Pasajeros"
+                                aria-label=".form-select-sm example" name="Pasajeros" required>
+                                <option selected>1</option>
+                                <option value="1">2</option>
+                                <option  value="2">3</option>
+                                <option  value="2">4</option>
+                                <option  value="2">5+</option>
+                            </select>
+                        </div>
+                        <div class="mb-3-contacto">
+                            <label for="Destino" class="form-label-contacto">Destino</label>
+                            <input type="Destino"class="form-control-contacto" id="Destino"
+                                placeholder="Destino..." name="Destino" required>
+                        </div>
+                        <div class="col-xl-4">
+                            <label for="Fecha de Salida" class="form-label-contacto">Fecha de Salida</label>
+                            <input id="datepicker" class="form-control-contacto" placeholder="día/mes/año"  name="Fecha de Salida" required>
+                        </div>
+                        <div class="mb-3-contacto">
+                            <label for="Cantidad de Noches" class="form-label-contacto">Cantidad de Noches</label>
+                            <input type="Cantidad de Noches" class="form-control-contacto" id="Cantidad de Noches"
+                                placeholder="Cantidad de Noches 1-2-3..." name="Cantidad de Noches" required>
+                        </div>
+                        <div class="col-xl-12">
+                            <label for="Categorías" class="form-label-contacto">Categoría de Paquete</label>
+                            <select class="form-control-contacto"  id="default-select" name="Categorías" required>
+                                <option data-display="Categorías">Categorías</option>
+                                <option value="Económico">Económico</option>
+                                <option value="Intermedio">Intermedio</option>
+                                <option value="Lujo">Lujo</option>
+                            </select>
+                        <div class="mb-3-contacto">
+                            <label for="Observaciones" class="form-label-contacto">Observaciones</label>
+                            <textarea name="Observaciones" class="form-control-contacto" id="Observaciones" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3-contacto">
+                            <button type="submit" value="Enviar" class="botonenviar_form" target="_blank">Enviar</button>
+                            <!--<input type="hidden" name="_next" value="https://www.bellapampa.com.ar/"> -->
+                        </div>
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                            <a href="index.html" target="_blank">Volver al Inicio</a>
+                        </div>
+                    </form>
+                </div>
+
+    </header>
+
+
+
+    <!-- JavaScript-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
