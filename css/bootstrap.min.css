@@ -10416,3 +10416,8 @@ input[type="radio"] {
     font-weight: 200;
     margin-top: 50px;
   }
+
+  .pb-4 {
+    width: 100%;
+    overflow: hidden;
+  }
