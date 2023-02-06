@@ -10165,7 +10165,7 @@ input[type="radio"] {
   .item-photo {
     width: 100%;
     align-self: center;
-    height: 100%;
+    /*height: 100%;*/
   }
 
   .item-header {
@@ -10406,4 +10406,13 @@ input[type="radio"] {
   .p_reservait {
     text-align: end;
     font-size: smaller;
+  }
+
+  .testimonios {
+    font-family: "Roboto", cursive;
+    font-size: 30px;
+    background-color: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
+    color: #1F1F1F;
+    font-weight: 200;
+    margin-top: 50px;
   }
