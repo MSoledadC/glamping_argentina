@@ -14,6 +14,14 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 50px;
     }
+
+    p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a {
+      text-decoration: none !important;
+    }
     
     
 /*----BS AS Bosque Glamping banner about---*/
@@ -60,6 +68,13 @@
     .owl-carousel .owl-nav div {
         top: 53%;
     }
+
+   .btn-ws {
+      position: fixed;
+      top: 90%;
+      left: 2%;
+      z-index: 20;
+  }
 
 /*---FOTOS INDEX PROVINCIAS---*/
 
@@ -427,7 +442,9 @@
         display: flex !important;
         width: 90%;
         margin-left: 100px;
-        filter: opacity(0.2);
+        filter: opacity(0.8);
+        margin: auto;
+        margin-top: 50px;
      }
    
    
@@ -466,13 +483,45 @@
     overflow: hidden;
   }
 
+  /*Instagram*/
+  .instragram_area{
+    margin-top: -25px;
+  }
+    
+
 /*buscador*/
 
 .form-group-buscar {
   margin-left: 1rem;
 }
   
-  
+/*Footer*/
+.footer .footer_top{
+  padding-top: 75px;
+  padding-bottom: 60px;
+} 
+
+.footer .copy-right_text .copy_right{
+  font-size: 16px;
+}
+
+.footer .copy-right_text{
+  padding-bottom: 10px;
+}
+
+.footer .copy-right_text .footer_border{
+  padding-bottom: 10px;
+}
+
+.footer .copy-right_text .socail_links{
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+}
+
+.footer .copy-right_text .copy_right a {
+  font-size: 12px;
+}
 
 
 
