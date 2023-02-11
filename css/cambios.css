@@ -84,7 +84,14 @@
         flex-direction: row;
         /* padding: 0 30px; */
         width: 100%;
+        
      }
+
+     .gmostrar {
+      margin-top: 100px;
+      
+     }
+
   
     .container_g .thumbex {
         width: 100%;
@@ -483,13 +490,44 @@
     overflow: hidden;
   }
 
-  /*Instagram*/
+  /*INSTAGRAM*/
   .instragram_area{
     margin-top: -25px;
   }
+
+/*BOTON MOSTRAR*/
+
+.mostrar{
+  position:absolute;
+  left: 47%;
+  margin-top: 25px;
+  background: #009DFF;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+  
+}
+
+.cerrar {
+  
+  position: absolute;
+  left: 47%;
+  top: 490%;
+  background: #009DFF;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+}
+  
+
+
     
 
-/*buscador*/
+/*BUSCADOR*/
 
 .form-group-buscar {
   margin-left: 1rem;
