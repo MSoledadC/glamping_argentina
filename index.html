@@ -186,13 +186,24 @@
     </div>
     <!-- slider_area_end -->
 
+    <!-- Buscador -->
 
-    <div>
-        <form class="d-flex_inicio" role="search">
-            <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
+        <input class="form-control  me-2" placeholder="Buscar por Provincia"  type="text" id="searchInput" aria-label="Search">
+        <button class="btn btn-outline-success"  onclick="search()">Search</button>
+
+        <ul id="list">
+            <li><a href="bsas_BosqueGlamping.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Bosque</a></li>
+            <li><a href="bsas_estancialasmarias.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Estancia las Marías</a></li>
+            <li><a href="bsas_inba.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Inba</a></li>
+            <li><a href="bsas_monte.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Monte</a></li>
+            <li><a href="jujuy_pristinecamps.html" target="_blank"><i class="fas fa-search"></i>Jujuy - Pristine Camps</a></li>
+            <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Aconcagua</a></li>
+            <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Al aire libre</a></li>
+            <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Deer</a></li>
+            <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - El nido Mendoza</a></li>
+            <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - </a></li>
+        </ul>
+    
 
     <!--elegi tu glamping-->
 
@@ -1575,19 +1586,21 @@
     <!--Mostrar/ocultar-->
     <!-- JavaScript-->
     <script src="js/cambiosjs.js"></script>
+
+     <!-- Buscador-->
     <script>
         function mostrar() {
-            document.getElementById('mostrar').style.display = 'flex';
-            document.getElementById('mostrar1').style.display = 'block';
+            document.getElementById('mostrar').style.display = 'block';
+            
         }
 
         function ocultar() {
             document.getElementById('mostrar').style.display = 'none';
-            document.getElementById('mostrar1').style.display = 'none';
 
         }
     </script>
 
+   
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
