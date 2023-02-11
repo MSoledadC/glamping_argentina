@@ -514,7 +514,7 @@
   
   position: absolute;
   left: 47%;
-  top: 490%;
+  top: 460%;
   background: #009DFF;
   padding: 12px 26px;
   font-size: 14px;
@@ -523,15 +523,53 @@
   color: #fff;
 }
   
-
-
-    
-
 /*BUSCADOR*/
 
 .form-group-buscar {
   margin-left: 1rem;
 }
+
+.form-control {
+  display: inline-block!important;
+  width: 80% !important;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#list li {
+  display: none;
+}
+
+#list {
+  /* position: fixed;
+   top: 165px;
+   left: 50%;
+   transform: translateX(-50%);
+   display: block;*/
+   width: 1200px;
+   background: #fff;
+   list-style: none;
+   overflow: hidden;
+   
+ }
+
+ #list li a {
+   display: block;
+   width: 1200px;
+   color: #7777;
+   padding: 12px 0px;
+ }
+
+ #list li a:hover {
+   background: #f3f3f3;
+ }
+
+ #list li a i{
+   margin-right: 20px;
+   color: #777;
+ }
+
+
   
 /*Footer*/
 .footer .footer_top{
