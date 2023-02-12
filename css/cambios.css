@@ -159,7 +159,7 @@
     }
 
     .titulo_provincias {
-         margin-top: 40px;
+         margin-top: 110px;
     }
 
     .jam {
@@ -209,6 +209,7 @@
     .filters {
      text-align: center;
      margin-bottom: 30px;
+     margin: 5px;
     }
  
     .filters * {
@@ -555,9 +556,10 @@
 
  #list li a {
    display: block;
-   width: 1200px;
+   width: 800px;
    color: #7777;
    padding: 12px 0px;
+   margin-left: 25px;
  }
 
  #list li a:hover {
