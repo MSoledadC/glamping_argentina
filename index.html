@@ -1023,10 +1023,14 @@
                             <h3>Glamping de Lujo<br>
                                 y Naturaleza</h3>
                         </div>
-                        <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare
-                            dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque
-                            sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
-                        <a href="about.html" class="line-button">Ver más...</a>
+                        <p>Glamping Argentina nace en el año 2017 antes de la pandemia, cuando su fundador Nicolas Languasco se
+                             consagra ganador de un concurso de innovación en turismo con su proyecto “Argentina Primer Destino Glamping 
+                             del Mundo”, durante los años siguientes Glamping Argentina operó como una consultora especializada en dar 
+                             asesoramiento a emprendedores que deciden incursionar en esta bella modalidad de alojamiento.<br><br>
+                             En la actualidad Nicolas lídera el proyecto de Glamping Argentina junto prestigiosos diseñadores de viajes
+                             TaylorMade de todas las regiones de Argentina dando a conocer mediante itinerarios nunca antes vistos la
+                             modalidad de Glamping y los tesoros más guardados de Argentina. </p>
+                        <a href="about.html" class="line-button">Conozca más...</a>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7">
@@ -1522,25 +1526,31 @@
 
     <!-- link that opens popup -->
 
+    <?php
+     include ("reserva.php");  
+
+    ?>
+
+
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
+    <form id="test-form" class="white-popup-block mfp-hide" method="post">
         <div class="popup_box ">
             <div class="popup_inner">
                 <h3>Reserva</h3>
                 <form action="#">
                     <div class="row">
                         <div class="col-xl-4">
-                            <input id="datepicker" placeholder="Fecha Ingreso">
+                            <input id="datepicker" type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
                         </div>
                         <div class="col-xl-4">
-                            <input id="datepicker2" placeholder="Fecha Egreso">
+                            <input id="datepicker2" type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
                         </div>
                         <div class="col-xl-4">
-                            <select class="form-select wide" id="default-select" class="">
-                                <option data-display="Huespedes">1</option>
-                                <option value="1">2</option>
-                                <option value="2">3</option>
-                                <option value="3">4</option>
+                            <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes" class="" required>
+                                <option data-display="Huespedes"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
                             </select>
                         </div>
                         <div class="col-xl-12 text-estadia">
@@ -1576,7 +1586,7 @@
                         </div>-->
 
                         <div class="col-xl-12">
-                            <button type="submit" class="boxed-btn3">Reserva</button>
+                            <button type="submit" name="enviar" class="boxed-btn3">Reserva</button>
                         </div>
                     </div>
                 </form>
