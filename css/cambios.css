@@ -572,6 +572,15 @@
  }
 
 
+ .about_area .about_info p {
+  margin-bottom: 27px;
+ }
+
+ .about_area .about_thumb {
+  margin-top: 140px;
+ }
+
+
   
 /*Footer*/
 .footer .footer_top{
