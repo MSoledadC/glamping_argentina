@@ -513,15 +513,15 @@
 
 .cerrar {
   
-  position: absolute;
-  left: 47%;
-  top: 460%;
+  /*position: absolute;*/
+  margin-left: 47%;;
   background: #009DFF;
   padding: 12px 26px;
   font-size: 14px;
   font-weight: 400;
   border: 1px solid transparent;
   color: #fff;
+  margin-top: 10px;
 }
   
 /*BUSCADOR*/
@@ -534,7 +534,7 @@
   display: inline-block!important;
   width: 80% !important;
   margin-left: 50px;
-  margin-top: 50px;
+
 }
 
 #list li {
@@ -548,7 +548,7 @@
    transform: translateX(-50%);
    display: block;*/
    width: 1200px;
-   background: #fff;
+   background: transparent;
    list-style: none;
    overflow: hidden;
    
@@ -556,14 +556,16 @@
 
  #list li a {
    display: block;
-   width: 800px;
-   color: #7777;
+   width: 880px;
+   color: #f3f3f3;
    padding: 12px 0px;
-   margin-left: 25px;
+   margin-left: 70px;
+   text-align: start;
  }
 
  #list li a:hover {
    background: #f3f3f3;
+   color: #777;
  }
 
  #list li a i{
@@ -571,6 +573,9 @@
    color: #777;
  }
 
+ .about_area {
+  padding-top: 150px;
+ }
 
  .about_area .about_info p {
   margin-bottom: 27px;
