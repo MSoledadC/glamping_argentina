@@ -1,0 +1,780 @@
+    .header-area .main-header-area .main-menu ul li a {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+      }
+
+      .header-area .main-header-area .main-menu{
+        text-align: start;
+      }
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .slider_area .single_slider .slider_text h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 60px;
+    }
+
+    p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a {
+      text-decoration: none !important;
+    }
+
+    .header-area .main-header-area .book_room .book_btn a {
+      margin-right: 20px;
+    }
+    
+    
+/*----BS AS Bosque Glamping banner about---*/
+
+  .about_bg_2 {
+    background-image: url(../img/banner/bsas_bosque4_png.png);
+    }
+    .about_bg_3 {
+        background-image: url(../img/banner/bsas_bosque6_png.png);
+    }
+    .about_bg_4 {
+        background-image: url(../img/banner/bsas_bosque1png\ png.png);
+        }
+  
+  /*----JUJUY Prinstine Camps banner about---*/      
+
+    .breadcam_bgjujuy {
+        background-image: url(../img/listaprovincias/jujuy_pristinecamps2.png);
+        margin-bottom: -60px;
+    }
+
+    .about_bg_jujuy1 {
+        background-image: url(../img/listaprovincias/jujuy_pristinecamps7.png);
+    }
+
+    .about_bg_jujuy2 {
+        background-image:url(../img/listaprovincias/jujuy_pristinecamps6.png)
+    }
+
+    .about_bg_jujuy3 {
+        background-image:url(../img/listaprovincias/jujuy_pristinecamps3.png)
+    }
+
+    .about_bg_jujuy4 {
+        background-image:url(../img/listaprovincias/jujuy_pristinecamps8.png)
+    }
+
+    .about_bg_jujuy5 {
+      background-image:url(../img/listaprovincias/jujuy_pristinecamps9.png)
+    }
+
+    .about_bg_jujuy6 {
+      background-image:url(../img/listaprovincias/jujuy_pristinecamps10.png)
+    }
+
+    .about_info p {
+        color: #000;
+        font-size: 46px;
+    }
+
+
+   
+
+/*---slider banner---*/ 
+
+    .owl-carousel .owl-nav div {
+        top: 53%;
+    }
+
+   .btn-ws {
+      position: fixed;
+      top: 90%;
+      left: 2%;
+      z-index: 20;
+  }
+
+/*---FOTOS INDEX PROVINCIAS---*/
+
+    .container_g {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* padding: 0 30px; */
+        width: 100%;
+        
+     }
+
+     .gmostrar {
+      margin-top: 100px;
+      
+     }
+
+  
+    .container_g .thumbex {
+        width: 100%;
+        min-width: 500px;
+        max-width: 700px;
+        height: 300px;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        overflow: hidden;
+        /*outline-offset: -15px;
+        background-color: blue;
+        outline: 2px solid white;*/
+     }
+  
+    .container_g .thumbex .thumbnail {
+        overflow: hidden;
+        min-width: 250px;
+        height: 300px;
+        position: relative;
+        opacity: 0.88;
+        backface-visibility: hidden;
+        transition: all 0.4s ease-out;
+     }
+  
+    .container_g .thumbex .thumbnail img {
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        /*height: 200%;*/
+        width: auto;
+        transform: translate(-50%, -50%);
+        backface-visibility: hidden;
+        width: 100%;
+     }
+  
+    .container_g .thumbex .thumbnail span {
+        position: absolute;
+        z-index: 2;
+        top: calc(150px - 20px);
+        left: 0;
+        right: 0;
+        /*background: rgba(0, 0, 0, 0.7);
+        filter: opacity(0.4);*/
+        padding: 2px 50px;
+        margin: 0 30px;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        font-weight: 500;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        letter-spacing: 0.2px;
+        transition: all 0.3s ease-out;
+     }
+  
+    .container_g .thumbex .thumbnail:hover {
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+    }
+  
+    .container_g .thumbex .thumbnail:hover span {
+         opacity: 0;
+    }
+
+    .titulo_provincias {
+         margin-top: 110px;
+    }
+
+    .jam {
+        background: transparent;
+        font-size: xx-small;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        filter: opacity(1);
+     }
+
+     .provincia {
+        font-size: 15px;
+     }
+
+     /*lista_provincias*/
+
+
+
+    .container_provincias{
+        margin-left: -40px;
+ 
+    }
+ 
+    h1 {
+     text-align: center;
+     margin-bottom: 2rem;
+     }
+ 
+    h1 a {
+     transition: all 0.1s;
+    }
+ 
+    h1 a:hover {
+     background: var(--blue);
+     color: var(--white);
+    }
+ 
+    input[type="radio"] {
+     position: absolute;
+     left: -9999px;
+    }
+ 
+ 
+ 
+ 
+ /* FILTERS
+   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .filters {
+     text-align: center;
+     margin-bottom: 30px;
+     margin: 5px;
+    }
+ 
+    .filters * {
+     display: inline-block;
+    }
+ 
+    .filters label {
+     padding: 0.5rem 1rem;
+     margin-bottom: 0.25rem;
+     border-radius: 2rem;
+     min-width: 50px;
+     line-height: normal;
+     cursor: pointer;
+     transition: all 0.1s;
+    }
+ 
+    .filters label:hover {
+     background: var(--blue);
+     color: var(--white);
+     }
+ 
+ 
+ /* FILTERED ELEMENTS (POSTS)
+   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .posts {
+     /*display: grid;
+     grid-gap: 1.5rem;
+     grid-template-columns: repeat(2, 1fr);
+     display: flex;   */
+     }
+ 
+    .posts .post {
+    /* background: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.1);*/    
+    }
+ 
+ 
+    .post_provincia {
+     display: flex;
+    }
+ 
+    .posts .post-title {
+     font-size: 1.3rem;
+    }
+ 
+    .posts .post-title:hover {
+     text-decoration: underline;
+    }
+ 
+    .posts figcaption {
+     padding: 1rem;
+    }
+ 
+    .posts .post-categories {
+     margin-bottom: 0.75rem;
+     font-size: 0.75rem;
+    }
+ 
+    .posts .post-categories * {
+     display: inline-block;
+    }
+ 
+    .posts .post-categories li {
+     margin-bottom: 0.2rem;
+    }
+ 
+    .posts .post-categories a {
+     padding: 0.2rem 0.5rem;
+     border-radius: 1rem;
+     border: 1px solid;
+     line-height: normal;
+     transition: all 0.1s;
+     }
+ 
+    .posts .post-categories a:hover {
+     background: var(--blue);
+     color: var(--white);
+    }
+ 
+ 
+ /* FILTERING RULES
+   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ [value="All"]:checked~.filters [for="All"],
+ [value="BuenosAires"]:checked~.filters [for="BuenosAires"],
+ [value="Catamarca"]:checked~.filters [for="Catamarca"], 
+ [value="Chaco"]:checked~.filters [for="Chaco"],
+ [value="Chubut"]:checked~.filters [for="Chubut"], 
+ [value="Cordoba"]:checked~.filters [for="Cordoba"],
+ [value="Corrientes"]:checked~.filters [for="Corrientes"], 
+ [value="EntreRios"]:checked~.filters [for="EntreRios"], 
+ [value="Formosa"]:checked~.filters [for="Formosa"], 
+ [value="Jujuy"]:checked~.filters [for="Jujuy"], 
+ [value="LaPampa"]:checked~.filters [for="LaPampa"],
+ [value="LaRioja"]:checked~.filters [for="LaRioja"], 
+ [value="Mendoza"]:checked~.filters [for="Mendoza"], 
+ [value="Misiones"]:checked~.filters [for="Misiones"], 
+ [value="Neuquen"]:checked~.filters [for="Neuquen"],
+ [value="RioNegro"]:checked~.filters [for="RioNegro"],
+ [value="Salta"]:checked~.filters [for="Salta"], 
+ [value="SanJuan"]:checked~.filters [for="SanJuan"], 
+ [value="SanLuis"]:checked~.filters [for="SanLuis"], 
+ [value="SantaCruz"]:checked~.filters [for="SantaCruz"], 
+ [value="SantaFe"]:checked~.filters [for="SantaFe"], 
+ [value="Sgo.delEstero"]:checked~.filters [for="Sgo.delEstero"], 
+ [value="TierradelFueg"]:checked~.filters [for="TierradelFuego"],
+ [value="Tucuman"]:checked~.filters [for="Tucuman"] {
+     background: var(--blue);
+     color: var(--white);
+ }
+ 
+ [value="All"]:checked~.posts [data-category] {
+     display: block;
+ }
+ 
+ [value="BuenosAires"]:checked~.posts .post:not([data-category~="BuenosAires"]),
+ [value="Catamarca"]:checked~.posts .post:not([data-category~="Catamarca"]),
+ [value="Chaco"]:checked~.posts .post:not([data-category~="Chaco"]), 
+ [value="Chubut"]:checked~.posts .post:not([data-category~="Chubut"]), 
+ [value="Cordoba"]:checked~.posts .post:not([data-category~="Cordoba"]), 
+ [value="Corrientes"]:checked~.posts .post:not([data-category~="Corrientes"]), 
+ [value="EntreRios"]:checked~.posts .post:not([data-category~="EntreRios"]), 
+ [value="Formosa"]:checked~.posts .post:not([data-category~="Formosa"]), 
+ [value="Jujuy"]:checked~.posts .post:not([data-category~="Jujuy"]), 
+ [value="LaPampa"]:checked~.posts .post:not([data-category~="LaPampa"]),
+ [value="LaRioja"]:checked~.posts .post:not([data-category~="LaRioja"]), 
+ [value="Mendoza"]:checked~.posts .post:not([data-category~="Mendoza"]), 
+ [value="Misiones"]:checked~.posts .post:not([data-category~="Misiones"]), 
+ [value="Neuquen"]:checked~.posts .post:not([data-category~="Neuquen"]),
+ [value="RioNegro"]:checked~.posts .post:not([data-category~="RioNegro"]), 
+ [value="Salta"]:checked~.posts .post:not([data-category~="Salta"]),
+ [value="SanJuan"]:checked~.posts .post:not([data-category~="SanJuan"]),
+ [value="SanLuis"]:checked~.posts .post:not([data-category~="SanLuis"]), 
+ [value="SantaCruz"]:checked~.posts .post:not([data-category~="SantaCruz"]), 
+ [value="SantaFe"]:checked~.posts .post:not([data-category~="SantaFe"]), 
+ [value="Sgo.delEstero"]:checked~.posts .post:not([data-category~="Sgo.delEstero"]), 
+ [value="TierradelFuego"]:checked~.posts .post:not([data-category~="TierradelFuego"]),
+ [value="Tucuman"]:checked~.posts .post:not([data-category~="Tucuman"]) {
+     display: none;
+ }
+ 
+ /* card carrousel */
+ .articles {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+ 
+   .features {
+     display: grid;
+     grid-template-columns: 3fr 3fr 3fr;
+     max-width: 70rem;
+     row-gap: 3rem;
+     margin-bottom: 20px;
+   }
+ 
+   .item {
+     display: flex;
+     flex-direction: column;
+     background-image: linear-gradient(to right bottom, #dee2e6, #dbdbdb);
+     /*box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.507); 
+     border-radius: 30px;*/
+     overflow: hidden;
+     transition: all 0.3s;
+     position: relative;
+     height: 100%;
+     margin-right: 20px;
+   }
+ 
+   .intem1 {
+     width: 300%;
+   }
+ 
+   .item:hover {
+     transform: translateY(-1.1rem);
+   }
+ 
+   .item-photo {
+     width: 100%;
+     align-self: center;
+     /*height: 100%;*/
+   }
+ 
+   .item-header {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 5px;
+     gap: 1rem;
+     margin-left: 15px;
+   }
+ 
+   .item-title {
+     font-weight: 600;
+   }
+ 
+   .item-text {
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 1.3;
+     padding: 0 2rem;
+     font-family: 'themify';
+   }
+ 
+   .item-link:link,
+   .item-link:visited {
+     display: inline-block;
+     font-size: 16px;
+     padding: 10px;
+     text-decoration: underline #099268;
+     color: rgb(0 157 255);
+     /* stick link to the bottom of item */
+     margin-top: auto;
+     text-align: center;
+   }
+ 
+   .item-link:hover,
+   .item-link:active {
+     color: #3aa886;
+     text-decoration: underline #3aa886;
+   }
+  
+   .precio_card {
+    font-size: 13px;
+    color: #000;
+    margin-left: 10px;
+   }
+
+  
+ 
+
+  /*---SLIDER BANNER INICIO*/
+
+    .titulo_inicio {
+    
+    }
+
+    .d-flex_inicio {
+        display: flex !important;
+        width: 90%;
+        margin-left: 100px;
+        filter: opacity(0.8);
+        margin: auto;
+        margin-top: 50px;
+     }
+   
+   
+   /*---FORM RESERVA*/
+
+   .text-estadia {
+    text-align: start;
+  }
+
+  .p_reserva{
+    border-bottom: ridge;
+    font-size: small;
+  }
+
+  .consultatexto {
+    font-size: 12px;
+  }
+
+  .p_reservait {
+    text-align: end;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .consultaprovincias {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .rconsulta {
+    font-size: 10px;
+    margin: 0px;
+  }
+  
+  .tituloconsulta {
+    margin-bottom: 5px !important;;
+  }
+
+  .consulta {
+    width: 350px;
+    border: groove;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    border: 1px solid #d7d9d9;
+    background-color: #fff;
+    filter: drop-shadow(2px 4px 6px #d7d9d9);
+  }
+
+  .consultatexto {
+    font-size: 9px !important ;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .consultatexto1 {
+    font-size: 10px !important ;
+    padding: 0px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .datosconsulta1{
+    font-size: 8px !important;
+    height: 0px !important;
+    margin-bottom: 10px !important;
+    padding: 15px !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .datosconsulta {
+    font-size: 12px !important;
+    height: 0px !important;
+    margin-bottom: 5px !important;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .botonconsulta {
+    font-size: 12px !important;
+    padding: 9px 22px;
+  }
+
+  .forQuery {
+    margin-top: -60px;
+  }
+
+  /*--RESEÑAS GOOGLE*/
+
+  .testimonios {
+    font-family: "Roboto", cursive;
+    font-size: 30px;
+    background-color: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
+    color: #1F1F1F;
+    font-weight: 200;
+    margin-top: 50px;
+  }
+
+  .pb-4 {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /*INSTAGRAM*/
+  .instragram_area{
+    margin-top: -25px;
+  }
+
+/*BOTON MOSTRAR*/
+
+.mostrar{
+  position:absolute;
+  left: 47%;
+  margin-top: 25px;
+  background: #009DFF;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+  
+}
+
+.cerrar {
+  
+  /*position: absolute;*/
+  margin-left: 47%;;
+  background: #009DFF;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-top: 10px;
+}
+  
+/*BUSCADOR*/
+
+.form-group-buscar {
+  margin-left: 1rem;
+}
+
+.form-control {
+  display: inline-block!important;
+  width: 70% !important;
+  margin-bottom: 20px;
+  filter: opacity(0.8);
+}
+
+.consultag {
+ 
+  
+}
+
+#list li {
+  display: none;
+}
+
+#list {
+  /* position: fixed;
+   top: 165px;
+   left: 50%;
+   transform: translateX(-50%);
+   
+   display: block;*/
+   width: 810px;
+   background: transparent;
+   list-style: none;
+   overflow: hidden;
+   position: absolute;
+   height: 260px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   
+ }
+
+ #list li a {
+   display: flex;
+   width: 320px;
+   color: #f3f3f3;
+   /*padding: 10px 0px;*/
+   margin-left: 95px;
+   text-align: start;
+   font-size: 15px;
+ }
+
+ #list li a:hover {
+   background: #f3f3f3;
+   color: #777;
+ }
+
+ #list li a i{
+   margin-right: 15px;
+   color: #777;
+   margin-left: 5px;
+ }
+
+ .about_area {
+  padding-top: 150px;
+ }
+
+ .about_area .about_info p {
+  margin-bottom: 27px;
+ }
+
+ .about_area .about_thumb {
+  margin-top: 140px;
+ }
+
+
+  
+/*Footer*/
+.footer .footer_top{
+  padding-top: 75px;
+  padding-bottom: 60px;
+} 
+
+.footer .copy-right_text .copy_right{
+  font-size: 16px;
+}
+
+.footer .copy-right_text{
+  padding-bottom: 10px;
+}
+
+.footer .copy-right_text .footer_border{
+  padding-bottom: 10px;
+}
+
+.footer .copy-right_text .socail_links{
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+}
+
+.footer .copy-right_text .copy_right a {
+  font-size: 12px;
+}
+
+
+.titulos_descripcion {
+  border-top: 1px solid #d7d9d9;
+  padding-top: 30px;
+}
+
+   /* TABLETS */
+   @media (max-width: 950px) {
+    h1 {
+      font-size: 2.8rem;
+    }
+
+    .features {
+      grid-template-columns: 1fr 1fr;
+      max-width: 60rem;
+    }
+
+    .item1 {
+      grid-column: span 2;
+    }
+
+    .item-title {
+      font-size: 3rem;
+    }
+
+    .item-text {
+      font-size: 2rem;
+    }
+
+    .item-link:link,
+    .item-link:visited {
+      font-size: 2rem;
+    }
+  }
+
+  /* MOBILES */
+  @media (max-width: 650px) {
+    .features {
+      grid-template-columns: 1fr;
+      max-width: 30rem;
+    }
+
+    .item1 {
+      grid-column: span 1;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+    }
+  }
+
+  
+
+  /* CEL*/
+  @media (max-width: 340px) {
+      .container_g .thumbex  {
+        min-width: 320px;
+      }
+    }
+
