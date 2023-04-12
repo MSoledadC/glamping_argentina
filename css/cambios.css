@@ -31,7 +31,21 @@
     .header-area .main-header-area .book_room .book_btn a {
       margin-right: 20px;
     }
+
+    .header-area .main-header-area .book_room .socail_links ul li a {
+      font-size: 25px;
+    }
     
+    
+  .features_room{
+    padding-top: 100px;
+  }
+
+  .blog_left_sidebarindex {
+    display: flex;
+    gap: 10px;
+
+  }
     
 /*----BS AS Bosque Glamping banner about---*/
 
