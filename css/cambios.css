@@ -50,10 +50,9 @@
 
   .features_room .rooms_here .single_rooms .room_thumb .room_heading a {
     color: #dee2e6;
-    border: solid;
-    border-color: #007a72;
     padding: 5px;
-    background-color: #099268;
+    border: 1px solid #009DFF;
+    background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
   }
     
 /*----BS AS Bosque Glamping banner about---*/
@@ -360,8 +359,10 @@
  [value="Sgo.delEstero"]:checked~.filters [for="Sgo.delEstero"], 
  [value="TierradelFueg"]:checked~.filters [for="TierradelFuego"],
  [value="Tucuman"]:checked~.filters [for="Tucuman"] {
-     background: #007a72;
+     
      color: var(--white);
+     border: 1px solid #009DFF;
+    background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
  }
  
  [value="All"]:checked~.posts [data-category] {
@@ -743,6 +744,10 @@
   font-size: 12px;
 }
 
+.footer .footer_top .footer_widget .newsletter_form button{
+  border: 1px solid #009DFF;
+  background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
+}
 
 .titulos_descripcion {
   border-top: 1px solid #d7d9d9;
