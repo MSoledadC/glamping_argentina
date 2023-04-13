@@ -524,9 +524,11 @@
   .consultaprovincias {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
-    position: relative;
-    z-index: 1;
+    margin-top: 0px;
+    position: fixed;
+    z-index: -10;
+    top: 20%;
+    left: 63%;
   }
 
   .rconsulta {
