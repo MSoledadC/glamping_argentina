@@ -34,6 +34,7 @@
 
     .header-area .main-header-area .book_room .socail_links ul li a {
       font-size: 25px;
+      margin-top: 50%;
     }
     
     
@@ -45,6 +46,14 @@
     display: flex;
     gap: 10px;
 
+  }
+
+  .features_room .rooms_here .single_rooms .room_thumb .room_heading a {
+    color: #dee2e6;
+    border: solid;
+    border-color: #007a72;
+    padding: 5px;
+    background-color: #099268;
   }
     
 /*----BS AS Bosque Glamping banner about---*/
@@ -706,8 +715,8 @@
   
 /*Footer*/
 .footer .footer_top{
-  padding-top: 75px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 } 
 
 .footer .copy-right_text .copy_right{
