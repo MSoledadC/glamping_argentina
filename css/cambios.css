@@ -45,7 +45,11 @@
   .blog_left_sidebarindex {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
+  }
 
+  .blog_item_img .blog_item_date {
+    background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
   }
 
   .features_room .rooms_here .single_rooms .room_thumb .room_heading a {
@@ -54,7 +58,12 @@
     border: 1px solid #009DFF;
     background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
   }
-    
+
+  .section_title span {
+    color: rgba(13,191,111,1);
+  }
+  
+  
 /*----BS AS Bosque Glamping banner about---*/
 
   .about_bg_2 {
@@ -202,7 +211,7 @@
     }
 
     .titulo_provincias {
-         margin-top: 110px;
+         margin-top: 50px;
     }
 
     .jam {
@@ -719,7 +728,7 @@
 /*Footer*/
 .footer .footer_top{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 } 
 
 .footer .copy-right_text .copy_right{
@@ -727,7 +736,7 @@
 }
 
 .footer .copy-right_text{
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .footer .copy-right_text .footer_border{
@@ -797,6 +806,28 @@
     h1 {
       font-size: 2.4rem;
     }
+    .slicknav_btn {
+      top: px
+    }
+
+  
+    .slicknav_icon-bar{
+      background: #1F1F1F !important;
+      top: 10px;
+  }
+
+  .slicknav_menu .slicknav_nav a.active{
+    color: #099268;
+  }
+
+  .header-area .main-header-area .logo-img img{
+    width: 83px;
+    margin-left: 20px;
+  }
+
+  .slider_area .single_slider .slider_text h3{
+    font-size: 25px;
+  }
   }
 
   
