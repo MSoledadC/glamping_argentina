@@ -45,7 +45,6 @@
   .blog_left_sidebarindex {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
   }
 
   .blog_item_img .blog_item_date {
@@ -61,6 +60,10 @@
 
   .section_title span {
     color: rgba(13,191,111,1);
+  }
+
+  .footer .footer_top .footer_widget ul li a{
+    line-height: 22px;
   }
   
   
@@ -662,10 +665,6 @@
   filter: opacity(0.8);
 }
 
-.consultag {
- 
-  
-}
 
 #list li {
   display: none;
@@ -806,11 +805,7 @@
     h1 {
       font-size: 2.4rem;
     }
-    .slicknav_btn {
-      top: px
-    }
-
-  
+     
     .slicknav_icon-bar{
       background: #1F1F1F !important;
       top: 10px;
@@ -836,6 +831,10 @@
   @media (max-width: 340px) {
       .container_g .thumbex  {
         min-width: 320px;
+      }
+
+      .blog_left_sidebarindex{
+        flex-wrap: wrap;
       }
     }
 
