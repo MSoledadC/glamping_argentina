@@ -539,9 +539,10 @@
     justify-content: center;
     margin-top: 0px;
     position: fixed;
-    z-index: -10;
-    top: 20%;
+    z-index: 10;
     left: 73%;
+    top: var(--navigation-bar-offset, 140px) !important;
+    position: sticky;
   }
 
   .rconsulta {
