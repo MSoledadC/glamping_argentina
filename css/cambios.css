@@ -34,7 +34,7 @@
     }
 
     .header-area .main-header-area .book_room .socail_links ul li a {
-      font-size: 25px;
+      font-size: 23px;
       margin-top: 50%;
     }
     
@@ -66,6 +66,9 @@
   .footer .footer_top .footer_widget ul li a{
     line-height: 22px;
   }
+
+
+
   
   
 /*----BS AS Bosque Glamping banner about---*/
@@ -540,7 +543,7 @@
     justify-content: center;
     margin-top: 0px;
     position: fixed;
-    z-index: -10;
+    z-index: 8;
     left: 73%;
     top: var(--navigation-bar-offset, 140px) !important;
     position: sticky;
