@@ -1,4 +1,7 @@
 <?php
+
+require_once('PHPMailer/PHPMailerAutoload.php');
+
 // Variables para el correo electrónico
 $to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Reserva';
@@ -7,9 +10,9 @@ $headers = 'From: mariasoledadcabanillas@gmail.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 // Variables del formulario
-$fecha_ingreso = $_POST['fecha_ingreso'];
-$fecha_egreso = $_POST['fecha_egreso'];
-$huespedes = $_POST['huespedes'];
+$fecha_ingreso = $_POST['Fechaingreso'];
+$fecha_egreso = $_POST['Fechaegreso'];
+$huespedes = $_POST['Huespedes'];
 
 // Validar y escapar los datos del formulario aquí
 $fecha_ingreso = htmlspecialchars(trim($fecha_ingreso));
@@ -28,6 +31,7 @@ if (!filter_var($huespedes, FILTER_VALIDATE_INT)) {
     // El número de huéspedes no es válido
 }
 
+
 // Construir el mensaje del correo electrónico
 $message = "Fecha de ingreso: $fecha_ingreso\n" .
            "Fecha de egreso: $fecha_egreso\n" .
@@ -38,4 +42,6 @@ mail($to, $subject, $message, $headers);
 
 header('Location: index.html');
 ?>
+
+
 
