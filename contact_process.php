@@ -14,9 +14,9 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Bitmap Photography.";
+    $subject = "Glamping Argentina";
 
-    $logo = 'img/logo.png';
+    $logo = 'img/favicon.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
@@ -33,12 +33,23 @@
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-    try {
-		$send = mail($to, $subject, $body, $headers);
-		die('enviar ' . $send);
-	} catch (\Throwable $th) {
-		die($th);
-	}
+    //try {
+		//$send = mail($to, $subject, $body, $headers);
+		//die('enviar ' . $send);
+	//} catch (\Throwable $th) {
+		//die($th);
+	//}
+
+	mail($to, $subject, $body, $headers);
+
+	header('Location: index.html');
+	
+	//if (mail($to, $subject, $body, $headers)) {
+	//	header("Location: index.html");
+	//	exit();
+	//} else {
+	//	echo "Error al enviar el correo";
+	//}
 	
 
 ?>
