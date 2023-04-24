@@ -54,9 +54,8 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <!--  <li><a class="active" href="index.html" ><img src="img/favicon.ico.png"></a></li>-->
-                                        <li><a class="active" href="#index">Home</a></li>
-                                        <li><a href="#rooms">Destinos</a></li>
+                                        <li><a class="active" href="index.html">Home</a></li>
+                                        <li><a href=/index.html#rooms>Destinos</a></li>
                                         <li><a href="about.html">Nosotros</a></li>
                                         <li><a href="blog.html">Blog </a></li>
                                         <!--<   <ul class="submenu">
@@ -1439,7 +1438,7 @@
                         <article class="blog_item">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="img/blog/single_blog_1.png" alt="">
-                                <a href="#" class="blog_item_date">
+                                <a href="/blog.html#blog1" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
                                 </a>
@@ -1455,13 +1454,13 @@
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                                 </ul>
-                                <button type="button" class="mostrar"><a href="single-blog.html" class="line-button">Ver Más </a></button>
+                                <button type="button" class="mostrar"><a href="blog.html" class="line-button">Ver Más </a></button>
                             </div>
                         </article>
                         <article class="blog_item">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="img/blog/single_blog_2.png" alt="">
-                                <a href="#" class="blog_item_date">
+                                <a href="/blog.html#blog2"href="blog.html" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
                                 </a>
@@ -1477,13 +1476,13 @@
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                                 </ul>
-                                <button type="button" class="mostrar"><a href="single-blog.html" class="line-button">Ver Más </a></button>
+                                <button type="button" class="mostrar"><a href="blog.html" class="line-button">Ver Más </a></button>
                             </div>
                         </article>
                         <article class="blog_item">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="img/blog/single_blog_3.png" alt="">
-                                <a href="#" class="blog_item_date">
+                                <a href="/blog.html#blog3" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
                                 </a>
@@ -1499,7 +1498,7 @@
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                                 </ul>
-                                <button type="button" class="mostrar"><a href="single-blog.html" class="line-button">Ver Más </a></button>
+                                <button type="button" class="mostrar"><a href="blog.html" class="line-button">Ver Más </a></button>
                             </div>
                         </article>
                 </div>
@@ -1901,6 +1900,7 @@
             </div>
         </div>
     </footer>
+    <!-- footer_end -->
 
 
     <!-- link that opens popup -->
@@ -1912,11 +1912,11 @@
 
 
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide" >
+    <form id="test-form" class="white-popup-block mfp-hide" action="mail.php"  method="post" >
         <div class="popup_box ">
             <div class="popup_inner">
                 <h3>Reserva</h3>
-                <form action="mail.php"  method="post">
+                <form >
                     <div class="row">
                         <div class="col-xl-4">
                             <input id="datepicker" type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
@@ -1930,6 +1930,8 @@
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
                             </select>
                         </div>
                         <div class="col-xl-12 text-estadia">
@@ -1945,27 +1947,9 @@
                                 aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia
                                 tempore.
                                 Illo consectetur eligendi non hic?</p>
-                        </div>
-                        <!--  <div class="col-xl-6">
-                            <select class="form-select wide" id="default-select" class="">
-                                <option data-display="Children">1</option>
-                                <option value="1">2</option>
-                                <option value="2">3</option>
-                                <option value="3">4</option>
-                            </select>
-                        </div>
-                          <div class="col-xl-12">
-                            <select class="form-select wide" id="default-select" class="">
-                                <option data-display="Room type">Room type</option>
-                                <option value="1">Laxaries Rooms</option>
-                                <option value="2">Deluxe Room</option>
-                                <option value="3">Signature Room</option>
-                                <option value="4">Couple Room</option>
-                            </select>
-                        </div>-->
-
+                        </div>                
                         <div class="col-xl-12">
-                            <button type="submit" name="enviar" class="boxed-btn3">Reserva</button>
+                            <button type="submit" class="boxed-btn3">Consulta</button>
                         </div>
                     </div>
                 </form>

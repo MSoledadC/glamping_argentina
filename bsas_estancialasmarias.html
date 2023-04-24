@@ -401,50 +401,49 @@
     <!-- footer_end -->
 
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
+    <form id="test-form" class="white-popup-block mfp-hide" action="mail.php"  method="post" >
         <div class="popup_box ">
-                <div class="popup_inner">
-                    <h3>Check Availability</h3>
-                    <form action="#">
-                        <div class="row">
-                            <div class="col-xl-6">
-                                <input id="datepicker" placeholder="Check in date">
-                            </div>
-                            <div class="col-xl-6">
-                                <input id="datepicker2" placeholder="Check out date">
-                            </div>
-                            <div class="col-xl-6">
-                                <select class="form-select wide" id="default-select" class="">
-                                    <option data-display="Adult">1</option>
-                                    <option value="1">2</option>
-                                    <option value="2">3</option>
-                                    <option value="3">4</option>
-                                </select>
-                            </div>
-                            <div class="col-xl-6">
-                                <select class="form-select wide" id="default-select" class="">
-                                    <option data-display="Children">1</option>
-                                    <option value="1">2</option>
-                                    <option value="2">3</option>
-                                    <option value="3">4</option>
-                                </select>
-                            </div>
-                            <div class="col-xl-12">
-                                <select class="form-select wide" id="default-select" class="">
-                                    <option data-display="Room type">Room type</option>
-                                    <option value="1">Laxaries Rooms</option>
-                                    <option value="2">Deluxe Room</option>
-                                    <option value="3">Signature Room</option>
-                                    <option value="4">Couple Room</option>
-                                </select>
-                            </div>
-                            <div class="col-xl-12">
-                                <button type="submit" class="boxed-btn3">Check Availability</button>
-                            </div>
+            <div class="popup_inner">
+                <h3>Reserva</h3>
+                <form >
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <input id="datepicker" type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
                         </div>
-                    </form>
-                </div>
+                        <div class="col-xl-4">
+                            <input id="datepicker2" type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
+                        </div>
+                        <div class="col-xl-4">
+                            <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes" class="" required>
+                                <option data-display="Huespedes"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-12 text-estadia">
+                            <p class="p_reserva">Estadía mínima 1 noche</p>
+                            <p><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x
+                                noche </p>
+                            <br>
+                            <p class="p_reserva"><span style="font-weight:bold">Total Reserva 300 dólares
+                                    estadounidenses</span></p>
+                            <p class="p_reservait">Impuestos y Tarifa de Servicios incluidos</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum
+                                quidem,
+                                aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia
+                                tempore.
+                                Illo consectetur eligendi non hic?</p>
+                        </div>                
+                        <div class="col-xl-12">
+                            <button type="submit" class="boxed-btn3">Consulta</button>
+                        </div>
+                    </div>
+                </form>
             </div>
+        </div>
     </form>
 <!-- form itself end -->
 
