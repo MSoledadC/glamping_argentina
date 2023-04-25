@@ -691,26 +691,29 @@
    transform: translateX(-50%);
    
    display: block;*/
-   width: 810px;
+   width: 700px;
    background: transparent;
    list-style: none;
    overflow: hidden;
    position: absolute;
-   height: 260px;
+   height: 230px;
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   
+   margin-left: 225px;
+   margin-top: -15px;
+   border-radius: 5px;
  }
 
  #list li a {
    display: flex;
-   width: 320px;
+   width: 300px;
    color: #f3f3f3;
    /*padding: 10px 0px;*/
-   margin-left: 95px;
    text-align: start;
    font-size: 15px;
+   background-color: #0114038f;
+   border-radius: 5px;
  }
 
  #list li a:hover {
