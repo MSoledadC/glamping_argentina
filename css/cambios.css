@@ -72,7 +72,16 @@
     line-height: 22px;
   }
 
-  
+  .breadcam_bg_nosotros{
+    background-image: url(../img/banner/sobre_nosotros.png);
+    height: 100vh;
+}
+
+.breadcam_bg_blog {
+  background-image: url(../img/banner/blog.png);
+  height: 100vh;
+}
+
 
   
 /*----BS AS Bosque Glamping banner about---*/
@@ -233,7 +242,7 @@
      }
 
      .provincia {
-        font-size: 15px;
+      font-size: 25px !important;
      }
 
      /*lista_provincias*/
