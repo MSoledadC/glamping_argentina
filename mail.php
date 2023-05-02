@@ -3,8 +3,8 @@
 // Variables para el correo electrónico
 $to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Consulta';
-$headers = 'From: ' . $_POST['email'] . "\r\n" .
-    'Reply-To: ' . $_POST['email'] . "\r\n" .
+//$headers = 'From: ' . $_POST['email'] . "\r\n" .
+   // 'Reply-To: ' . $_POST['email'] . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 // Variables del formulario
@@ -60,10 +60,11 @@ $message = "<html>
 $headers = "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-type: text/html\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // Enviar el correo electrónico
-mail($to, $subject, $message, $headers);
-
+//mail($to, $subject, $message, $headers);
 
 // Enviar el correo electrónico
 mail($to, $subject, $message, $headers);
