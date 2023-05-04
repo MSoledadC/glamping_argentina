@@ -60,9 +60,6 @@
 
   .features_room .rooms_here .single_rooms .room_thumb .room_heading a {
     color: #dee2e6;
-    padding: 5px;
-    /*----border: 1px solid #009DFF;---*/
-    background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
   }
 
   .section_title span {
@@ -83,7 +80,15 @@
   height: 100vh;
 }
 
-
+.bradcam_areablog {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  position: absolute;
+  top: 80%;
+  }
   
 /*----BS AS Bosque Glamping banner about---*/
 
@@ -143,10 +148,10 @@
     }
 
    .btn-ws {
-      position: fixed;
-      top: 90%;
-      left: 2%;
-      z-index: 20;
+    position: fixed;
+    top: 85%;
+    z-index: 20;
+    right: 3%;
   }
 
 /*---FOTOS INDEX PROVINCIAS---*/
@@ -232,7 +237,7 @@
     }
 
     .titulo_provincias {
-         margin-top: 110px;
+         margin-top: 130px;
     }
 
     .jam {
@@ -516,6 +521,7 @@
    .align-items-center{
     margin-top: -29px;
     padding-top: 27px;
+    margin-right: calc(-0.1 * var(--bs-gutter-x)) !important;
    }
    
  
@@ -684,7 +690,7 @@
   width: 50% !important;
   margin-bottom: 20px;
   filter: opacity(0.8);
-  margin-left: 15px;
+  margin-left: 0px !important;
 }
 
 
