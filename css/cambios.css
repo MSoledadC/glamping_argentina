@@ -28,6 +28,7 @@
 
     .slider_area .single_slider  {
       height: 105vh;
+      background-position-y: 70px;
     }
 
     p {
