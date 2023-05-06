@@ -34,7 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-  
+function mostrarContenidoAdicional() {
+  var contenidoAdicional = "<p>Además de estos destinos, Argentina cuenta con muchas otras opciones para los amantes del turismo aventura. Por ejemplo, en la provincia de La Rioja es posible realizar excursiones en 4x4 por el desierto y practicar sandboard en las dunas. También hay opciones de turismo aventura en la región de Cuyo, en la provincia de San Juan, donde es posible realizar actividades como el montañismo y el parapente.</p>";
+  var contenedor = document.getElementById("turismo-aventura");
+  contenedor.innerHTML += contenidoAdicional;
+  var boton = document.getElementById("ver-mas");
+  boton.style.display = "none";
+}
   
   
   
