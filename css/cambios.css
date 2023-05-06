@@ -879,5 +879,27 @@
       .blog_left_sidebarindex{
         flex-wrap: wrap;
       }
+
+      .slider_area .single_slider{
+        height: 35vh;
+      }
+
+      .titulo_provincias{
+        margin-top: 35px;
+      }
+
+      .slicknav_menu .slicknav_nav{
+        text-align: right;
+        width: 40%;
+        left: 60%;
+      }
+
+      .video_area{
+        padding: 0px 0;
+      }
+
+      .breadcam_bg_nosotros{
+        height: 35vh;
+      }
     }
 
