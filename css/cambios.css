@@ -71,6 +71,10 @@
     color: rgba(13,191,111,1);
   }
 
+  .section-padding{
+    padding-top: 50px;
+  }
+
   .footer .footer_top .footer_widget ul li a{
     line-height: 22px;
   }
@@ -230,6 +234,7 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         letter-spacing: 0.2px;
         transition: all 0.3s ease-out;
+        font-size: large;
      }
   
     .container_g .thumbex .thumbnail:hover {
@@ -254,7 +259,7 @@
      }
 
      .provincia {
-      font-size: 25px !important;
+      font-size: 30px !important;
       background-color: transparent !important;
      }
 
@@ -748,7 +753,7 @@
  }
 
  .about_area {
-  padding-top: 100px;
+  padding-top: 50px;
  }
 
  .about_area .about_info p {
@@ -900,6 +905,21 @@
 
       .breadcam_bg_nosotros{
         height: 35vh;
+      }
+      .about_area{
+        padding-top: 10px;
+      }
+
+      .buscador {
+        display: none;
+      }
+
+      .filters label{
+        font-size: x-small;
+      }   
+      
+      .container_g{
+        margin-top: -15px;
       }
     }
 
