@@ -8,7 +8,7 @@
       }
 
       .header-area{
-        padding-top: 0%;
+        padding-top: 00px;
       }
 
     body {
@@ -248,7 +248,7 @@
     }
 
     .titulo_provincias {
-         margin-top: 130px;
+         margin-top: 110px;
     }
 
     .jam {
@@ -531,7 +531,7 @@
 
    .align-items-center{
     margin-top: -29px;
-    padding-top: 27px;
+    padding-top: 0px;
     margin-right: calc(-0.1 * var(--bs-gutter-x)) !important;
    }
    
@@ -914,12 +914,39 @@
         display: none;
       }
 
+      .mostrar{
+        left: 0px;
+        right: 0px;
+      }
+
+      
+
       .filters label{
         font-size: x-small;
       }   
       
       .container_g{
         margin-top: -15px;
+      }
+
+      .container_g .thumbex .thumbnail span{
+        font-size: 15px !important;
+      }
+
+      .about_area .about_thumb{
+        margin-top: 0px;
+      }
+
+      .vistacel{
+        display: none;
+      }
+
+      .blog_left_sidebarindex{
+        display: none;
+      }
+
+      .single_instagram {
+        display: none;
       }
     }
 
