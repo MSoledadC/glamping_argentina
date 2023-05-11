@@ -243,26 +243,35 @@
                 </div>
                 
                 <div class="col-xl-4 col-md-4">
-                    <form class="consultaprovincias">
+                    <form class="consultaprovincias"  action="mail.php"  method="post">
                         <div class="popup_box consulta">
                             <div class="popup_inner">
-                                <h3 class="tituloconsulta">Consulta</h3>
-                                <form action="#">
-                                    <div class="row consultag">
-                                        <div class="col-xl-6 ">
-                                            <input id="datepicker" class="datosconsulta1" placeholder="Fecha Ingreso">
+                             <!--  <h3 class="tituloconsulta">Consulta</h3> -->
+                                <form>
+                                    <h3 class="tituloconsulta">Consulta</h3> 
+                                    <div class="row ">
+                                        <div class="col-xl-6 mb-3">
+                                            <input type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
                                         </div>
-                                        <div class="col-xl-6 ">
-                                            <input id="datepicker2"  class="datosconsulta1" placeholder="Fecha Egreso">
+                                        <div class="col-xl-6 mb-3">
+                                            <input type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
                                         </div>
-                                        <div class="col-xl-6">
-                                            <select class="form-select wide datosconsulta " id="default-select" class="">
-                                                <option data-display="Huespedes">1</option>
-                                                <option value="1">2</option>
-                                                <option value="2">3</option>
-                                                <option value="3">4</option>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-6 mb-3">
+                                            <select class="form-select wide small-button" id="" type="checkbox" name="Huespedes" required>
+                                                <option data-display="Huespedes"></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
                                             </select>
                                         </div>
+                                        <div class="col-xl-6">
+                                            <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                                        </div>
+                                    </div>
                                         <div class="col-xl-12 text-estadia">
                                             <p class="rconsulta">Estadía mínima 1 noche</p>
                                             <p class="rconsulta"><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x noche </p>
@@ -272,6 +281,7 @@
                                             aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia tempore.
                                             Illo consectetur eligendi non hic?</p>
                                         </div>
+                                    </div>
                                         <div class="col-xl-12">
                                             <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
                                         </div>
@@ -503,7 +513,7 @@
     $('#datepicker').datepicker({
         iconsLibrary: 'fontawesome',
         icons: {
-         rightIcon: '<span class="fa fa-caret-down"></span>'
+         rightIcon: 
      }
     });
     $('#datepicker2').datepicker({

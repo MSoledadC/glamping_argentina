@@ -31,10 +31,8 @@ if (!filter_var($huespedes, FILTER_VALIDATE_INT)) {
     // El número de huéspedes no es válido
 }
 
-
 // Construir el mensaje del correo electrónico
-// Construir el mensaje del correo electrónico
-$message = "<html>
+$message = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Glamping Argentina</title></head>
 <head>
   <style>
     /* Estilos para el correo electrónico */
