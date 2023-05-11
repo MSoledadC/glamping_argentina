@@ -14,6 +14,7 @@ $huespedes = $_POST['Huespedes'];
 $email = $_POST['email'];
 $logo_url =  'http://glamping_argentina.com/img/logo.png';
 
+
 // Validar y escapar los datos del formulario aquí
 $fecha_ingreso = htmlspecialchars(trim($fecha_ingreso));
 $fecha_egreso = htmlspecialchars(trim($fecha_egreso));
