@@ -63,8 +63,11 @@
     background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
   }
 
+  
+
+
   .features_room .rooms_here .single_rooms .room_thumb .room_heading a {
-    color: #dee2e6;
+    color: #dee2e6 !important;
   }
 
   .section_title span {
@@ -72,7 +75,7 @@
   }
 
   .section-padding{
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .footer .footer_top .footer_widget ul li a{
@@ -674,7 +677,10 @@
   font-weight: 400;
   border: 1px solid transparent;
   color: #fff;
-  
+}
+
+.mostrar:hover {
+  color:  #0dbf6f;
 }
 
 .cerrar {
@@ -689,6 +695,11 @@
   color: #fff;
   margin-top: 10px;
 }
+
+.line-button:hover{
+  color: #0dbf6f !important;
+}
+
   
 /*BUSCADOR*/
 
@@ -769,7 +780,7 @@
  }
 
  .blog_right_sidebar .single_sidebar_widget .btn_1{
-  background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
+  background: linear-gradient(90deg, rgba(0,122,114,1) 0%, #0dbf6f 100%);
  }
   
 /*Footer*/

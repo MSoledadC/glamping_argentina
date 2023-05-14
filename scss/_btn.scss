@@ -93,10 +93,10 @@
         left: 0;
     }
     &:hover{
-        color: #009DFF;
+        color: #0dbf6f;
     }
     &:hover::before{
-        background: #009DFF;
+        background: #0dbf6f;
     }
 }
 .book_now{
@@ -107,7 +107,7 @@
     text-transform: capitalize;
     padding: 10px 25px;
     &:hover{
-        background: #009DFF;
+        background: #0dbf6f;
         color: #fff;
     }
 }
