@@ -1,6 +1,7 @@
 <?php
 
 // Variables para el correo electrónico
+
 $to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Consulta';
 //$headers = 'From: ' . $_POST['email'] . "\r\n" .
@@ -13,12 +14,15 @@ $fecha_egreso = $_POST['Fechaegreso'];
 $huespedes = $_POST['Huespedes'];
 $email = $_POST['email'];
 $logo_url =  'http://glamping_argentina.com/img/logo.png';
-
+$url = $_SERVER['HTTP_REFERER'];
+//$titulo = $_POST['titulo'];
 
 // Validar y escapar los datos del formulario aquí
 $fecha_ingreso = htmlspecialchars(trim($fecha_ingreso));
 $fecha_egreso = htmlspecialchars(trim($fecha_egreso));
 $huespedes = htmlspecialchars(trim($huespedes));
+
+
 
 if (!filter_var($fecha_ingreso, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^(\d{4})-(\d{2})-(\d{2})$/")))) {
     // La fecha de ingreso no es válida
@@ -46,6 +50,7 @@ $message = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Gl
   <h1>Gracias por contactar con nosotros</h1>
   <p>A continuación, encontrará los detalles de su consulta:</p>
   <ul>
+    <li>Consulta Glamping: $url</li>
     <li>Fecha de ingreso: $fecha_ingreso</li>
     <li>Fecha de egreso: $fecha_egreso</li>
     <li>Huéspedes: $huespedes</li>
