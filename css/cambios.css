@@ -48,7 +48,9 @@
       font-size: 23px;
       margin-top: 50%;
     }
-    
+    .section_title h3 {
+      font-size: calc(1.375rem + 1.5vw);
+    }
     
   .features_room{
     padding-top: 100px;
@@ -63,7 +65,9 @@
     background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
   }
 
-  
+  .blog_item {
+    width: fit-content;
+  } 
 
 
   .features_room .rooms_here .single_rooms .room_thumb .room_heading a {
@@ -75,7 +79,8 @@
   }
 
   .section-padding{
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .footer .footer_top .footer_widget ul li a{
@@ -764,6 +769,7 @@
 
  .about_area {
   padding-top: 20px;
+  padding-bottom: 30px;
  }
 
  .about_area .about_info p {
