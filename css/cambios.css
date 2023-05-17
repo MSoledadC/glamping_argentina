@@ -297,7 +297,7 @@
  
  
  
- /* FILTERS
+ /* FILTERS Provincias
    –––––––––––––––––––––––––––––––––––––––––––––––––– */
     .filters {
      text-align: center;
@@ -684,7 +684,6 @@
 }
 
 .cerrar {
-  
   /*position: absolute;*/
   margin-left: 47%;;
   background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
@@ -772,7 +771,7 @@
  }
 
  .about_area .about_thumb {
-  margin-top: 140px;
+  margin-top: 80px;
  }
 
  .form-controlblog {
@@ -785,7 +784,7 @@
   
 /*Footer*/
 .footer .footer_top{
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 0px;
 } 
 
@@ -814,6 +813,11 @@
 .footer .footer_top .footer_widget .newsletter_form button{
   border: 1px solid #009DFF;
   background: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgb(13, 191, 111) 100%);
+}
+
+.footer .footer_top .footer_widget .footer_title {
+  margin-bottom: 0px;
+  font-size: 18px;
 }
 
 .titulos_descripcion {
