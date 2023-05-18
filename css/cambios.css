@@ -185,6 +185,12 @@
 
      .gmostrar {
       margin-top: 100px;
+      margin-top: 100px;
+      display: flex;
+      /* flex-wrap: wrap;
+      flex-direction: row;
+      padding: 0 30px; 
+      width: 100%;*/
       
      }
 
@@ -789,9 +795,15 @@
  }
   
 /*Footer*/
+
+.footer_widget{
+  width: 400px;
+}
+
 .footer .footer_top{
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-top: 10px;
 } 
 
 
