@@ -563,7 +563,7 @@
      }
    
    
-   /*---FORM RESERVA*/
+   /*---FORM RESERVA-CONSULTA*/
 
    .text-estadia {
     text-align: start;
@@ -649,6 +649,15 @@
   .botonconsulta {
     font-size: 12px !important;
     padding: 9px 22px;
+  }
+
+  .popup_box .nice-select{
+    line-height: 30px;
+    font-size: 12px;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
   }
 
   .forQuery {
@@ -776,6 +785,7 @@
  .about_area {
   padding-top: 20px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
  }
 
  .about_area .about_info p {

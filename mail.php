@@ -4,23 +4,25 @@
 
 $to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Consulta';
-//$headers = 'From: ' . $_POST['email'] . "\r\n" .
-   // 'Reply-To: ' . $_POST['email'] . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+$logo_url =  'http://glamping_argentina.com/img/logo.png';
+$url = $_SERVER['HTTP_REFERER'];
+
 
 // Variables del formulario
 $fecha_ingreso = $_POST['Fechaingreso'];
 $fecha_egreso = $_POST['Fechaegreso'];
 $huespedes = $_POST['Huespedes'];
 $email = $_POST['email'];
-$logo_url =  'http://glamping_argentina.com/img/logo.png';
-$url = $_SERVER['HTTP_REFERER'];
+
+
+
 //$titulo = $_POST['titulo'];
 
 // Validar y escapar los datos del formulario aquí
 $fecha_ingreso = htmlspecialchars(trim($fecha_ingreso));
 $fecha_egreso = htmlspecialchars(trim($fecha_egreso));
 $huespedes = htmlspecialchars(trim($huespedes));
+
 
 
 
