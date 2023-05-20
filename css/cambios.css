@@ -686,7 +686,7 @@
 
   /*INSTAGRAM*/
   .instragram_area{
-    margin-top: -25px;
+    margin-top: 20px;
   }
 
 /*BOTON MOSTRAR*/
@@ -719,9 +719,6 @@
   margin-top: 10px;
 }
 
-.line-button:hover{
-  color: #0dbf6f !important;
-}
 
   
 /*BUSCADOR*/
