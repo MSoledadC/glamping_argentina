@@ -16,7 +16,7 @@
   }
 
 
-/////
+//Mostrar Provincias///
 function mostrar(element) {
   var container = element.nextElementSibling;
   container.style.display = "flex";
@@ -33,5 +33,40 @@ function ocultar() {
 }
 
 
-  
+//google translate
+
+/**
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_language_translator');
+}
+
+function changeLanguage() {
+  var select = document.getElementsByClassName('goog-te-combo')[0];
+  select.value = 'en'; // Cambia 'en' por el código del idioma deseado
+  select.dispatchEvent(new Event('change'));
+}
+
+
+//function changeLanguage() {
+  var textElement = document.getElementById('translated-text');
+  var currentLanguage = textElement.lang;
+
+  var translations = {
+    es: 'Texto traducido', // Traducción en español
+    en: 'Translated text', // Traducción en inglés
+    fr: 'Texte traduit' // Traducción en francés, puedes agregar más idiomas si lo deseas
+  };
+
+  // Verifica el idioma actual y cambia al siguiente idioma disponible
+  if (currentLanguage === 'es') {
+    textElement.innerText = translations.en; // Cambia al inglés
+    textElement.lang = 'en';
+  } else if (currentLanguage === 'en') {
+    textElement.innerText = translations.fr; // Cambia al francés
+    textElement.lang = 'fr';
+  } else {
+    textElement.innerText = translations.es; // Cambia al español (por defecto)
+    textElement.lang = 'es';
+  }
+  */
   

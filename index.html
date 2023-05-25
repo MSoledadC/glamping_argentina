@@ -35,7 +35,13 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/df0028962f.js" crossorigin="anonymous"></script>
-      <!-- Buscador-->
+
+    <!-- vinculacion Google Translate-->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+      
+    
+    <!-- Buscador-->
       <script>
         function mostrar() {
             event.preventDefault();
@@ -91,7 +97,7 @@
                                     <img src="img/logo.png" alt="">
                                 </a>
                             </div>
-                        </div>
+                        </div>       
                         <div class="col-xl-5 col-lg-4 d-none d-lg-block">
                             <div class="book_room">
                                 <div class="socail_links">
@@ -110,9 +116,12 @@
                                             <a href="https://www.instagram.com/glampingargentina/?hl=es" target="_blank">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
-                                        </li>
+                                        </li>                                                                          
                                     </ul>
                                 </div>
+                                <div id="google_language_translator">
+                                    <button  class="line-button" id="btn-translate" onclick="changeLanguage()">Cambiar Idioma</button>
+                                </div>                                
                                <!-- <div class="book_btn d-none d-lg-block">
                                     <a class="popup-with-form" href="#test-form">Reservas</a>
                                 </div>-->
@@ -127,6 +136,21 @@
         </div>
     </header>
     <!-- header-end -->
+ 
+
+    
+  <script type="text/javascript">
+    // Incluir el código JavaScript personalizado
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_language_translator');
+    }
+
+    function changeLanguage() {
+      var select = document.getElementsByClassName('goog-te-combo')[0];
+      select.value = 'en'; // Cambia 'en' por el código del idioma deseado
+      select.dispatchEvent(new Event('change'));
+    }
+  </script>
 
     <div id="index"></div>
     <!-- slider_area_start -->
@@ -1442,10 +1466,10 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog.html">
-                                    <h2>¡Itinerario 3 noches de ensueño, en GLAMPING DOMOS USPALLATA!</h2>
+                                    <h2 class="tiulo-blog">¡Itinerario 3 noches de ensueño, en GLAMPING DOMOS USPALLATA!</h2>
                                 </a>
-                                <p>¿Te gustaría vivir una experiencia única en Mendoza? ¿Te imaginas dormir en un domo 
-                                    rodeado de montañas y estrellas? ¿Te apetece explorar los paisajes más impresionantes 
+                                <p class="texto-blog">¿Te gustaría vivir una experiencia única en Mendoza? ¿Te imaginas dormir en un domo 
+                                    rodeado de montañas y estrellas? ¿Quieres explorar los paisajes más impresionantes 
                                     de la cordillera de los Andes? Si tu respuesta es sí, entonces este itinerario es para 
                                     ti.
                                 </p>
@@ -1467,15 +1491,15 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog2.html">
-                                    <h2>¡Sumérgete en la combinación perfecta de naturaleza y confort en los increíbles GLAMPINGS DE PILAR!</h2>
+                                    <h2 class="tiulo-blog" >¡Sumérgete en la combinación perfecta de naturaleza y confort en los increíbles GLAMPINGS DE PILAR!</h2>
                                 </a>
-                                <p>Si buscás una escapada diferente, cerca de la ciudad y con todas las comodidades, te proponemos 
+                                <p class="texto-blog">Si buscás una escapada diferente, cerca de la ciudad y con todas las comodidades, te proponemos 
                                     una opción que combina lo mejor de acampar y de un hotel: el Glamping. </p>
                                 
                                 
                             </div>
                         </article>
-                        <article class="blog_item">
+                        <article class="blog_item ">
                             <div class="blog_item_img">
                                 <img class="card-img rounded-0" src="img/blog/single_blog_3.png" alt="">
                                 <a href="blog.html#blog3" class="blog_item_date">
@@ -1486,9 +1510,9 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="blog.html">
-                                    <h2>Una travesía inolvidable: ¡Descubre el encanto de la Ruta del Vino y saborea cada momento!</h2>
+                                    <h2 class="tiulo-blog" >Una travesía inolvidable: ¡Descubre el encanto de la Ruta del Vino y saborea cada momento!</h2>
                                 </a>
-                                <p>¿Quieres vivir una aventura diferente? ¿Te gusta el vino? ¿Te encanta la naturaleza? 
+                                <p class="texto-blog">¿Quieres vivir una aventura diferente? ¿Te gusta el vino? ¿Te encanta la naturaleza? 
                                     Entonces, la ruta del vino en Mendoza es perfecta para tí. Un recorrido que combina la 
                                     emoción del ciclismo con la degustación de los mejores vinos de la región.
                                 </p>
