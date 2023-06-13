@@ -69,4 +69,3 @@ function changeLanguage() {
     textElement.lang = 'es';
   }
   */
-  
