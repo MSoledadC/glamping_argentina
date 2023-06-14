@@ -68,4 +68,48 @@ function changeLanguage() {
     textElement.innerText = translations.es; // Cambia al español (por defecto)
     textElement.lang = 'es';
   }
-  */
+ 
+
+  // Obtén la URL de la página actual
+const url = window.location.href;
+
+// Agrega el evento click a cada botón de compartir
+const shareButtons = document.querySelectorAll('.share-buttons a');
+shareButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const socialNetwork = button.classList[0]; // Obtiene la red social (facebook, twitter, linkedin)
+    const shareUrl = getShareUrl(socialNetwork, url); // Obtiene la URL de compartir específica para cada red social
+    window.open(shareUrl, '_blank'); // Abre una nueva ventana con la URL de compartir
+  });
+});
+
+// Función para obtener la URL de compartir específica para cada red social
+function getShareUrl(socialNetwork, url) {
+  switch (socialNetwork) {
+    case 'facebook':
+      return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+    case 'twitter':
+      return `https://twitter.com/share?url=${encodeURIComponent(url)}`;
+    case 'linkedin':
+      return `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(url)}`;
+    default:
+      return '';
+  }
+} */
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var notaURL = window.location.href;
+
+  var facebookLink = document.querySelector('.facebook');
+  facebookLink.href += notaURL;
+
+  var twitterLink = document.querySelector('.twitter');
+  twitterLink.href += notaURL;
+
+  var linkedinLink = document.querySelector('.linkedin');
+  linkedinLink.href += notaURL;
+
+  var whatsappLink = document.querySelector('.whatsapp');
+  whatsappLink.href += notaURL;
+});
