@@ -1034,6 +1034,24 @@
   .slider_area .single_slider .slider_text h3{
     font-size: 25px;
   }
+
+  .footer .footer_top .footer_widget{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+
+  }
+
+  .footer .footer_top .footer_widget .newsletter_form input{
+    padding-right: 10px;
+    padding-left: 0px;
+    height: 25px;
+  }
+
+  .footer .copy-right_text .socail_links{
+    justify-content: space-between;
+    margin-top: 0px;
+  }
   }
 
   
