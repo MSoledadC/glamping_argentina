@@ -37,16 +37,17 @@
     <script src="https://kit.fontawesome.com/df0028962f.js" crossorigin="anonymous"></script>
 
     <!-- vinculacion Google Translate-->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 
     <!-- Buscador-->
-      <script>
+    <script>
         function mostrar() {
             event.preventDefault();
             document.getElementById('mostrar').style.display = 'flex';
-            
+
         }
 
         function ocultar() {
@@ -55,7 +56,7 @@
         }
     </script>
 
-    
+
 
 </head>
 
@@ -63,7 +64,7 @@
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-   
+
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -97,7 +98,7 @@
                                     <img src="img/logo.png" alt="glampingargentina_logo">
                                 </a>
                             </div>
-                        </div>       
+                        </div>
                         <div class="col-xl-5 col-lg-4 d-none d-lg-block">
                             <div class="book_room">
                                 <div class="socail_links">
@@ -108,24 +109,27 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/company/glamping-argentina/" target="_blank">
+                                            <a href="https://www.linkedin.com/company/glamping-argentina/"
+                                                target="_blank">
                                                 <i class="fa fa-linkedin-square"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/glampingargentina/?hl=es" target="_blank">
+                                            <a href="https://www.instagram.com/glampingargentina/?hl=es"
+                                                target="_blank">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
-                                        </li>  
+                                        </li>
                                         <li>
                                             <div id="google_language_translator">
-                                                <button  class="line-button" id="btn-translate" onclick="changeLanguage()">Cambiar Idioma</button>
-                                            </div>  
-                                        </li>                                                                        
+                                                <button class="line-button" id="btn-translate"
+                                                    onclick="changeLanguage()">Cambiar Idioma</button>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
-                                                              
-                            <!--    <div class="book_btn d-none d-lg-block">
+
+                                <!--    <div class="book_btn d-none d-lg-block">
                                     <a class="popup-with-form" href="#test-form">Reservas</a>
                                 </div>-->
                             </div>
@@ -139,21 +143,21 @@
         </div>
     </header>
     <!-- header-end -->
- 
 
-    
-  <script type="text/javascript">
-    // Incluir el código JavaScript personalizado
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_language_translator');
-    }
 
-    function changeLanguage() {
-      var select = document.getElementsByClassName('goog-te-combo')[0];
-      select.value = 'en'; // Cambia 'en' por el código del idioma deseado
-      select.dispatchEvent(new Event('change'));
-    }
-  </script>
+
+    <script type="text/javascript">
+        // Incluir el código JavaScript personalizado
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'es' }, 'google_language_translator');
+        }
+
+        function changeLanguage() {
+            var select = document.getElementsByClassName('goog-te-combo')[0];
+            select.value = 'en'; // Cambia 'en' por el código del idioma deseado
+            select.dispatchEvent(new Event('change'));
+        }
+    </script>
 
     <div id="index"></div>
     <!-- slider_area_start -->
@@ -164,103 +168,196 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <div><h3>Glamping Argentina</h3>
+                                <div>
+                                    <h3>Glamping Argentina</h3>
                                 </div>
                                 <div class="buscador">
                                     <!-- Buscador -->
-                                    <input class="form-control  me-2" placeholder="Buscar por Provincia"  type="text" id="searchInput" aria-label="Search">
-                                    <button class="btn btn-outline-success"  onclick="search()">Buscar</button>
+                                    <input class="form-control  me-2" placeholder="Buscar por Provincia" type="text"
+                                        id="searchInput" aria-label="Search">
+                                    <button class="btn btn-outline-success" onclick="search()">Buscar</button>
 
                                     <ul id="list">
-                                        <li><a href="bsas_BosqueGlamping.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Bosque Glamping</a></li>
-                                        <li><a href="bsas_estancialasmarias.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Estancia las Marías</a></li>
-                                        <li><a href="bsas_inba.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Glamping Inba</a></li>
-                                        <li><a href="bsas_monte.html" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Glamping Monte</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Saimon's Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - La Reserva</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Glamping Puente Blanco </a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Moray Camp</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Las Goya</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Wayra Wasi</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Quinta Brisas del Campo</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Club  Laguna Vitel</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Domos Tandil</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Yamay Ecoturismo</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Los Vagones de Areco</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires- Puesto Viejo</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Refugio 31</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Refugio Natural</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Los dos Vagones</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Catamarca - Hotel Hacienda Casa Blanca</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chaco - Glamping el Bermejito</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chubut - El Aura Lodge</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chubut - Camping los Maitenes</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chubut - Huemules</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Camping Luz del Cielo</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Bello Estar</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Eco Glamping el Galpon</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Tica Nativo</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Domos Kairos</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Aguas Antiguas Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - La Soñada</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Aguada de Lunas Luxury</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Chacra Raiz</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Geo Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Cauce Yurtas</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Corrientes - Glamping la Brava</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Entre Ríos - Viñedo Cañada Rica</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Entre Ríos - La Arbolada</a></li>
-                                        <li><a href="jujuy_pristinecamps.html" target="_blank"><i class="fas fa-search"></i>Jujuy - Pristine Camps Salinas Grandes</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Jujuy - The Canuto Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Deer Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Vista Pedra Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Al Aire Libre</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - El Nido Domos</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Aconcagua Glampinng</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Domos Andinos Host Camp</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Valle Hermoso Eco Lodge</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Domos Glamcamp</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Glamping Meraki</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Entre Acequias</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Finca Cincocumbres</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Denmoza Ecolodge</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Domos Uspallata</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Real del Pehuenche</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Alpasion</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Entre Cielos</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Misiones- Cuña Piru Lodge</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Misiones- La Mision Mocona</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Glamping la Comarca</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen  - Espacio Meliquina</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Domos Lanin</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Domos Moquehue</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Glamping Elco Domo</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Vulcanche Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Nordisk  Village</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Glamping Inspira</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Refugio Perdido</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Hostel Valhalla & Glamp</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Plus Refugio</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Tierraventura Camping el Manso</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro- Mallin Alto</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro- Peuma Hue</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Esencia Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Río Manso Camp</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Las Carpitas</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Las Lagunas Turismo Rural/a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Salta- Glamping Salta</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Salta - Casa Arbol Glamping</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Salta - Sillu Wasi Refugio</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>San Juan - Rancho del Tata Lito</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>San Luis - Kiamare Domos Lodge </a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Santa Cruz - Estancia la Josefina</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Santa Cruz - Chalten Camp</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Santa Cruz - Patagonia Eco Domes</a></li>                                
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego - Oveja Verde</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego - White Desert Antartica</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego - Complejo Mirador Tolhuin</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego - Llanos Ecolodge</a></li>
-                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego - Domos de la Estancia</a></li>
+                                        <li><a href="bsas_BosqueGlamping.html" target="_blank"><i
+                                                    class="fas fa-search"></i>Buenos Aires - Bosque Glamping</a></li>
+                                        <li><a href="bsas_estancialasmarias.html" target="_blank"><i
+                                                    class="fas fa-search"></i>Buenos Aires - Estancia las Marías</a>
+                                        </li>
+                                        <li><a href="bsas_inba.html" target="_blank"><i class="fas fa-search"></i>Buenos
+                                                Aires - Glamping Inba</a></li>
+                                        <li><a href="bsas_monte.html" target="_blank"><i
+                                                    class="fas fa-search"></i>Buenos Aires - Glamping Monte</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires -
+                                                Saimon's Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - La
+                                                Reserva</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires -
+                                                Glamping Puente Blanco </a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Moray
+                                                Camp</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Las
+                                                Goya</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Wayra
+                                                Wasi</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires -
+                                                Quinta Brisas del Campo</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Club
+                                                Laguna Vitel</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Domos
+                                                Tandil</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Yamay
+                                                Ecoturismo</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Los
+                                                Vagones de Areco</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires- Puesto
+                                                Viejo</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires -
+                                                Refugio 31</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires -
+                                                Refugio Natural</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Buenos Aires - Los
+                                                dos Vagones</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Catamarca - Hotel
+                                                Hacienda Casa Blanca</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chaco - Glamping el
+                                                Bermejito</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chubut - El Aura
+                                                Lodge</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chubut - Camping los
+                                                Maitenes</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Chubut -
+                                                Huemules</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Camping
+                                                Luz del Cielo</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Bello
+                                                Estar</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Eco
+                                                Glamping el Galpon</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Tica
+                                                Nativo</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Domos
+                                                Kairos</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Aguas
+                                                Antiguas Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - La
+                                                Soñada</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Aguada de
+                                                Lunas Luxury</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Chacra
+                                                Raiz</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Geo
+                                                Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Cordoba - Cauce
+                                                Yurtas</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Corrientes -
+                                                Glamping la Brava</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Entre Ríos - Viñedo
+                                                Cañada Rica</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Entre Ríos - La
+                                                Arbolada</a></li>
+                                        <li><a href="jujuy_pristinecamps.html" target="_blank"><i
+                                                    class="fas fa-search"></i>Jujuy - Pristine Camps Salinas Grandes</a>
+                                        </li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Jujuy - The Canuto
+                                                Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Deer
+                                                Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Vista
+                                                Pedra Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Al Aire
+                                                Libre</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - El Nido
+                                                Domos</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Aconcagua
+                                                Glampinng</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Domos
+                                                Andinos Host Camp</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Valle
+                                                Hermoso Eco Lodge</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Domos
+                                                Glamcamp</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Glamping
+                                                Meraki</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Entre
+                                                Acequias</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Finca
+                                                Cincocumbres</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Denmoza
+                                                Ecolodge</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Domos
+                                                Uspallata</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Real del
+                                                Pehuenche</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza -
+                                                Alpasion</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Mendoza - Entre
+                                                Cielos</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Misiones- Cuña Piru
+                                                Lodge</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Misiones- La Mision
+                                                Mocona</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Glamping
+                                                la Comarca</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Espacio
+                                                Meliquina</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Domos
+                                                Lanin</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Domos
+                                                Moquehue</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Glamping
+                                                Elco Domo</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Vulcanche
+                                                Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Nordisk
+                                                Village</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Neuquen - Glamping
+                                                Inspira</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Refugio
+                                                Perdido</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Hostel
+                                                Valhalla & Glamp</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Plus
+                                                Refugio</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro -
+                                                Tierraventura Camping el Manso</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro- Mallin
+                                                Alto</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro- Peuma
+                                                Hue</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Esencia
+                                                Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Río
+                                                Manso Camp</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Las
+                                                Carpitas</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Río Negro - Las
+                                                Lagunas Turismo Rural/a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Salta- Glamping
+                                                Salta</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Salta - Casa Arbol
+                                                Glamping</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Salta - Sillu Wasi
+                                                Refugio</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>San Juan - Rancho
+                                                del Tata Lito</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>San Luis - Kiamare
+                                                Domos Lodge </a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Santa Cruz -
+                                                Estancia la Josefina</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Santa Cruz - Chalten
+                                                Camp</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Santa Cruz -
+                                                Patagonia Eco Domes</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego -
+                                                Oveja Verde</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego -
+                                                White Desert Antartica</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego -
+                                                Complejo Mirador Tolhuin</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego -
+                                                Llanos Ecolodge</a></li>
+                                        <li><a href="" target="_blank"><i class="fas fa-search"></i>Tierra del Fuego -
+                                                Domos de la Estancia</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -273,73 +370,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                              <!--  <h3>Glamping Argentina</h3>
-                        <div class="col-xl-12">
-                            <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                                <form action="#" class="search-property-1">
-                                    <div class="row no-gutters">
-                                        <div class="col-md d-flex">
-                                            <div class="form-group p-4 border-0">
-                                                <label for="#">Destination</label>
-                                                <div class="form-field">
-                                                    <div class="icon"><span class="fa fa-search"></span></div>
-                                                    <input type="text" class="form-control" placeholder="Search place">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md d-flex">
-                                            <div class="form-group p-4">
-                                                <label for="#">Check-in date</label>
-                                                <div class="form-field">
-                                                    <div class="icon"><span class="fa fa-calendar"></span></div>
-                                                    <input type="text" class="form-control checkin_date" placeholder="Check In Date">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md d-flex">
-                                            <div class="form-group p-4">
-                                                <label for="#">Check-out date</label>
-                                                <div class="form-field">
-                                                    <div class="icon"><span class="fa fa-calendar"></span></div>
-                                                    <input type="text" class="form-control checkout_date" placeholder="Check Out Date">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md d-flex">
-                                            <div class="form-group p-4">
-                                                <label for="#">Price Limit</label>
-                                                <div class="form-field">
-                                                    <div class="select-wrap">
-                                                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                                        <select name="" id="" class="form-control">
-                                                            <option value="">$100</option>
-                                                            <option value="">$10,000</option>
-                                                            <option value="">$50,000</option>
-                                                            <option value="">$100,000</option>
-                                                            <option value="">$200,000</option>
-                                                            <option value="">$300,000</option>
-                                                            <option value="">$400,000</option>
-                                                            <option value="">$500,000</option>
-                                                            <option value="">$600,000</option>
-                                                            <option value="">$700,000</option>
-                                                            <option value="">$800,000</option>
-                                                            <option value="">$900,000</option>
-                                                            <option value="">$1,000,000</option>
-                                                            <option value="">$2,000,000</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md d-flex">
-                                            <div class="form-group d-flex w-100 border-0">
-                                                <div class="form-field w-100 align-items-center d-flex">
-                                                    <input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>-->
+                                <!--  <h3>Glamping Argentina</h3>-->
                             </div>
                         </div>
                     </div>
@@ -350,14 +381,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3>Glamping Argentina</h3>
-                                <!-- subtitulo <p>Unlock to enjoy the view of Martine</p>  
-                                <form class="d-flex_inicio" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>-->
-                                
+                                <h3 class="titulo_inicio">Viví Experiencias</h3>
+                                <!-- subtitulo <p>Unlock to enjoy the view of Martine</p>-->
                             </div>
                         </div>
                     </div>
@@ -368,13 +393,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <h3 class="titulo_inicio">Viví Experiencias</h3>
-                                <!-- subtitulo <p>Unlock to enjoy the view of Martine</p>  
-                                <form class="d-flex_inicio" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>-->
+                                <!-- subtitulo <p>Unlock to enjoy the view of Martine</p>-->
                             </div>
                         </div>
                     </div>
@@ -385,7 +404,7 @@
     <!-- slider_area_end -->
 
     <div id="rooms"></div>
-    
+
 
     <!--Lista_Provincias-->
     <div class="container_provincias">
@@ -485,911 +504,973 @@
                 <label for="Tucuman">Tucumán</label>
             </li>
         </ol>
-    <ol class="posts">
-        <li class="post" data-category="BuenosAires">
+        <ol class="posts">
+            <li class="post" data-category="BuenosAires">
                 <div class="container_g">
 
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
                                     src="img/listaprovincias/bsas_bosque6.jpg" alt="glampingargentina_bosque">
-                                <span class="provincia">Bosque Glamping<span class="jam jam-map-marker-f">Cnel. Brandsen-Buenos Aires</span></a></div>
+                                <span class="provincia">Bosque Glamping<span class="jam jam-map-marker-f">Cnel.
+                                        Brandsen-Buenos Aires</span></a></div>
 
                     </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_estancialasmarias.html">
-                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" alt="glampingargentina_lasmarias">
-                                <span class="provincia">Estancia las Marías<span
-                                        class="jam jam-map-marker-f">Marcos Paz-Buenos Aires</span></a></div>
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg"
+                                    alt="glampingargentina_lasmarias">
+                                <span class="provincia">Estancia las Marías<span class="jam jam-map-marker-f">Marcos
+                                        Paz-Buenos Aires</span></a></div>
                     </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_inba.html">
                                 <img src="img/listaprovincias/bsas_ibba_ 1.jpg" alt="glampingargentina_inba">
-                                <span class="provincia">Glamping In Ba<span class="jam jam-map-marker-f">Villa Rosa-Buenos Aires</span></a></div>
+                                <span class="provincia">Glamping In Ba<span class="jam jam-map-marker-f">Villa
+                                        Rosa-Buenos Aires</span></a></div>
                     </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_monte.html">
                                 <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                <span class="provincia">Glamping Monte<span class="jam jam-map-marker-f">San Miguel del Monte-Buenos Aires</span></a></div>
+                                <span class="provincia">Glamping Monte<span class="jam jam-map-marker-f">San Miguel del
+                                        Monte-Buenos Aires</span></a></div>
                     </div>
                 </div>
                 <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
                 <div class="container_g gmostrar" style="display:none;">
-                        <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
-                                        src="img/listaprovincias/bsas_refugio31_1.jpg">
-                                    <span class="provincia">Refugio 31<span class="jam jam-map-marker-f">San Isidro-Buenos Aires</span></a></div>
-                        </div>
-                        <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_estancialasmarias.html">
-                                    <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                                    <span class="provincia">La Reserva<span
-                                            class="jam jam-map-marker-f">Pilar-Buenos Aires</span></a></div>
-                        </div>
-                            <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_inba.html">
-                                    <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                                    <span class="provincia">Glamping Puente Blanco<span class="jam jam-map-marker-f">Sierra de la Ventana-Buenos Aires</span></a></div>
-                            </div>
-                        <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Moray Camp<span class="jam jam-map-marker-f">San Andres de Giles-Buenos Aires</span></a></div>
-                        </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Las Goya<span class="jam jam-map-marker-f">San Andres de Giles-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Wayra Wasi<span class="jam jam-map-marker-f">Zárate-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Quinta Brisas del Campo<span class="jam jam-map-marker-f">Pilar-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Club Laguna Vitel<span class="jam jam-map-marker-f">Chascomús-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Domos Tandil<span class="jam jam-map-marker-f">Tandil-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Yamay Ecoturismo<span class="jam jam-map-marker-f">Pardo-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Los Vagones de Areco<span class="jam jam-map-marker-f">Vagues-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Puesto Viejo<span class="jam jam-map-marker-f">Cañuelas-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Refugio Natural<span class="jam jam-map-marker-f">Lobos-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Refugio 31<span class="jam jam-map-marker-f">San Isidro-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_monte.html">
-                                    <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span class="provincia">Los Dos Vagones<span class="jam jam-map-marker-f">Madgalena-Buenos Aires</span></a></div>
-                                </div>
-                                <div class="thumbex">
-                                    <div class="thumbnail"><a href="">
-                                    <img src="" />
-                                    <span class="provincia"></a></div>
-                                </div>
-                    <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
-                </div>
-        </li>
-        <li class="post" data-category="Catamarca">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> 
-                    <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                    <span>Hotel Hacienda Casa Blanca<span class="jam jam-map-marker-f">La Puntilla-Catamarca,Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Chaco">
-                <div class="container_g">
                     <div class="thumbex">
-                        <div class="thumbnail"><a href="rooms.html"> 
-                        <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                        <span>Glamping el Bermejito<span class="jam jam-map-marker-f">El Impenetrable-Chaco,Argentina</span></a></div>               
-                </div>
-            <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Chubut">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> 
-                        <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                        <span>El Aura Lodge<span class="jam jam-map-marker-f">Esquel-Chubut,Argentina</span></a></div>                               
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>Camping los Maitenes<span class="jam jam-map-marker-f">Villa Futalaufquen-Chubut,Argentina</span></a></div>                    
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> 
-                        <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                        <span>Huemules<span class="jam jam-map-marker-f">Esquel-Chubut,Argentina</span></a></div> 
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Cordoba">
-                <div class="container_g">
-                    <div class="thumbex">
-                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> 
-                        <img src="img/listaprovincias/bsas_bosque6.jpg">
-                        <span class="provincia">Glamping Luz del Cielo<span class="jam jam-map-marker-f">Capilla del Monte-Cordoba,Argentina</span></a></div>
+                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
+                                    src="img/listaprovincias/bsas_refugio31_1.jpg">
+                                <span class="provincia">Refugio 31<span class="jam jam-map-marker-f">San Isidro-Buenos
+                                        Aires</span></a></div>
                     </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_estancialasmarias.html">
-                        <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                        <span class="provincia">Bello Estar<span class="jam jam-map-marker-f">Loma Bola-Cordoba,Argentina</span></a></div>                
-                        </div>
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span class="provincia">La Reserva<span class="jam jam-map-marker-f">Pilar-Buenos
+                                        Aires</span></a></div>
+                    </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_inba.html">
-                        <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                        <span class="provincia">Eco Glamping el Galpon<span class="jam jam-map-marker-f">San Lorenzo-Cordoba,Argentina</span></a></div>
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span class="provincia">Glamping Puente Blanco<span class="jam jam-map-marker-f">Sierra
+                                        de la Ventana-Buenos Aires</span></a></div>
                     </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_monte.html">
-                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                        <span class="provincia">Tica Nativo<span class="jam jam-map-marker-f">Tanti-Cordoba,Argentina</span></a></div>              
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Moray Camp<span class="jam jam-map-marker-f">San Andres de
+                                        Giles-Buenos Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Las Goya<span class="jam jam-map-marker-f">San Andres de
+                                        Giles-Buenos Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Wayra Wasi<span class="jam jam-map-marker-f">Zárate-Buenos
+                                        Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Quinta Brisas del Campo<span
+                                        class="jam jam-map-marker-f">Pilar-Buenos Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Club Laguna Vitel<span
+                                        class="jam jam-map-marker-f">Chascomús-Buenos Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Domos Tandil<span class="jam jam-map-marker-f">Tandil-Buenos
+                                        Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Yamay Ecoturismo<span class="jam jam-map-marker-f">Pardo-Buenos
+                                        Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Los Vagones de Areco<span
+                                        class="jam jam-map-marker-f">Vagues-Buenos Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Puesto Viejo<span class="jam jam-map-marker-f">Cañuelas-Buenos
+                                        Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Refugio Natural<span class="jam jam-map-marker-f">Lobos-Buenos
+                                        Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Refugio 31<span class="jam jam-map-marker-f">San Isidro-Buenos
+                                        Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Los Dos Vagones<span
+                                        class="jam jam-map-marker-f">Madgalena-Buenos Aires</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="">
+                                <img src="" />
+                                <span class="provincia"></a></div>
+                    </div>
+                    <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
+                </div>
+            </li>
+            <li class="post" data-category="Catamarca">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Hotel Hacienda Casa Blanca<span class="jam jam-map-marker-f">La
+                                        Puntilla-Catamarca,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Chaco">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Glamping el Bermejito<span class="jam jam-map-marker-f">El
+                                        Impenetrable-Chaco,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Chubut">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>El Aura Lodge<span class="jam jam-map-marker-f">Esquel-Chubut,Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span>Camping los Maitenes<span class="jam jam-map-marker-f">Villa
+                                        Futalaufquen-Chubut,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span>Huemules<span class="jam jam-map-marker-f">Esquel-Chubut,Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Cordoba">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html">
+                                <img src="img/listaprovincias/bsas_bosque6.jpg">
+                                <span class="provincia">Glamping Luz del Cielo<span class="jam jam-map-marker-f">Capilla
+                                        del Monte-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span class="provincia">Bello Estar<span class="jam jam-map-marker-f">Loma
+                                        Bola-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_inba.html">
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span class="provincia">Eco Glamping el Galpon<span class="jam jam-map-marker-f">San
+                                        Lorenzo-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Tica Nativo<span
+                                        class="jam jam-map-marker-f">Tanti-Cordoba,Argentina</span></a></div>
                     </div>
                 </div>
                 <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
                 <div class="container_g gmostrar" style="display:none;">
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="Cor_BosqueGlamping.html">
-                            <img src="img/listaprovincias/bsas_bosque6.jpg">
-                            <span class="provincia">Domos Kairos<span class="jam jam-map-marker-f">Villa Giardino-Cordoba,Argentina</span></a></div>                 
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_estancialasmarias.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span class="provincia">Aguas Antiguas Glamping<span class="jam jam-map-marker-f">San Marcos Sierras-Cordoba,Argentina</span></a></div>                                        
-                        </div>
-                            <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_inba.html">
-                            <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                            <span class="provincia">La Soñada<span class="jam jam-map-marker-f">Rio Cuarto-Cordoba, Argentina</span></a></div>         
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_monte.html">
-                            <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span class="provincia">Aguada de Lunas Luxury<span class="jam jam-map-marker-f">Amboy-Cordoba,Argentina</span></a></div>               
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_monte.html">
-                            <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span class="provincia">Las Goya<span class="jam jam-map-marker-f">San Andres de Giles-Cordoba, Argentina</span></a></div>    
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_monte.html">
-                            <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span class="provincia">Chacra Raiz<span class="jam jam-map-marker-f">San Javier-Cordoba,Argentina</span></a></div>            
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_monte.html">
-                            <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span class="provincia">Geo Glamping<span class="jam jam-map-marker-f">Capilla del Monte-Cordoba,Argentina</span></a></div>            
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_monte.html">
-                            <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span class="provincia">Cauce Yurtas<span class="jam jam-map-marker-f">Santa Elena-Cordoba,Argentina</span></a></div>          
-                        </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="Cor_BosqueGlamping.html">
+                                <img src="img/listaprovincias/bsas_bosque6.jpg">
+                                <span class="provincia">Domos Kairos<span class="jam jam-map-marker-f">Villa
+                                        Giardino-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span class="provincia">Aguas Antiguas Glamping<span class="jam jam-map-marker-f">San
+                                        Marcos Sierras-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_inba.html">
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span class="provincia">La Soñada<span class="jam jam-map-marker-f">Rio Cuarto-Cordoba,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Aguada de Lunas Luxury<span
+                                        class="jam jam-map-marker-f">Amboy-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Las Goya<span class="jam jam-map-marker-f">San Andres de
+                                        Giles-Cordoba, Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Chacra Raiz<span class="jam jam-map-marker-f">San
+                                        Javier-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Geo Glamping<span class="jam jam-map-marker-f">Capilla del
+                                        Monte-Cordoba,Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Cauce Yurtas<span class="jam jam-map-marker-f">Santa
+                                        Elena-Cordoba,Argentina</span></a></div>
+                    </div>
                     <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
                 </div>
-        </li>
-        <li class="post" data-category="Corrientes">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Glamping la Brava<span class="jam jam-map-marker-f">Corrientes-Corrientes,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="EntreRios">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Viñedo Cañada Rica<span class="jam jam-map-marker-f">Victoria-Entre Ríos,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>La Arbolada<span class="jam jam-map-marker-f">Colon-Entre Ríos,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Formosa">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Bosque Glamping<span class="jam jam-map-marker-f">Tumbaya-Jujuy,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Jujuy">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="jujuy_pristinecamps.html" target="_blank"> <img
-                                src="img/listaprovincias/jujuy_pristinecamps1.jpeg" />
-                            <span class="provincia">Pristine Camps<span class="jam jam-map-marker-f">Salinas Grandes-Jujuy</span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span class="provincia">The Canuto Glamping<span class="jam jam-map-marker-f">Volcan-Jujuy</span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="LaPampa">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="LaRioja">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Mendoza">
-                    <div class="container_g">
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="rooms.html"> <img
-                                        src="img/listaprovincias/mendoza_aconcaguaglamping3_4.jpg" alt="" />
-                                    <span>Aconcagua Glamping<span class="jam jam-map-marker-f">Parque Nacional Aconcagua-Mendoza,
-                                            Argentina</span></a></div>
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="rooms.html">
-                                    <img src="img/listaprovincias/mendoza_airelibre3_1.jpg" alt="" />
-                                    <span>Al Aire Libre<span class="jam jam-map-marker-f">San Rafael-Mendoza,
-                                            Argentina</span></a></div>
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/mendoza_deer_4scaled.jpg"
-                                        alt="" />
-                                    <span>Deer Glamping<span class="jam jam-map-marker-f">Lujan de Cuyo-Mendoza,
-                                            Argentina</span></a>
-                            </div>
-                        </div>
-                        <div class="thumbex">
-                            <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                    <span>El Nido Domos<span class="jam jam-map-marker-f">Villa de Potrerillos-Mendoza,
-                                            Argentina</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
-                    <div class="container_g gmostrar" style="display:none;">
-                            <div class="thumbex">
-                                    <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
-                                            src="img/listaprovincias/bsas_bosque6.jpg">
-                                        <span class="provincia">Vista Pedra Glamping<span class="jam jam-map-marker-f">Salto Potrerillo-Mendoza,
-                                                Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_estancialasmarias.html">
-                                        <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                                        <span class="provincia">Domos Andinos Host Glamping<span class="jam jam-map-marker-f">Las Vegas-Mendoza,
-                                                Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_inba.html">
-                                        <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                                        <span class="provincia">Glamping Puente Blanco<span class="jam jam-map-marker-f">Sierra de la Ventana-Mendoza,
-                                                Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Valle Hermoso Eco Lodge<span class="jam jam-map-marker-f">Malargue-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Domos Glampcamp<span class="jam jam-map-marker-f">Malargue-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Glamping Meraki<span class="jam jam-map-marker-f">Mendoza-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Entre Acequias<span class="jam jam-map-marker-f">Gral. Alvear-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Finca Cincocumbres<span class="jam jam-map-marker-f">Uspallata-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Denmoza Ecolodge<span class="jam jam-map-marker-f">Villa de Potrerillos-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Domos Uspallata<span class="jam jam-map-marker-f">Uspallata-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Real del Pehuenche<span class="jam jam-map-marker-f">Paso Pehuenche-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Alpasion<span class="jam jam-map-marker-f">Valle de Uco-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                        <span class="provincia">Entre Cielos<span class="jam jam-map-marker-f">Lujan de Cuyo-Mendoza,
-                                                    Argentina</span></a></div>
-                            </div>
-                            <div class="thumbex">
-                                        <div class="thumbnail"><a href="bsas_monte.html">
-                                        <img src="" />
-                                        <span class="provincia"></span></a></div>
-                            </div>
-                        <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
-                    </div>
-        </li>
-        <li class="post" data-category="Misiones">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Cuña Pira Lodge<span class="jam jam-map-marker-f">Salto Encantado-Misiones,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>La Mision Mocona<span class="jam jam-map-marker-f">El Soberbio-Misiones,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Neuquen">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Glamping la Comarca<span class="jam jam-map-marker-f">Villa la Angostura-Neuquen,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>Espacio Meliquina<span class="jam jam-map-marker-f">San Martín de los Andes-Neuquen,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                            <span>Domos Lanin<span class="jam jam-map-marker-f">Volcan Lanin-Neuquen,
-                                    Argentina</span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span>Domos Moquehue<span class="jam jam-map-marker-f">Moquehue-Neuquen,
-                                    Argentina</span></a>
-                    </div>
-                </div>
-            </div>
-            <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
-            <div class="container_g gmostrar" style="display:none;">
+            </li>
+            <li class="post" data-category="Corrientes">
+                <div class="container_g">
                     <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
-                                    src="img/listaprovincias/bsas_bosque6.jpg">
-                                <span class="provincia">Glamping Elco Domo<span class="jam jam-map-marker-f">Villa Pehuenia-Neuquen,
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Glamping la Brava<span class="jam jam-map-marker-f">Corrientes-Corrientes,
                                         Argentina</span></a></div>
                     </div>
                     <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="EntreRios">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Viñedo Cañada Rica<span class="jam jam-map-marker-f">Victoria-Entre Ríos,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
                                 <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                                <span class="provincia">Vulcanche Glamping<span
-                                        class="jam jam-map-marker-f">Villa Trafúl-Neuquen,
+                                <span>La Arbolada<span class="jam jam-map-marker-f">Colon-Entre Ríos,
                                         Argentina</span></a></div>
                     </div>
-                        <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_inba.html">
-                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                                <span class="provincia">Nordisk Village<span class="jam jam-map-marker-f">Villa la Angostura-Neuquen,
-                                        Argentina</span></a></div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
                         </div>
+                    </div>
                     <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_monte.html">
-                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                <span class="provincia">Glamping Inspira<span class="jam jam-map-marker-f">Malargue-Neuquen,
-                                            Argentina</span></a></div>
-                    </div>
-                <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
-            </div>
-        </li>
-        <li class="post" data-category="RioNegro">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Refugio Perdido<span class="jam jam-map-marker-f">Bahía Crew-Río Negro,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>Hostel Valhalla & Glamp<span class="jam jam-map-marker-f">San Carlos de Bariloche-Río Negro,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                            <span>Plus Refugio<span class="jam jam-map-marker-f">Bahía Creek-Río Negro,
-                                    Argentina</span></a>
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
                     </div>
                 </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span>Tierraventura Camping el Manso<span class="jam jam-map-marker-f">San Carlos de Bariloche-Río Negro,
-                                    Argentina</span></a>
-                    </div>
-                </div>
-            </div>
-            <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
-            <div class="container_g gmostrar" style="display:none;">
+            </li>
+            <li class="post" data-category="Formosa">
+                <div class="container_g">
                     <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
-                                    src="img/listaprovincias/bsas_bosque6.jpg">
-                                <span class="provincia">Mallin Alto<span class="jam jam-map-marker-f">Bariloche-Río Negro,
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Bosque Glamping<span class="jam jam-map-marker-f">Tumbaya-Jujuy,
                                         Argentina</span></a></div>
                     </div>
                     <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Jujuy">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="jujuy_pristinecamps.html" target="_blank"> <img
+                                    src="img/listaprovincias/jujuy_pristinecamps1.jpeg" />
+                                <span class="provincia">Pristine Camps<span class="jam jam-map-marker-f">Salinas
+                                        Grandes-Jujuy</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
                                 <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                                <span class="provincia">Peuma Hue<span
-                                        class="jam jam-map-marker-f">Bariloche-Río Negro,
-                                        Argentina</span></a></div>
-                    </div>
-                        <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_inba.html">
-                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                                <span class="provincia">Esencia Glamping<span class="jam jam-map-marker-f">Refugio Frey-Río Negro,
-                                        Argentina</span></a></div>
+                                <span class="provincia">The Canuto Glamping<span
+                                        class="jam jam-map-marker-f">Volcan-Jujuy</span></a>
                         </div>
-                    <div class="thumbex">
-                                <div class="thumbnail"><a href="bsas_monte.html">
-                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                                <span class="provincia">Río Manso Camp<span class="jam jam-map-marker-f">Bariloche-Río Negro,
-                                            Argentina</span></a></div>
                     </div>
                     <div class="thumbex">
-                        <div class="thumbnail"><a href="bsas_monte.html">
-                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                        <span class="provincia">Las Carpitas<span class="jam jam-map-marker-f">Villa Mascardi-Río Negro,
-                                    Argentina</span></a></div>
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
                     </div>
                     <div class="thumbex">
-                        <div class="thumbnail"><a href="bsas_monte.html">
-                        <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                        <span class="provincia">Las Lagunas Turismo Rural<span class="jam jam-map-marker-f">General Roca-Río Negro,
-                                    Argentina</span></a></div>
-                    </div>
-                <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
-            </div>
-        </li>
-        <li class="post" data-category="Salta">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Casa Arból Glamping<span class="jam jam-map-marker-f">Cafayate-Salta,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>Glamping Salta<span class="jam jam-map-marker-f">Cnel. Moldes-Salta,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                            <span>Siilu Wasi Salta<span class="jam jam-map-marker-f">Payogastilla-Salta,
-                                    Argentina</span></a>
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
                     </div>
                 </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="SanJuan">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Rancho del Tata Lito<span class="jam jam-map-marker-f">Pedernal-San Juan,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="SanLuis">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
-                            <span>Kamiare Domos Lodge<span class="jam jam-map-marker-f">Rodeo de Cadenas-San Luis,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="SantaCruz">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
-                            <span>Estancia la Josefina<span class="jam jam-map-marker-f">El Calafate-Santa Cruz,
-                                    Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
-                            <span>Chalten Camp<span class="jam jam-map-marker-f">El Chalten-Santa Cruz,
-                                    Argentina</span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
-                            <span>Patagonia Eco Domes<span class="jam jam-map-marker-f">El Chalten-Santa Cruz,
-                                    Argentina</span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a></div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="Sgo.delEstero">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="" />
-                            <span></span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="" />
-                            <span></span></a>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="post" data-category="TierradelFuego">
-            <div class="container_g">
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque1.jpg" />
-                        <span>Oveja Verde<span class="jam jam-map-marker-f">Ushuaia-Tierra del Fuego,
-                            Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html">
-                            <img src="img/listaprovincias/bsas_bosque1.jpg" />
-                            <span>White Desert Antartica<span class="jam jam-map-marker-f">Ushuaia-Tierra del Fuego,
-                                Argentina</span></a></div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque1.jpg" />
-                        <span>Complejo MIrador Tolhuin<span class="jam jam-map-marker-f">Tolhuin-Tierra del Fuego,
-                            Argentina</span></a>
-                    </div>
-                </div>
-                <div class="thumbex">
-                    <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque1.jpg" />
-                        <span>Llanos Ecolodge<span class="jam jam-map-marker-f">Ushuaia-Tierra del Fuego,
-                            Argentina</span></a>
-                    </div>
-                </div>
-            </div>
-            <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
-            <div class="container_g gmostrar" style="display:none;">
+            </li>
+            <li class="post" data-category="LaPampa">
+                <div class="container_g">
                     <div class="thumbex">
-                            <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="LaRioja">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Mendoza">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img
+                                    src="img/listaprovincias/mendoza_aconcaguaglamping3_4.jpg" alt="" />
+                                <span>Aconcagua Glamping<span class="jam jam-map-marker-f">Parque Nacional
+                                        Aconcagua-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/mendoza_airelibre3_1.jpg" alt="" />
+                                <span>Al Aire Libre<span class="jam jam-map-marker-f">San Rafael-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img
+                                    src="img/listaprovincias/mendoza_deer_4scaled.jpg" alt="" />
+                                <span>Deer Glamping<span class="jam jam-map-marker-f">Lujan de Cuyo-Mendoza,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span>El Nido Domos<span class="jam jam-map-marker-f">Villa de Potrerillos-Mendoza,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
+                <div class="container_g gmostrar" style="display:none;">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
                                     src="img/listaprovincias/bsas_bosque6.jpg">
-                                <span class="provincia">Glamping Elco Domo<span class="jam jam-map-marker-f">Villa Pehuenia-Neuquen,
+                                <span class="provincia">Vista Pedra Glamping<span class="jam jam-map-marker-f">Salto
+                                        Potrerillo-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span class="provincia">Domos Andinos Host Glamping<span
+                                        class="jam jam-map-marker-f">Las Vegas-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_inba.html">
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span class="provincia">Glamping Puente Blanco<span class="jam jam-map-marker-f">Sierra
+                                        de la Ventana-Mendoza,
                                         Argentina</span></a></div>
                     </div>
                     <div class="thumbex">
                         <div class="thumbnail"><a href="bsas_monte.html">
-                        <img src="" />
-                        <span class="provincia"></span></a></div>
-            </div>
-                <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
-            </div>
-        </li>
-    </ol>
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Valle Hermoso Eco Lodge<span
+                                        class="jam jam-map-marker-f">Malargue-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Domos Glampcamp<span
+                                        class="jam jam-map-marker-f">Malargue-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Glamping Meraki<span
+                                        class="jam jam-map-marker-f">Mendoza-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Entre Acequias<span class="jam jam-map-marker-f">Gral.
+                                        Alvear-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Finca Cincocumbres<span
+                                        class="jam jam-map-marker-f">Uspallata-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Denmoza Ecolodge<span class="jam jam-map-marker-f">Villa de
+                                        Potrerillos-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Domos Uspallata<span
+                                        class="jam jam-map-marker-f">Uspallata-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Real del Pehuenche<span class="jam jam-map-marker-f">Paso
+                                        Pehuenche-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Alpasion<span class="jam jam-map-marker-f">Valle de Uco-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Entre Cielos<span class="jam jam-map-marker-f">Lujan de
+                                        Cuyo-Mendoza,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="" />
+                                <span class="provincia"></span></a></div>
+                    </div>
+                    <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
+                </div>
+            </li>
+            <li class="post" data-category="Misiones">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Cuña Pira Lodge<span class="jam jam-map-marker-f">Salto Encantado-Misiones,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span>La Mision Mocona<span class="jam jam-map-marker-f">El Soberbio-Misiones,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Neuquen">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Glamping la Comarca<span class="jam jam-map-marker-f">Villa la Angostura-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span>Espacio Meliquina<span class="jam jam-map-marker-f">San Martín de los
+                                        Andes-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span>Domos Lanin<span class="jam jam-map-marker-f">Volcan Lanin-Neuquen,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span>Domos Moquehue<span class="jam jam-map-marker-f">Moquehue-Neuquen,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
+                <div class="container_g gmostrar" style="display:none;">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
+                                    src="img/listaprovincias/bsas_bosque6.jpg">
+                                <span class="provincia">Glamping Elco Domo<span class="jam jam-map-marker-f">Villa
+                                        Pehuenia-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span class="provincia">Vulcanche Glamping<span class="jam jam-map-marker-f">Villa
+                                        Trafúl-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_inba.html">
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span class="provincia">Nordisk Village<span class="jam jam-map-marker-f">Villa la
+                                        Angostura-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Glamping Inspira<span
+                                        class="jam jam-map-marker-f">Malargue-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
+                </div>
+            </li>
+            <li class="post" data-category="RioNegro">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Refugio Perdido<span class="jam jam-map-marker-f">Bahía Crew-Río Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span>Hostel Valhalla & Glamp<span class="jam jam-map-marker-f">San Carlos de
+                                        Bariloche-Río Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span>Plus Refugio<span class="jam jam-map-marker-f">Bahía Creek-Río Negro,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span>Tierraventura Camping el Manso<span class="jam jam-map-marker-f">San Carlos de
+                                        Bariloche-Río Negro,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
+                <div class="container_g gmostrar" style="display:none;">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
+                                    src="img/listaprovincias/bsas_bosque6.jpg">
+                                <span class="provincia">Mallin Alto<span class="jam jam-map-marker-f">Bariloche-Río
+                                        Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_estancialasmarias.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span class="provincia">Peuma Hue<span class="jam jam-map-marker-f">Bariloche-Río Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_inba.html">
+                                <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span class="provincia">Esencia Glamping<span class="jam jam-map-marker-f">Refugio
+                                        Frey-Río Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Río Manso Camp<span class="jam jam-map-marker-f">Bariloche-Río
+                                        Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Las Carpitas<span class="jam jam-map-marker-f">Villa
+                                        Mascardi-Río Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span class="provincia">Las Lagunas Turismo Rural<span
+                                        class="jam jam-map-marker-f">General Roca-Río Negro,
+                                        Argentina</span></a></div>
+                    </div>
+                    <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
+                </div>
+            </li>
+            <li class="post" data-category="Salta">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Casa Arból Glamping<span class="jam jam-map-marker-f">Cafayate-Salta,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span>Glamping Salta<span class="jam jam-map-marker-f">Cnel. Moldes-Salta,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span>Siilu Wasi Salta<span class="jam jam-map-marker-f">Payogastilla-Salta,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="SanJuan">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Rancho del Tata Lito<span class="jam jam-map-marker-f">Pedernal-San Juan,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="SanLuis">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque4.jpg" />
+                                <span>Kamiare Domos Lodge<span class="jam jam-map-marker-f">Rodeo de Cadenas-San Luis,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="SantaCruz">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_estancia_lasmarias4_1.jpg" />
+                                <span>Estancia la Josefina<span class="jam jam-map-marker-f">El Calafate-Santa Cruz,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_ibba_ 1.jpg" />
+                                <span>Chalten Camp<span class="jam jam-map-marker-f">El Chalten-Santa Cruz,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_Monte_1.jpg" />
+                                <span>Patagonia Eco Domes<span class="jam jam-map-marker-f">El Chalten-Santa Cruz,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="Sgo.delEstero">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="" />
+                                <span></span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="" />
+                                <span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="post" data-category="TierradelFuego">
+                <div class="container_g">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque1.jpg" />
+                                <span>Oveja Verde<span class="jam jam-map-marker-f">Ushuaia-Tierra del Fuego,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html">
+                                <img src="img/listaprovincias/bsas_bosque1.jpg" />
+                                <span>White Desert Antartica<span class="jam jam-map-marker-f">Ushuaia-Tierra del Fuego,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque1.jpg" />
+                                <span>Complejo MIrador Tolhuin<span class="jam jam-map-marker-f">Tolhuin-Tierra del
+                                        Fuego,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="rooms.html"> <img src="img/listaprovincias/bsas_bosque1.jpg" />
+                                <span>Llanos Ecolodge<span class="jam jam-map-marker-f">Ushuaia-Tierra del Fuego,
+                                        Argentina</span></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" onclick="mostrar(this);" class="mostrar">Ver Más</button>
+                <div class="container_g gmostrar" style="display:none;">
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_BosqueGlamping.html"> <img
+                                    src="img/listaprovincias/bsas_bosque6.jpg">
+                                <span class="provincia">Glamping Elco Domo<span class="jam jam-map-marker-f">Villa
+                                        Pehuenia-Neuquen,
+                                        Argentina</span></a></div>
+                    </div>
+                    <div class="thumbex">
+                        <div class="thumbnail"><a href="bsas_monte.html">
+                                <img src="" />
+                                <span class="provincia"></span></a></div>
+                    </div>
+                    <a class="cerrar" style="display:flex;" href="javascript:void(0);" onclick="ocultar();">cerrar</a>
+                </div>
+            </li>
+        </ol>
     </div>
     <!--Lista_Provincias end-->
 
-<!--elegi tu glamping-->
+    <!--elegi tu glamping-->
 
-<div class="features_room">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="section_title text-center mb-100">
-                   <!-- <span>Featured Glampings</span> -->
-                    <h3>Los Glampings Más Exclusivos</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="rooms_here">
-        <div class="single_rooms">
-            <div class="room_thumb">
-                <a href="jujuy_pristinecamps.html" target="_blank"></a>
-                <img src="img/rooms/1.png" alt="glampingargentina_exlusivo">
-                <div class="room_heading d-flex justify-content-between align-items-center">
-                    <div class="room_heading_inner">
-                        <a href="jujuy_pristinecamps.html">
-                            <span>Desde $40000/noche</span>
-                        </a>
-                        <h3>Siilu Wasi Refugio</h3>
+    <div class="features_room">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-100">
+                        <!-- <span>Featured Glampings</span> -->
+                        <h3>Los Glampings Más Exclusivos</h3>
                     </div>
-                    <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                 </div>
             </div>
         </div>
-        <div class="single_rooms">
-            <div class="room_thumb">
+        <div class="rooms_here">
+            <div class="single_rooms">
+                <div class="room_thumb">
+                    <a href="jujuy_pristinecamps.html" target="_blank"></a>
+                    <img src="img/rooms/1.png" alt="glampingargentina_exlusivo">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <a href="jujuy_pristinecamps.html">
+                                <span>Desde $40000/noche</span>
+                            </a>
+                            <h3>Siilu Wasi Refugio</h3>
+                        </div>
+                        <a class="popup-with-form line-button" href="#test-form">Consulta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single_rooms">
+                <div class="room_thumb">
                     <img src="img/rooms/2.png" alt="glampingargentina_exlusivo">
-                <div class="room_heading d-flex justify-content-between align-items-center">
-                    <div class="room_heading_inner">
-                        <a href="jujuy_pristinecamps.html">
-                            <span>Desde $250000/noche</span>
-                        </a>
-                        <h3>Pristine Camps</h3></a>
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <a href="jujuy_pristinecamps.html">
+                                <span>Desde $250000/noche</span>
+                            </a>
+                            <h3>Pristine Camps</h3></a>
+                        </div>
+                        <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                     </div>
-                    <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                 </div>
             </div>
-        </div>
-        <div class="single_rooms">
-            <div class="room_thumb">
-                <img src="img/rooms/3.png" alt="glampingargentina_exlusivo">
-                <div class="room_heading d-flex justify-content-between align-items-center">
-                    <div class="room_heading_inner">
-                        <a href="jujuy_pristinecamps.html">
-                            <span>Desde $90000/noche</span>
-                        </a>
-                        <h3>Patagonia Eco Domes</h3> </a>
+            <div class="single_rooms">
+                <div class="room_thumb">
+                    <img src="img/rooms/3.png" alt="glampingargentina_exlusivo">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <a href="jujuy_pristinecamps.html">
+                                <span>Desde $90000/noche</span>
+                            </a>
+                            <h3>Patagonia Eco Domes</h3> </a>
+                        </div>
+                        <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                     </div>
-                    <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                 </div>
             </div>
-        </div>
-        <div class="single_rooms">
-            <div class="room_thumb">
-                <img src="img/rooms/4.png" alt="glampingargentina_exlusivo">
-                <div class="room_heading d-flex justify-content-between align-items-center">
-                    <div class="room_heading_inner">
-                        <a href="jujuy_pristinecamps.html">
-                            <span>Desde $85000/noche</span>
-                        </a>
-                        <h3>Huemules</h3></a>
+            <div class="single_rooms">
+                <div class="room_thumb">
+                    <img src="img/rooms/4.png" alt="glampingargentina_exlusivo">
+                    <div class="room_heading d-flex justify-content-between align-items-center">
+                        <div class="room_heading_inner">
+                            <a href="jujuy_pristinecamps.html">
+                                <span>Desde $85000/noche</span>
+                            </a>
+                            <h3>Huemules</h3></a>
+                        </div>
+                        <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                     </div>
-                    <a class="popup-with-form line-button" href="#test-form">Consulta</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- features_room_end -->
+    <!-- features_room_end -->
 
 
 
@@ -1404,13 +1485,13 @@
                             <h3>Humanos al Servicio<br>
                                 de la Naturaleza</h3>
                         </div>
-                        <p>Somos una agencia de viajes digital con corazón de ser humano, 
+                        <p>Somos una agencia de viajes digital con corazón de ser humano,
                             especializada únicamente en Glampings de Argentina. <br><br>
-                            En nuestra web encontrarás todos los glampings de Argentina en un mismo lugar para 
-                            viajar online, cada uno con sus mejores características destacadas para que puedas 
+                            En nuestra web encontrarás todos los glampings de Argentina en un mismo lugar para
+                            viajar online, cada uno con sus mejores características destacadas para que puedas
                             elegir el que más se acerque a tus expectativas.</p>
-                        <p class="vistacel"> Si decides dar un paso mas, preguntate ¿Eres amante del Glamping?</p>                          
-                        
+                        <p class="vistacel"> Si decides dar un paso mas, preguntate ¿Eres amante del Glamping?</p>
+
                         <a href="about.html" class="line-button">Conozca más...</a>
                     </div>
                 </div>
@@ -1429,68 +1510,6 @@
     </div>
     <!-- about_area_end -->
 
-    <!-- offers_area_start 
-    <div class="offers_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title text-center mb-100">
-                        <span>Nuestras Ofertas</span>
-                        <h3>Promociones</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_offers">
-                        <div class="about_thumb">
-                            <img src="img/offers/1.png" alt="">
-                        </div>
-                        <h3>Hasta un 35% de Ahorro en Club <br>
-                            rooms and Suites</h3>
-                        <ul>
-                            <li>Glamping de Lujo</li>
-                            <li>3 Adultos & 2 Menores</li>
-                            <li>Vista al Salar</li>
-                        </ul>
-                        <a class="popup-with-form book_now" href="#test-form">Reservas</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_offers">
-                        <div class="about_thumb">
-                            <img src="img/offers/2.png" alt="">
-                        </div>
-                        <h3>Hasta un 35% de Ahorro en Club <br>
-                            rooms and Suites</h3>
-                        <ul>
-                            <li>Glamping de Lujo</li>
-                            <li>3 Adultos & 2 Menores</li>
-                            <li>Vista a las Cataratas del Iguazú</li>
-                        </ul>
-                        <a class="popup-with-form book_now" href="#test-form">Reservas</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-4">
-                    <div class="single_offers">
-                        <div class="about_thumb">
-                            <img src="img/offers/3.png" alt="">
-                        </div>
-                        <h3>Hasta un 35% de Ahorro en Club <br>
-                            rooms and Suites</h3>
-                        <ul>
-                            <li>Glamping de Lujo</li>
-                            <li>3 Adultos & 2 Menores</li>
-                            <li>Vista al Glaciar Perito Moreno</li>
-                        </ul>
-                        <a class="popup-with-form book_now" href="#test-form">Reservas</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- offers_area_end -->
-
     <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
         <a href="https://wa.me/5492914238740/?text=%20Glamping%20Argentina%20-%20Su%20consulta%20será%20respondida%20a%20la%20brevedad%20"
             target="_blank" class="btn-ws">
@@ -1501,7 +1520,7 @@
     <!-- video_area_start -->
     <div class="video_area video_bg overlay">
         <div class="video_area_inner text-center">
-           <!-- <span>Glamping Sea View</span>-->
+            <!-- <span>Glamping Sea View</span>-->
             <h3>Cambia la Forma <br> de <br>
                 Ver tus Viajes</h3>
             <a href="https://www.youtube.com/watch?v=R5-YBR12rH4" class="video_btn popup-video">
@@ -1517,7 +1536,7 @@
         <div class="container">
             <div class="row justify-content-center pb-4">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                   <!-- <span class="subheading">Blog</span>-->
+                    <!-- <span class="subheading">Blog</span>-->
                     <h2 class="mb-4">Glampers</h2>
                 </div>
             </div>
@@ -1526,7 +1545,8 @@
                     <div class="blog_left_sidebarindex">
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="img/blog/single_blog_1.png" alt="glampingargentina_blog">
+                                <img class="card-img rounded-0" src="img/blog/single_blog_1.png"
+                                    alt="glampingargentina_blog">
                                 <a href="single-blog.html" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
@@ -1535,24 +1555,28 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog.html">
-                                    <h2 class="tiulo-blog">¡Itinerario 3 noches de ensueño, en GLAMPING DOMOS USPALLATA!</h2>
+                                    <h2 class="tiulo-blog">¡Itinerario 3 noches de ensueño, en GLAMPING DOMOS USPALLATA!
+                                    </h2>
                                 </a>
-                                <p class="texto-blog">¿Te gustaría vivir una experiencia única en Mendoza? ¿Te imaginas dormir en un domo 
-                                    rodeado de montañas y estrellas? ¿Quieres explorar los paisajes más impresionantes 
-                                    de la cordillera de los Andes? Si tu respuesta es sí, entonces este itinerario es para 
+                                <p class="texto-blog">¿Te gustaría vivir una experiencia única en Mendoza? ¿Te imaginas
+                                    dormir en un domo
+                                    rodeado de montañas y estrellas? ¿Quieres explorar los paisajes más impresionantes
+                                    de la cordillera de los Andes? Si tu respuesta es sí, entonces este itinerario es
+                                    para
                                     ti.
                                 </p>
                                 <!--<ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                                 </ul>-->
-                               
+
                             </div>
                         </article>
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="img/blog/single_blog_2.png" alt="glampingargentina_blog">
-                                <a href="single-blog2.html"href="blog.html" class="blog_item_date">
+                                <img class="card-img rounded-0" src="img/blog/single_blog_2.png"
+                                    alt="glampingargentina_blog">
+                                <a href="single-blog2.html" href="blog.html" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
                                 </a>
@@ -1560,17 +1584,20 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="single-blog2.html">
-                                    <h2 class="tiulo-blog" >¡Sumérgete en la combinación perfecta de naturaleza y confort en los increíbles GLAMPINGS DE PILAR!</h2>
+                                    <h2 class="tiulo-blog">¡Sumérgete en la combinación perfecta de naturaleza y confort
+                                        en los increíbles GLAMPINGS DE PILAR!</h2>
                                 </a>
-                                <p class="texto-blog">Si buscás una escapada diferente, cerca de la ciudad y con todas las comodidades, te proponemos 
+                                <p class="texto-blog">Si buscás una escapada diferente, cerca de la ciudad y con todas
+                                    las comodidades, te proponemos
                                     una opción que combina lo mejor de acampar y de un hotel: el Glamping. </p>
-                                
-                                
+
+
                             </div>
                         </article>
                         <article class="blog_item ">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="img/blog/single_blog_3.png" alt="glampingargentina_blog">
+                                <img class="card-img rounded-0" src="img/blog/single_blog_3.png"
+                                    alt="glampingargentina_blog">
                                 <a href="blog.html#blog3" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
@@ -1579,21 +1606,25 @@
 
                             <div class="blog_details">
                                 <a class="d-inline-block" href="blog.html">
-                                    <h2 class="tiulo-blog" >Una travesía inolvidable: ¡Descubre el encanto de la Ruta del Vino y saborea cada momento!</h2>
+                                    <h2 class="tiulo-blog">Una travesía inolvidable: ¡Descubre el encanto de la Ruta del
+                                        Vino y saborea cada momento!</h2>
                                 </a>
-                                <p class="texto-blog">¿Quieres vivir una aventura diferente? ¿Te gusta el vino? ¿Te encanta la naturaleza? 
-                                    Entonces, la ruta del vino en Mendoza es perfecta para tí. Un recorrido que combina la 
+                                <p class="texto-blog">¿Quieres vivir una aventura diferente? ¿Te gusta el vino? ¿Te
+                                    encanta la naturaleza?
+                                    Entonces, la ruta del vino en Mendoza es perfecta para tí. Un recorrido que combina
+                                    la
                                     emoción del ciclismo con la degustación de los mejores vinos de la región.
                                 </p>
-                                
-                                
+
+
                             </div>
-                            <button type="button" class="mostrar"><a href="blog.html" class="line-button">Ver Más </a></button>
+                            <button type="button" class="mostrar"><a href="blog.html" class="line-button">Ver Más
+                                </a></button>
                         </article>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>                      
+    </section>
 
     <!-- features_room_startt -->
 
@@ -1658,7 +1689,7 @@
     </div>
     <!-- instragram_area_end -->
 
-   <!-- <script src="https://cdn2.woxo.tech/a.js#63e433403dc6932aa88f30db" async data-usrc></script>-->
+    <!-- <script src="https://cdn2.woxo.tech/a.js#63e433403dc6932aa88f30db" async data-usrc></script>-->
 
     <!-- footer -->
     <footer class="footer">
@@ -1667,13 +1698,14 @@
                 <div class="row">
                     <div class="col-xl-6 col-md-6 col-lg-3 d-flex justify-content-start">
                         <div class="footer_widget">
-                           
+
                             <p class="footer_text">Bahía Blanca - ARGENTINA<br>
-                                </p>
-                            <a href="https://goo.gl/maps/y5QHfgGHa7Mrkkvr7?coh=178571&entry=tt" target="_blank" class="line-button">Ubicación</a>
+                            </p>
+                            <a href="https://goo.gl/maps/y5QHfgGHa7Mrkkvr7?coh=178571&entry=tt" target="_blank"
+                                class="line-button">Ubicación</a>
                         </div>
                     </div>
-                   <!-- <div class="col-xl-3 col-md-6 col-lg-3">
+                    <!-- <div class="col-xl-3 col-md-6 col-lg-3">
                        <div class="footer_widget">
                             
                             <p class="footer_text">info@glampingargentina.com<br>
@@ -1690,11 +1722,11 @@
                                 <li><a href="blog.html">Blog </a></li>
                             </ul>
                         </div>
-                    </div>--> 
+                    </div>-->
                     <div class="col-xl-6 col-md-6 col-lg-3 d-flex justify-content-end">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                
+
                             </h3>
                             <form action="#" class="newsletter_form">
                                 <input type="text" placeholder="Newsletter">
@@ -1752,11 +1784,11 @@
     <!-- link that opens popup -->
 
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide" action="mail.php"  method="post" >
+    <form id="test-form" class="white-popup-block mfp-hide" action="mail.php" method="post">
         <div class="popup_box ">
             <div class="popup_inner">
                 <h3>Consulta</h3>
-                <form >
+                <form>
                     <div class="row">
                         <div class="col-xl-4">
                             <input id="datepicker" type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
@@ -1765,7 +1797,8 @@
                             <input id="datepicker2" type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
                         </div>
                         <div class="col-xl-4">
-                            <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes" class="" required>
+                            <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes"
+                                class="" required>
                                 <option data-display="Huespedes"></option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -1787,7 +1820,7 @@
                                 aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia
                                 tempore.
                                 Illo consectetur eligendi non hic?</p>
-                        </div>                
+                        </div>
                         <div class="col-xl-12">
                             <button type="submit" class="boxed-btn3">Consulta</button>
                         </div>
@@ -1802,11 +1835,11 @@
     <!-- JavaScript-->
     <script src="js/cambiosjs.js"></script>
 
-   
 
 
 
-   
+
+
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>

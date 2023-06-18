@@ -38,8 +38,8 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-    <!-- header-start -->
-    <header>
+     <!-- header-start -->
+     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
@@ -49,9 +49,19 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a class="active" href=index.html#rooms>Glampings</a></li>
+                                        <li><a href=index.html#rooms>Glampings</a></li>
                                         <li><a href="about.html">Nosotros</a></li>
-                                        <li><a href="blog.html">Blog </a></li>
+                                        <li><a class="active" href="blog.html">Blog </a></li>
+                                         <!--<   <ul class="submenu">
+                                                li><a href="blog.html">blog<i class="ti-angle-down"</a></li> 
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>-->
+                                        <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        
+                                        <li><a href="contact.html">Contacto</a></li>-->
                                     </ul>
                                 </nav>
                             </div>
@@ -59,7 +69,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="img/logo.png" alt="">
+                                    <img src="img/logo.png" alt="glampingargentina_logo">
                                 </a>
                             </div>
                         </div>
@@ -68,25 +78,22 @@
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.facebook.com/GlampingArgentina" target="_blank">
                                                 <i class="fa fa-facebook-square"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.linkedin.com/company/glamping-argentina/" target="_blank">
                                                 <i class="fa fa-linkedin-square"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="https://www.instagram.com/glampingargentina/?hl=es" target="_blank">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
-                                <!--<div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Reservas</a>
-                                </div> -->
                             </div>
                         </div>
                         <div class="col-12">
@@ -98,7 +105,6 @@
         </div>
     </header>
     <!-- header-end -->
-
     <!-- bradcam_area_start -->
     <div class="bradcam_area breadcam_bg_1">
         <h3>Glamping Argentina</h3>
@@ -5196,8 +5202,77 @@
     </div>
     <!-- instragram_area_end -->
 
+   <!-- <div class="col-xl-12">
+        <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+            <form action="#" class="search-property-1">
+                <div class="row no-gutters">
+                    <div class="col-md d-flex">
+                        <div class="form-group p-4 border-0">
+                            <label for="#">Destination</label>
+                            <div class="form-field">
+                                <div class="icon"><span class="fa fa-search"></span></div>
+                                <input type="text" class="form-control" placeholder="Search place">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex">
+                        <div class="form-group p-4">
+                            <label for="#">Check-in date</label>
+                            <div class="form-field">
+                                <div class="icon"><span class="fa fa-calendar"></span></div>
+                                <input type="text" class="form-control checkin_date" placeholder="Check In Date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex">
+                        <div class="form-group p-4">
+                            <label for="#">Check-out date</label>
+                            <div class="form-field">
+                                <div class="icon"><span class="fa fa-calendar"></span></div>
+                                <input type="text" class="form-control checkout_date" placeholder="Check Out Date">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex">
+                        <div class="form-group p-4">
+                            <label for="#">Price Limit</label>
+                            <div class="form-field">
+                                <div class="select-wrap">
+                                    <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                    <select name="" id="" class="form-control">
+                                        <option value="">$100</option>
+                                        <option value="">$10,000</option>
+                                        <option value="">$50,000</option>
+                                        <option value="">$100,000</option>
+                                        <option value="">$200,000</option>
+                                        <option value="">$300,000</option>
+                                        <option value="">$400,000</option>
+                                        <option value="">$500,000</option>
+                                        <option value="">$600,000</option>
+                                        <option value="">$700,000</option>
+                                        <option value="">$800,000</option>
+                                        <option value="">$900,000</option>
+                                        <option value="">$1,000,000</option>
+                                        <option value="">$2,000,000</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex">
+                        <div class="form-group d-flex w-100 border-0">
+                            <div class="form-field w-100 align-items-center d-flex">
+                                <input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
     
-    <!-- Testimonios Google html
+     Testimonios Google html
     <section class="ftco-section testimony-section bg-bottom" style="background-image: url(images/bg_1.jpg);">
         <div class="overlay"></div>
         <div class="container">
@@ -5332,48 +5407,42 @@
         <div class="footer_top">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
+                    <div class="col-xl-6 col-md-6 col-lg-3 d-flex justify-content-start">
                         <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Dirección
-                            </h3>
-                            <p class="footer_text"> 200, Green road, Mongla, <br>
-                                New Yor City USA</p>
-                            <a href="#" class="line-button">Get Direction</a>
+                           
+                            <p class="footer_text">Bahía Blanca - ARGENTINA<br>
+                                </p>
+                            <a href="https://goo.gl/maps/y5QHfgGHa7Mrkkvr7?coh=178571&entry=tt" target="_blank" class="line-button">Ubicación</a>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Reservas
-                            </h3>
-                            <p class="footer_text">+10 367 267 2678 <br>
-                                reservation@montana.com</p>
+                   <!-- <div class="col-xl-3 col-md-6 col-lg-3">
+                       <div class="footer_widget">
+                            
+                            <p class="footer_text">info@glampingargentina.com<br>
+                                </p>
                         </div>
-                    </div>
+                    </div>-
                     <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Navegación
-                            </h3>
+                         <div class="footer_widget">
+                            
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Destinos</a></li>
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="#">News</a></li>
+                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a href=index.html#rooms>Glampings</a></li>
+                                <li><a href="about.html">Nosotros</a></li>
+                                <li><a href="blog.html">Blog </a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
+                    </div>--> 
+                    <div class="col-xl-6 col-md-6 col-lg-3 d-flex justify-content-end">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Newsletter
+                                
                             </h3>
                             <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Sign Up</button>
+                                <input type="text" placeholder="Newsletter">
+                                <button type="submit">Suscribirse</button>
                             </form>
-                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
+                            <!--<p class="newsletter_text">Subscribite newsletter to get updates</p>-->
                         </div>
                     </div>
                 </div>
@@ -5385,16 +5454,17 @@
                 <div class="row">
                     <div class="col-xl-8 col-md-7 col-lg-9">
                         <p class="copy_right">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
+                            &copy;
                             <script>document.write(new Date().getFullYear());</script>|<i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://github.com/MSoledadC"
-                                target="_blank">MSoledadC</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                aria-hidden="true"></i> Glamping Argentina N°<a href="" target="_blank">Políticas de
+                                privacidad</a> <a href="" target="_blank">Términos de condiciones</a>
                         </p>
                     </div>
                     <div class="col-xl-4 col-md-5 col-lg-3">
                         <div class="socail_links">
+                            <p class="copy_right"> by <a href="https://github.com/MSoledadC"
+                                    target="_blank">MSoledadC</a>
+                            </p>
                             <ul>
                                 <li>
                                     <a href="#">
@@ -5418,26 +5488,29 @@
             </div>
         </div>
     </footer>
+    <!-- footer_end -->
 
     <!-- form itself end-->
-    <form id="test-form" class="white-popup-block mfp-hide">
+    <form id="test-form" class="white-popup-block mfp-hide" action="mail.php"  method="post" >
         <div class="popup_box ">
             <div class="popup_inner">
                 <h3>Reserva</h3>
-                <form action="#">
+                <form >
                     <div class="row">
                         <div class="col-xl-4">
-                            <input id="datepicker" placeholder="Fecha Ingreso">
+                            <input id="datepicker" type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
                         </div>
                         <div class="col-xl-4">
-                            <input id="datepicker2" placeholder="Fecha Egreso">
+                            <input id="datepicker2" type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
                         </div>
                         <div class="col-xl-4">
-                            <select class="form-select wide" id="default-select" class="">
-                                <option data-display="Huespedes">1</option>
-                                <option value="1">2</option>
-                                <option value="2">3</option>
-                                <option value="3">4</option>
+                            <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes" class="" required>
+                                <option data-display="Huespedes"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
                             </select>
                         </div>
                         <div class="col-xl-12 text-estadia">
@@ -5453,27 +5526,9 @@
                                 aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia
                                 tempore.
                                 Illo consectetur eligendi non hic?</p>
-                        </div>
-                        <!--  <div class="col-xl-6">
-                        <select class="form-select wide" id="default-select" class="">
-                            <option data-display="Children">1</option>
-                            <option value="1">2</option>
-                            <option value="2">3</option>
-                            <option value="3">4</option>
-                        </select>
-                    </div>
-                      <div class="col-xl-12">
-                        <select class="form-select wide" id="default-select" class="">
-                            <option data-display="Room type">Room type</option>
-                            <option value="1">Laxaries Rooms</option>
-                            <option value="2">Deluxe Room</option>
-                            <option value="3">Signature Room</option>
-                            <option value="4">Couple Room</option>
-                        </select>
-                    </div>-->
-
+                        </div>                
                         <div class="col-xl-12">
-                            <button type="submit" class="boxed-btn3">Reserva</button>
+                            <button type="submit" class="boxed-btn3">Consulta</button>
                         </div>
                     </div>
                 </form>
@@ -5515,18 +5570,17 @@
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
             icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
         });
         $('#datepicker2').datepicker({
             iconsLibrary: 'fontawesome',
             icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
 
         });
     </script>
-
 
 
 </body>
