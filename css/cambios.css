@@ -271,6 +271,9 @@ background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
     white-space: pre-line;
   }
 
+  .features_room .rooms_here .single_rooms::before{
+    opacity: .3;
+  }
 
 /*---FOTOS INDEX PROVINCIAS---*/
 
