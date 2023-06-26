@@ -53,7 +53,7 @@
     }
     
   .features_room{
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .blog_left_sidebarindex {
@@ -254,7 +254,7 @@ background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
 }
    
 
-/*---slider banner---*/ 
+/*---slider banner provincias---*/ 
 
     .owl-carousel .owl-nav div {
         top: 53%;
@@ -273,6 +273,10 @@ background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
 
   .features_room .rooms_here .single_rooms::before{
     opacity: .3;
+  }
+
+  .provincias {
+    padding-top: 30px !important;
   }
 
 /*---FOTOS INDEX PROVINCIAS---*/
@@ -947,7 +951,7 @@ background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
  }
 
  .about_area {
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 30px;
   margin-bottom: 30px;
  }
