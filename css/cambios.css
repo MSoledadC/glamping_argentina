@@ -75,6 +75,7 @@
 
   .texto-blog {
     font-size: 14px;
+    height: 150px;
   }
 
   .single-post-area .quote-wrapper {
@@ -889,14 +890,7 @@ background-image:url(../img/listaprovincias/mza_uspallata10.png)
 
   
 /*BUSCADOR*/
-.form-control {
-    display: inline-block!important;
-    width: 50%!important;
-    margin-bottom: 20px;
-    filter: opacity(0.8);
-    margin-left: 0px !important;
 
-  }
 .form-group-buscar {
   margin-left: 1rem;
 }

@@ -1,5 +1,4 @@
 <?php
-
 // Variables para el correo electrónico
 
 $to = 'mariasoledadcabanillas@gmail.com';
