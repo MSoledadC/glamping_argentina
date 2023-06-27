@@ -109,7 +109,7 @@
     <!-- bradcam_area_end -->
 
     <!-- about_area_start -->
-    <div class="about_area">
+    <div class="about_area areaprovincias">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-5">
@@ -242,54 +242,52 @@
                     </div>
                 </div>
                 
-                <div class="col-xl-4 col-md-4 container-fluid">
-                    <form class="consultaprovincias"  action="mail.php"  method="post">
+                <div class="col-xl-4 col-md-4 container-fluid col-12">
+                    <form class="consultaprovincias" action="mail.php" method="post">
                         <div class="popup_box consulta">
-                            <div class="popup_inner">                                
-                                    <h3 class="tituloconsulta">Consulta</h3> 
-                                    <div class="row ">
-                                       <div class="col-xl-12">
-                                            <input type="hidden" name="titulo" placeholder="Pristine" value="Pristine">
-                                       </div>
-                                        <div class="col-xl-6 mb-3">
-                                            <label for="Fechaingreso">Fecha Ingreso</label>
-                                            <input type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
-                                        </div>
-                                        <div class="col-xl-6 mb-3">
-                                            <label for="Fechaegreso">Fecha Egreso</label>
-                                            <input type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
-                                        </div>
-                                    </div>
+                            <div class="popup_inner">
+                                <h3 class="tituloconsulta">Consulta</h3>
+                                <div class="form-group mb-1">
                                     <div class="row">
-                                        <div class="col-xl-5 mb-3">
-                                            <select class="form-select wide small-button" id="" type="checkbox" name="Huespedes" required>
-                                                <option data-display="Huespedes"></option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5+</option>
-                                            </select>
+                                        <div class="col-12 col-xl-6 mb-1">
+                                            <label for="Fechaingreso">Fecha Ingreso</label>
+                                            <input type="date" class="form-control" placeholder="Fecha Ingreso" name="Fechaingreso" required>
                                         </div>
-                                        <div class="col-xl-7 mb-3">
-                                            <input class="small-button" type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                                        <div class="col-12 col-xl-6 mb-1">
+                                            <label for="Fechaegreso">Fecha Egreso</label>
+                                            <input type="date" class="form-control" placeholder="Fecha Egreso" name="Fechaegreso" required>
                                         </div>
                                     </div>
-                                        <div class="col-xl-12 text-estadia">
-                                            <p class="rconsulta">Estadía mínima 1 noche</p>
-                                            <p class="rconsulta"><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x noche </p>
-                                            <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 300 dólares estadounidenses</span></p>
-                                            <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
-                                            <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum quidem,
-                                            aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia tempore.
-                                            Illo consectetur eligendi non hic?</p>
-                                        </div>
+                                </div>
+                                <div class="row mb-1">
+                                    <div class="col-xl-5 mb-1">
+                                        <select class="form-select wide small-button" id="" type="checkbox" name="Huespedes" required>
+                                            <option data-display="Huespedes"></option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5+</option>
+                                        </select>
                                     </div>
-                                        <div class="col-xl-12">
-                                            <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
-                                        </div>
+                                    <div class="col-xl-7 mb-1">
+                                        <input class="small-button" type="email" id="email" name="email" placeholder="Correo electrónico" required>
                                     </div>
-                                
+                                </div>
+                                <div class="col-xl-12 text-estadia">
+                                    <p class="rconsulta">Estadía mínima 2 noches</p>
+                                    <p class="rconsulta"><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x noche </p>
+                                    <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120 dólares estadounidenses</span></p>
+                                    <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
+                                    <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum quidem,
+                                        aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia tempore.
+                                        Illo consectetur eligendi non hic?</p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -301,7 +299,23 @@
 <!-- instragram_area_start -->
 <div class="instragram_area">
     <div class="single_instagram">
-        <img src="img/instragram/1.png" alt="">
+        <img src="img/instragram/6.png" alt="glampingargentina_instagram">
+        <div class="ovrelay">
+            <a href="https://www.instagram.com/p/CtcP19hu69q/?hl=es" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div class="single_instagram">
+        <img src="img/instragram/7.png" alt="glampingargentina_instagram">
+        <div class="ovrelay">
+            <a href="https://www.instagram.com/p/CsmHyEfOwb-/?hl=es" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div class="single_instagram">
+        <img src="img/instragram/1.png" alt="glampingargentina_instagram">
         <div class="ovrelay">
             <a href="https://www.instagram.com/p/CrOkr2Cut9k/?hl=es" target="_blank">
                 <i class="fa fa-instagram"></i>
@@ -309,7 +323,7 @@
         </div>
     </div>
     <div class="single_instagram">
-        <img src="img/instragram/2.png" alt="">
+        <img src="img/instragram/2.png" alt="glampingargentina_instagram">
         <div class="ovrelay">
             <a href="https://www.instagram.com/p/CrL197eg7mW/?hl=es" target="_blank">
                 <i class="fa fa-instagram"></i>
@@ -317,25 +331,9 @@
         </div>
     </div>
     <div class="single_instagram">
-        <img src="img/instragram/3.png" alt="">
+        <img src="img/instragram/3.png" alt="glampingargentina_instagram">
         <div class="ovrelay">
             <a href="https://www.instagram.com/p/CrI7cCfAhLt/?hl=es" target="_blank">
-                <i class="fa fa-instagram"></i>
-            </a>
-        </div>
-    </div>
-    <div class="single_instagram">
-        <img src="img/instragram/4.png" alt="" >
-        <div class="ovrelay">
-            <a href="https://www.instagram.com/p/CWlSirHgep4/" target="_blank">
-                <i class="fa fa-instagram"></i>
-            </a>
-        </div>
-    </div>
-    <div class="single_instagram">
-        <img src="img/instragram/5.png" alt="">
-        <div class="ovrelay">
-            <a href="https://www.instagram.com/p/CloXo3BuYX8/?hl=es" target="_blank">
                 <i class="fa fa-instagram"></i>
             </a>
         </div>

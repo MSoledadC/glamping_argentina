@@ -230,31 +230,31 @@
 }
 
 .about_bg_mza_uspallata1 {
-  background-image: url(../img/listaprovincias/mza_uspallata1.jpg);
+  background-image: url(../img/listaprovincias/mza_uspallata1.png);
 }
 
 .about_bg_mza_uspallata2 {
-  background-image:url(../img/listaprovincias/mza_uspallata9.jpg)
+  background-image:url(../img/listaprovincias/mza_uspallata9.png)
 }
 
 .about_bg_mza_uspallata3 {
-  background-image:url(../img/listaprovincias/mza_uspallata4.jpg)
+  background-image:url(../img/listaprovincias/mza_uspallata4.png)
 }
 
 .about_bg_mza_uspallata4 {
-  background-image:url(../img/listaprovincias/mza_uspallata5.jpg)
+  background-image:url(../img/listaprovincias/mza_uspallata5.png)
 }
 
 .about_bg_mza_uspallata5 {
-background-image:url(../img/listaprovincias/mza_uspallata7.jpg)
+background-image:url(../img/listaprovincias/mza_uspallata7.png)
 }
 
 .about_bg_mza_uspallata6 {
-background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
+background-image:url(../img/listaprovincias/mza_uspallata10.png)
 }
    
 
-/*---slider banner provincias---*/ 
+/*---slider banner pag. c/provincia---*/ 
 
     .owl-carousel .owl-nav div {
         top: 53%;
@@ -275,8 +275,8 @@ background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
     opacity: .3;
   }
 
-  .provincias {
-    padding-top: 30px !important;
+  .areaprovincias {
+    padding-top: 20px !important;
   }
 
 /*---FOTOS INDEX PROVINCIAS---*/
@@ -889,14 +889,21 @@ background-image:url(../img/listaprovincias/mza_uspallata10.jpg)
 
   
 /*BUSCADOR*/
+.form-control {
+    display: inline-block!important;
+    width: 50%!important;
+    margin-bottom: 20px;
+    filter: opacity(0.8);
+    margin-left: 0px !important;
 
+  }
 .form-group-buscar {
   margin-left: 1rem;
 }
 
 .form-control {
   display: inline-block!important;
-  width: 50% !important;
+  width: 100% !important;
   margin-bottom: 20px;
   filter: opacity(0.8);
   margin-left: 0px !important;
