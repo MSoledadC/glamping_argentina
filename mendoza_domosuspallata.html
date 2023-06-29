@@ -269,53 +269,50 @@
                 </div>
 
                 <div class="col-xl-4 col-md-4 container-fluid">
-                    <form class="consultaprovincias" action="mail.php" method="post">
+                    <form class="consultaprovincias"  action="mail.php"  method="post">
                         <div class="popup_box consulta">
-                            <div class="popup_inner">
-                                <h3 class="tituloconsulta">Consulta</h3>
-                                <div class="row ">
-                                    <div class="col-xl-6 mb-3">
-                                        <label for="Fechaingreso">Fecha Ingreso</label>
-                                        <input type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
+                            <div class="popup_inner">                                
+                                    <h3 class="tituloconsulta">Consulta</h3> 
+                                    <div class="row ">
+                                        <div class="col-xl-6 mb-3">
+                                            <label for="Fechaingreso">Fecha Ingreso</label>
+                                            <input type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
+                                        </div>
+                                        <div class="col-xl-6 mb-3">
+                                            <label for="Fechaegreso">Fecha Egreso</label>
+                                            <input type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
+                                        </div>
                                     </div>
-                                    <div class="col-xl-6 mb-3">
-                                        <label for="Fechaegreso">Fecha Egreso</label>
-                                        <input type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
+                                    <div class="row">
+                                        <div class="col-xl-5 mb-3">
+                                            <select class="form-select wide small-button" id="" type="checkbox" name="Huespedes" required>
+                                                <option data-display="Huespedes"></option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5+</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-7 mb-3">
+                                            <input class="small-button" type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-5 mb-3">
-                                        <select class="form-select wide small-button" id="" type="checkbox"
-                                            name="Huespedes" required>
-                                            <option data-display="Huespedes"></option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5+</option>
-                                        </select>
+                                        <div class="col-xl-12 text-estadia">
+                                            <p class="rconsulta">Estadía mínima 2 noches</p>
+                                            <p class="rconsulta"><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x noche </p>
+                                            <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120 dólares estadounidenses</span></p>
+                                            <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
+                                            <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum quidem,
+                                            aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia tempore.
+                                            Illo consectetur eligendi non hic?</p>
+                                        </div>
                                     </div>
-                                    <div class="col-xl-7 mb-3">
-                                        <input class="small-button" type="email" id="email" name="email"
-                                            placeholder="Correo electrónico" required>
+                                        <div class="col-xl-12">
+                                            <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-12 text-estadia">
-                                    <p class="rconsulta">Estadía mínima 2 noches</p>
-                                    <p class="rconsulta"><span style="font-weight:bold">us</span><i
-                                            class="fa-solid fa-dollar-sign">300 </i> x noche </p>
-                                    <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120
-                                            dólares estadounidenses</span></p>
-                                    <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
-                                    <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        A, perspiciatis cum libero eum quidem,
-                                        aspernatur voluptates officiis dolor molestias pariatur, impedit qui.
-                                        Voluptatem, quia tempore.
-                                        Illo consectetur eligendi non hic?</p>
-                                </div>
-                            </div>
-                            <div class="col-xl-12">
-                                <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
+                                
                             </div>
                         </div>
                     </form>
@@ -484,7 +481,7 @@
                 </form>
             </div>
         </div>
-    </form>
+    </div>
     <!-- form itself end -->
 
 

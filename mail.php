@@ -3,7 +3,7 @@
 
 $to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Consulta';
-$logo_url =  'http://glamping_argentina.com/img/logo.png';
+$logo_url =  '';
 $url = $_SERVER['HTTP_REFERER'];
 
 
