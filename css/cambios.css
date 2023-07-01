@@ -56,6 +56,14 @@
     padding-top: 50px;
   }
 
+/*----Imagenes INICIO carrusel---*/
+  .slider_bg_4 {
+    background-image: url(../img/banner/4.png);
+  }
+
+
+
+
   .blog_left_sidebarindex {
     display: flex;
     gap: 10px;
