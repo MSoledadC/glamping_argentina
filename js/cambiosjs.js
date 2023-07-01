@@ -97,7 +97,7 @@ function getShareUrl(socialNetwork, url) {
   }
 } */
 
-
+//Compartir publicacion///
 document.addEventListener('DOMContentLoaded', function() {
   var notaURL = window.location.href;
 
@@ -113,3 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var whatsappLink = document.querySelector('.whatsapp');
   whatsappLink.href += notaURL;
 });
+
+//Mostrar Provincias proximamente///
+
+
