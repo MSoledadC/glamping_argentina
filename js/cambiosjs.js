@@ -114,6 +114,5 @@ document.addEventListener('DOMContentLoaded', function() {
   whatsappLink.href += notaURL;
 });
 
-//Mostrar Provincias proximamente///
 
 

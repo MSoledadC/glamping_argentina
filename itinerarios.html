@@ -36,6 +36,11 @@
 
     <script src="https://kit.fontawesome.com/df0028962f.js" crossorigin="anonymous"></script>
 
+    <!-- vinculacion Google Translate-->
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
 
 </head>
 
@@ -54,10 +59,19 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a class="active" href="index.html#index">Home</a></li>
                                         <li><a href=index.html#rooms>Glampings</a></li>
-                                        <li><a class="active"  href="about.html">Nosotros</a></li>
+                                        <li><a href="about.html">Nosotros</a></li>
                                         <li><a href="blog.html">Blog </a></li>
+                                        <!--<   <ul class="submenu">
+                                                li><a href="blog.html">blog<i class="ti-angle-down"</a></li> 
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>-->
+                                        <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        <li><a href="contact.html">Contacto</a></li>-->
                                     </ul>
                                 </nav>
                             </div>
@@ -90,8 +104,18 @@
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
+                                       <!--   <li>
+                                            <div id="google_language_translator">
+                                                <button class="line-button" id="btn-translate"
+                                                    onclick="changeLanguage()">Cambiar Idioma</button>
+                                            </div>
+                                        </li>-->
                                     </ul>
                                 </div>
+
+                                <!--    <div class="book_btn d-none d-lg-block">
+                                    <a class="popup-with-form" href="#test-form">Reservas</a>
+                                </div>-->
                             </div>
                         </div>
                         <div class="col-12">
@@ -104,155 +128,234 @@
     </header>
     <!-- header-end -->
 
+    <!-- Itinerarios_area_star --> 
 
-
-    <!-- bradcam_area_start -->
-    <div class="bradcam_area breadcam_bg_nosotros">
-        <h3>Sobre Glamping Argentina</h3>
+    <div class="amazing-deals">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading text-center">
+                <h2>Itinerarios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-6">
+              <div class="item itinerario">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image">
+                      <img src="img/offers/it1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 align-self-center">
+                    <div class="content">
+                      <span class="info">*Oferta limitada por esta semana!</span>
+                      <h4>Mendoza</h4>
+                      <div class="row">
+                        <div class="col-6">
+                          <i class="fa fa-clock"></i>
+                          <span class="list">5 Days</span>
+                        </div>
+                        <div class="col-6">
+                          <i class="fa fa-map"></i>
+                          <span class="list">Destinos</span>
+                        </div>
+                      </div>
+                      <p>Dìa 1<br>
+                         Dìa 2<br>
+                         Dìa 3<br>
+                         Dìa 4<br>
+                         Dìa 5<br>
+                      </p>
+                      <div class="main-button">
+                        <a href="reservation.html">Consulta</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-6">
+              <div class="item itinerario">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image">
+                      <img src="img/offers/it1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 align-self-center">
+                    <div class="content">
+                      <span class="info">*Today & Tomorrow Only</span>
+                      <h4>Venezia Italy Ipsum</h4>
+                      <div class="row">
+                        <div class="col-6">
+                          <i class="fa fa-clock"></i>
+                          <span class="list">5 Days</span>
+                        </div>
+                        <div class="col-6">
+                          <i class="fa fa-map"></i>
+                          <span class="list">Destinos</span>
+                        </div>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                      <div class="main-button">
+                        <a href="reservation.html">Consulta</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-6">
+              <div class="item itinerario">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image">
+                      <img src="img/offers/it1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 align-self-center">
+                    <div class="content">
+                      <span class="info">**Undefined</span>
+                      <h4>Glasgow City Lorem</h4>
+                      <div class="row">
+                        <div class="col-6">
+                          <i class="fa fa-clock"></i>
+                          <span class="list">5 Days</span>
+                        </div>
+                        <div class="col-6">
+                          <i class="fa fa-map"></i>
+                          <span class="list">Destinos</span>
+                        </div>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet dire consectetur adipiscing elit.</p>
+                      <div class="main-button">
+                        <a href="reservation.html">Consulta</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-6">
+              <div class="item itinerario">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="image">
+                      <img src="img/offers/it1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 align-self-center">
+                    <div class="content">
+                      <span class="info">*Offer Until 24th March</span>
+                      <h4>Glasgow City Lorem</h4>
+                      <div class="row">
+                        <div class="col-6">
+                          <i class="fa fa-clock"></i>
+                          <span class="list">5 Days</span>
+                        </div>
+                        <div class="col-6">
+                          <i class="fa fa-map"></i>
+                          <span class="list">Destinos</span>
+                        </div>
+                      </div>
+                      <p>This free CSS template is provided by Template Mo website.</p>
+                      <div class="main-button">
+                        <a href="reservation.html">Consulta</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+                <nav class="blog-pagination justify-content-center d-flex">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="#" class="page-link" aria-label="Previous">
+                                <i class="ti-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item active">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link" aria-label="Next">
+                                <i class="ti-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+          </div>
+        </div>
     </div>
-    <!-- bradcam_area_end -->
-
-    <!-- about_area_start -->
-    <div class="about_area areanosotros">
+    <!-- Itinerarios_area_end --> 
+    
+    <!-- offers_area_start -->
+    <div class="offers_area padding_top">
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-5">
-                    <div class="about_info">
-                        <div class="section_title mb-20px">
-                            <span>Sobre Nosotos</span>
-                            <h3>Humanos al Servicio<br>
-                                de la Naturaleza</h3>
-                        </div>
-                        <p>Somos una agencia de viajes digital con corazón de ser humano,
-                            especializada únicamente en Glampings de Argentina. <br><br>
-                            En nuestra web encontrarás todos los glampings de Argentina en un mismo lugar para
-                            viajar online, cada uno con sus mejores características destacadas para que puedas
-                            elegir el que más se acerque a tus expectativas.<br><br>
-                            Si decides dar un paso mas, nuestros asesores son personas humanas que están
-                            disponibles para asesorarte y resolver todas tus inquietudes durante el proceso
-                            de elección y reserva de tu próxima experiencia. <br><br>
-                            Haremos todo lo posible para que tu experiencia Glamping sea inolvidable, cuidando
-                            todos los detalles para que solo te preocupes por disfrutar.<br><br>
-                            ¿Eres amante del Glamping?</p>
-                        <p> Recorre nuestra sección de Noticias en nuestro Blog para estar enterado de las últimas
-                            novedades, los últimos glampings que están abriendo en todo el pais, explora cada
-                            sección de la página y viaja junto a nosotros por los rincones más bellos de nuestro
-                            país a través de los establecimientos Glamping que hemos cuidadosamente seleccionado
-                            para ofrecerte, selecciona el que más te guste, y nosotros nos encargamos del
-                            resto. <a href="blog.html" class="line-button">VER BLOG</a> <br><br>
-                            Solo para exigentes, si eres un cliente aún más exigente contacta con nosotros y
-                            accede a los itinerarios más destacados diseñados por los mejores diseñadores de viajes
-                            TaylorMade de Argentina para conocer los Glampings mas exclusivos y los tesoros mejor
-                            guardados de Argentina de una manera unica - <a href="itinerarios.html" class="line-button">VER PAQUETES</a>
-
-                        </p>
-                        <a href="#" class="line-button"></a>
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-100">
+                        <span>Our Offers</span>
+                        <h3>Ongoing Offers</h3>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-7">
-                    <div class="about_thumb d-flex">
-                        <div class="img_1">
-                            <img src="img/about/about_1.png" alt="glampingargentina_nosotros">
-                        </div>
-                        <div class="img_2">
-                            <img src="img/about/about_2.png" alt="glampingargentina_nosotros">
-                        </div>
-                    </div>
-                    <div class="about_thumb d-flex">
-                        <div class="img_1">
-                            <img src="img/about/about_3.png" alt="glampingargentina_nosotros">
-                        </div>
-                        <div class="img_2">
-                            <img src="img/about/about_4.png" alt="glampingargentina_nosotros">
-                        </div>
-                    </div>
-                </div>
-
             </div>
-        </div>
-    </div>
-    </div>
-    <!-- about_area_end -->
-
-    <!-- about_main_info_start -->
-    <div class="about_area areanosotros">
-        <div class="container">
             <div class="row">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="about_thumb2 d-flex">
-                        <div class="img_1">
-                            <img src="img/about/eco1.png" alt="glampingargentina_nosotros">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_offers">
+                        <div class="about_thumb">
+                            <img src="img/offers/1.png" alt="">
                         </div>
-                        <div class="img_2">
-                            <img src="img/about/eco2.png" alt="glampingargentina_nosotros">
-                        </div>
+                        <h3>Up to 35% savings on Club <br>
+                            rooms and Suites</h3>
+                        <ul>
+                            <li>Luxaries condition</li>
+                            <li>3 Adults & 2 Children size</li>
+                            <li>Sea view side</li>
+                        </ul>
+                        <a class="popup-with-form book_now" href="#test-form">Reservas</a>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5">
-                    <div class="about_info">
-                        <div class="section_title mb-20px">
-                            <span>Calidad Ecologica</span>
-                            <h5>Glamping Argentina: Reservando con Conciencia Ecológica <br>
-                                y Compromiso Ambiental</h5>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_offers">
+                        <div class="about_thumb">
+                            <img src="img/offers/2.png" alt="">
                         </div>
-                        <p>Nuestro compromiso, cada reserva que se realiza en Glamping Argentina deja su huella
-                            positiva en nuestro planeta, reservando a través de nuestra web, el propietario,
-                            nosotros y tu estamos mitigando nuestra huella de carbono, donamos 3 árboles por
-                            reserva realizada a nuestra web a nuestros partners de #... para su próxima campaña de
-                            reforestación.</p>
-                        <a href="#" class="line-button">LEER MÁS AQUÍ</a>
+                        <h3>Up to 35% savings on Club <br>
+                            rooms and Suites</h3>
+                        <ul>
+                            <li>Luxaries condition</li>
+                            <li>3 Adults & 2 Children size</li>
+                            <li>Sea view side</li>
+                        </ul>
+                        <a class="popup-with-form book_now" href="#test-form">Reservas</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_offers">
+                        <div class="about_thumb">
+                            <img src="img/offers/3.png" alt="">
+                        </div>
+                        <h3>Up to 35% savings on Club <br>
+                            rooms and Suites</h3>
+                        <ul>
+                            <li>Luxaries condition</li>
+                            <li>3 Adults & 2 Children size</li>
+                            <li>Sea view side</li>
+                        </ul>
+                        <a class="popup-with-form book_now" href="#test-form">Reservas</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- about_area_end -->
-
-    <!-- instragram_area_start -->
-    <div class="instragram_area">
-        <div class="single_instagram">
-            <img src="img/instragram/6.png" alt="glampingargentina_instagram">
-            <div class="ovrelay">
-                <a href="https://www.instagram.com/p/CtcP19hu69q/?hl=es" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-        <div class="single_instagram">
-            <img src="img/instragram/7.png" alt="glampingargentina_instagram">
-            <div class="ovrelay">
-                <a href="https://www.instagram.com/p/CsmHyEfOwb-/?hl=es" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-        <div class="single_instagram">
-            <img src="img/instragram/1.png" alt="glampingargentina_instagram">
-            <div class="ovrelay">
-                <a href="https://www.instagram.com/p/CrOkr2Cut9k/?hl=es" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-        <div class="single_instagram">
-            <img src="img/instragram/2.png" alt="glampingargentina_instagram">
-            <div class="ovrelay">
-                <a href="https://www.instagram.com/p/CrL197eg7mW/?hl=es" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-        <div class="single_instagram">
-            <img src="img/instragram/3.png" alt="glampingargentina_instagram">
-            <div class="ovrelay">
-                <a href="https://www.instagram.com/p/CrI7cCfAhLt/?hl=es" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- instragram_area_end -->
-
+    <!-- offers_area_end --> 
+     
     <!-- footer -->
     <footer class="footer">
         <div class="footer_top">
@@ -267,6 +370,24 @@
                                 class="line-button">Ubicación</a>
                         </div>
                     </div>
+                    <!-- <div class="col-xl-3 col-md-6 col-lg-3">
+                       <div class="footer_widget">
+                            
+                            <p class="footer_text">info@glampingargentina.com<br>
+                                </p>
+                        </div>
+                    </div>-
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                         <div class="footer_widget">
+                            
+                            <ul>
+                                <li><a class="active" href="index.html">Home</a></li>
+                                <li><a href=index.html#rooms>Glampings</a></li>
+                                <li><a href="about.html">Nosotros</a></li>
+                                <li><a href="blog.html">Blog </a></li>
+                            </ul>
+                        </div>
+                    </div>-->
                     <div class="col-xl-6 col-md-6 col-lg-3 d-flex justify-content-end">
                         <div class="footer_widget">
                             <h3 class="footer_title">
@@ -276,6 +397,7 @@
                                 <input type="text" placeholder="Newsletter">
                                 <button type="submit">Suscribirse</button>
                             </form>
+                            <!--<p class="newsletter_text">Subscribite newsletter to get updates</p>-->
                         </div>
                     </div>
                 </div>
@@ -309,6 +431,11 @@
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
                                 </li>
+                                <!--<li>
+                  <a href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>-->
                             </ul>
                         </div>
                     </div>
@@ -322,7 +449,7 @@
     <form id="test-form" class="white-popup-block mfp-hide" action="mail.php" method="post">
         <div class="popup_box ">
             <div class="popup_inner">
-                <h3>Reserva</h3>
+                <h3>Consulta</h3>
                 <form>
                     <div class="row">
                         <div class="col-xl-4">
@@ -366,6 +493,9 @@
     </form>
     <!-- form itself end -->
 
+    <!--Mostrar/ocultar-->
+    <!-- JavaScript-->
+    <script src="js/cambiosjs.js"></script>
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -399,7 +529,7 @@
         $('#datepicker').datepicker({
             iconsLibrary: 'fontawesome',
             icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
+                rightIcon:
             }
         });
         $('#datepicker2').datepicker({
@@ -410,6 +540,21 @@
 
         });
     </script>
+
+    <!--Mostrar Provincias proximamente-->
+    
+    <script>
+        function mostrarProximamente(img) {
+        var spanProvincia = img.nextElementSibling;
+        spanProvincia.innerHTML = 'Próximamente';
+        }
+        
+        function restaurarProvincia(img) {
+        var spanProvincia = img.nextElementSibling;
+        spanProvincia.innerHTML = 'Puente Blanco<span class="jam jam-map-marker-f">Sierra de la Ventana-Buenos Aires</span>';
+        }
+    </script>
+
 
 
 </body>
