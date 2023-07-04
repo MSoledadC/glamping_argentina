@@ -1,0 +1,120 @@
+   
+/*----BS AS  banner Nosotros---*/
+      /*----Bosque Glamping ---*/
+
+  .about_bg_2 {
+    background-image: url(../img/banner/bsas_bosque4_png.png);
+    }
+    .about_bg_3 {
+        background-image: url(../img/banner/bsas_bosque6_png.png);
+    }
+    .about_bg_4 {
+        background-image: url(../img/banner/bsas_bosque1png\ png.png);
+        }
+  
+  /*----JUJUY banner about---*/      
+    /*----Prinstine Camps ---*/ 
+
+    .breadcam_bgjujuy {
+        background-image: url(../img/listaprovincias/jujuy_pristinecamps2.png);
+        height: 100vh;
+    }
+
+    .about_bg_jujuy1 {
+        background-image: url(../img/listaprovincias/jujuy_pristinecamps7.png);
+    }
+
+    .about_bg_jujuy2 {
+        background-image:url(../img/listaprovincias/jujuy_pristinecamps6.png)
+    }
+
+    .about_bg_jujuy3 {
+        background-image:url(../img/listaprovincias/jujuy_pristinecamps3.png)
+    }
+
+    .about_bg_jujuy4 {
+        background-image:url(../img/listaprovincias/jujuy_pristinecamps8.png)
+    }
+
+    .about_bg_jujuy5 {
+      background-image:url(../img/listaprovincias/jujuy_pristinecamps9.png)
+    }
+
+    .about_bg_jujuy6 {
+      background-image:url(../img/listaprovincias/jujuy_pristinecamps10.png)
+    }
+
+    .about_info p {
+        color: #000;
+        font-size: 46px;
+    }
+
+ /*----MENDOZA banner about---*/   
+ /*---- Domos Uspallata ---*/   
+       
+ .breadcam_bguspallata {
+  background-image: url(../img/listaprovincias/mza_uspallata.png);
+  height: 100vh;
+  background-position-y: 20px;
+}
+
+.about_bg_mza_uspallata1 {
+  background-image: url(../img/listaprovincias/mza_uspallata1.png);
+}
+
+.about_bg_mza_uspallata2 {
+  background-image:url(../img/listaprovincias/mza_uspallata9.png)
+}
+
+.about_bg_mza_uspallata3 {
+  background-image:url(../img/listaprovincias/mza_uspallata4.png)
+}
+
+.about_bg_mza_uspallata4 {
+  background-image:url(../img/listaprovincias/mza_uspallata5.png)
+}
+
+.about_bg_mza_uspallata5 {
+background-image:url(../img/listaprovincias/mza_uspallata7.png)
+}
+
+.about_bg_mza_uspallata6 {
+background-image:url(../img/listaprovincias/mza_uspallata10.png)
+}
+
+/*----Santa Cruz banner about---*/   
+ /*---- Patagonia Eco domes ---*/  
+
+       
+ .breadcam_bgecodomes{
+  background-image: url(../img/listaprovincias/stacruz_pateco.png);
+  height: 100vh;
+  background-position-y: 20px;
+}
+
+
+.about_bg_mza_uspallata1 {
+  background-image: url(../img/listaprovincias/stacruz_pateco4.png);
+}
+
+.about_bg_mza_uspallata2 {
+  background-image:url(../img/listaprovincias/stacruz_pateco5.png)
+}
+
+.about_bg_mza_uspallata3 {
+  background-image:url(../img/listaprovincias/stacruz_pateco6.png)
+}
+
+.about_bg_mza_uspallata4 {
+  background-image:url(../img/listaprovincias/stacruz_pateco7.png)
+}
+
+.about_bg_mza_uspallata5 {
+background-image:url(../img/listaprovincias/stacruz_pateco8.png)
+}
+
+.about_bg_mza_uspallata6 {
+background-image:url(../img/listaprovincias/stacruz_pateco9.png)
+}
+
+
