@@ -1040,6 +1040,34 @@ padding-top: 100px;
     .item-link:visited {
       font-size: 2rem;
     }
+
+    .provincias_mapa{
+      width: 450px;
+      height: 300px
+    }
+
+    .slicknav_menu .slicknav_nav {
+      text-align: right;
+      width: 20%;
+      left: 80%;
+    }  
+
+    .slicknav_icon-bar{
+      background: #1F1F1F !important;
+      top: 10px;
+  }
+
+  .container_g .thumbex {
+    max-width: 775px;
+  }
+
+  .texto-blog{
+    display: none;
+  }
+  .instragram_area .single_instagram {
+    width: 20% !important;
+  }
+  
   }
 
   /* MOBILES */
@@ -1073,6 +1101,17 @@ padding-top: 100px;
 
   .slider_area .single_slider .slider_text h3{
     font-size: 25px;
+  }
+
+  .slicknav_menu .slicknav_nav {
+    text-align: right;
+    width: 40%;
+    left: 60%;
+  }
+
+  .provincias_mapa{
+    width: 355px;
+    height: 300px
   }
 
   .footer .footer_top .footer_widget .newsletter_form{
@@ -1136,6 +1175,10 @@ padding-top: 100px;
         padding-top: 10px;
       }
 
+      .areaprovincias {
+        padding-top: 0px !important;
+    }
+
       .buscador {
         display: none;
       }
@@ -1143,9 +1186,9 @@ padding-top: 100px;
       .mostrar{
         left: 0px;
         right: 0px;
+        margin: auto;
       }
-
-      
+  
 
       .filters label{
         font-size: x-small;
@@ -1163,6 +1206,10 @@ padding-top: 100px;
         margin-top: 0px;
       }
 
+      .areaindex {
+        padding-top: 70px !important;
+      }
+
       .vistacel{
         display: none;
       }
@@ -1173,6 +1220,11 @@ padding-top: 100px;
 
       .single_instagram {
         display: none;
+      }
+
+      .provincias_mapa{
+        width: 300px;
+        height: 300px
       }
     }
 
