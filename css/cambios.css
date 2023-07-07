@@ -773,7 +773,7 @@ padding-top: 100px;
   }
 
   .consulta {
-    width: 350px;
+    width: 360px;
     border: groove;
     padding: 5px;
     text-align: center;
@@ -821,10 +821,10 @@ padding-top: 100px;
   .popup_box .nice-select{
     line-height: 30px;
     font-size: 12px;
-    height: 30px !important;
+    height: 35px !important;
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    border-radius: 5px;
   }
 
   .forQuery {

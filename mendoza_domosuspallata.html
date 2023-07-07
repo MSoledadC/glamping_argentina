@@ -221,7 +221,7 @@
                             estadía)
                         </p>
                         <p class="espacios_textos"><strong>Turismo Aventura</strong> Trabajamos en conjunto con
-                            prestadores locales para que puedas realizar diversas actividades de turismo aventura: 
+                            prestadores locales para que puedas realizar diversas actividades de turismo aventura:
                             Rafting, Escalada, Canopy, Trekking guiado.
                             Estamos a una hora de los parques de nieve de Alta Montaña (funcionan de junio a agosto),
                             Puente del Inca, Parques Provincial Aconcagua y a 10 minutos del centro de Uspallata.
@@ -260,7 +260,8 @@
                         <div class="single_about_info">
                             <h3 class="titulos_descripcion">Ubicación</h3>
 
-                            <iframe class="provincias_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.6642316251236!2d-69.3679235!3d-32.641764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3765b555b8489%3A0xd5fb7cae05a58f80!2sDomos%20Uspallata%20-%20Glamping%20de%20Monta%C3%B1a!5e0!3m2!1ses-419!2sar!4v1687624226953!5m2!1ses-419!2sar"
+                            <iframe class="provincias_mapa"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.6642316251236!2d-69.3679235!3d-32.641764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3765b555b8489%3A0xd5fb7cae05a58f80!2sDomos%20Uspallata%20-%20Glamping%20de%20Monta%C3%B1a!5e0!3m2!1ses-419!2sar!4v1687624226953!5m2!1ses-419!2sar"
                                 width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
@@ -270,56 +271,64 @@
                 </div>
 
                 <div class="col-xl-4 col-md-4 container-fluid">
-                    <form class="consultaprovincias"  action="mail.php"  method="post">
+                    <form class="consultaprovincias" action="mail.php" method="post">
                         <div class="popup_box consulta">
-                            <div class="popup_inner">                                
-                                    <h3 class="tituloconsulta">Consulta</h3> 
-                                    <div class="row ">
-                                        <div class="col-xl-6 mb-3">
-                                            <label for="Fechaingreso">Fecha Ingreso</label>
-                                            <input type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
-                                        </div>
-                                        <div class="col-xl-6 mb-3">
-                                            <label for="Fechaegreso">Fecha Egreso</label>
-                                            <input type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
-                                        </div>
+                            <div class="popup_inner">
+                                <h3 class="tituloconsulta">Consulta</h3>
+                                <div class="row ">
+                                    <div class="col-xl-6 mb-1">
+                                        <label for="Fechaingreso">Fecha Ingreso</label>
+                                        <input type="date" class="form-control" placeholder="Fecha Ingreso"
+                                            name="Fechaingreso" required>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-xl-5 mb-3">
-                                            <select class="form-select wide small-button" id="" type="checkbox" name="Huespedes" required>
-                                                <option data-display="Huespedes"></option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5+</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-xl-7 mb-3">
-                                            <input class="small-button" type="email" id="email" name="email" placeholder="Correo electrónico" required>
-                                        </div>
+                                    <div class="col-xl-6 mb-1">
+                                        <label for="Fechaegreso">Fecha Egreso</label>
+                                        <input type="date" class="form-control" placeholder="Fecha Egreso"
+                                            name="Fechaegreso" required>
                                     </div>
-                                        <div class="col-xl-12 text-estadia">
-                                            <p class="rconsulta">Estadía mínima 2 noches</p>
-                                            <p class="rconsulta"><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x noche </p>
-                                            <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120 dólares estadounidenses</span></p>
-                                            <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
-                                            <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum quidem,
-                                            aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia tempore.
-                                            Illo consectetur eligendi non hic?</p>
-                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 mb-1">
+                                        <select class="form-select wide small-button" id="" type="checkbox"
+                                            name="Huespedes" required>
+                                            <option data-display="Huespedes"></option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5+</option>
+                                        </select>
                                     </div>
-                                        <div class="col-xl-12">
-                                            <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
-                                        </div>
+                                    <div class="col-xl-6 mb-1">
+                                        <input class="small-button form-control" type="email" id="email" name="email"
+                                            placeholder="Correo electrónico" required>
                                     </div>
-                                
+                                </div>
+                                <div class="col-xl-12 text-estadia">
+                                    <p class="rconsulta">Estadía mínima 2 noches</p>
+                                    <p class="rconsulta"><span style="font-weight:bold">us</span><i
+                                            class="fa-solid fa-dollar-sign">300 </i> x noche </p>
+                                    <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120
+                                            dólares estadounidenses</span></p>
+                                    <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
+                                    <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        A, perspiciatis cum libero eum quidem,
+                                        aspernatur voluptates officiis dolor molestias pariatur, impedit qui.
+                                        Voluptatem, quia tempore.
+                                        Illo consectetur eligendi non hic?</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-12">
+                                <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
                             </div>
                         </div>
-                    </form>
+
                 </div>
             </div>
+            </form>
         </div>
+    </div>
+    </div>
     </div>
     <!-- about_main_info_end -->
     <!-- instragram_area_start -->
@@ -375,8 +384,7 @@
                     <div class="col-xl-6 col-md-6 col-lg-3 d-flex justify-content-start">
                         <div class="footer_widget">
                             <p class="footer_text">
-                                <a href="" target="_blank"
-                                class="line-button">ARGENTINA</a>
+                                <a href="" target="_blank" class="line-button">ARGENTINA</a>
                             </p>
                             <p class="footer_text">Glamping Argentina<br>
                             </p>
@@ -404,13 +412,14 @@
                     <div class="col-xl-8 col-md-7 col-lg-9">
                         <p class="copy_right">
                             &copy;
-                            <script>document.write(new Date().getFullYear());</script>-</i> Tour Operador Crista Travel Legajo N°18358 <a href="" target="_blank">Políticas de
-                                privacidad, Términos de condiciones</a> 
+                            <script>document.write(new Date().getFullYear());</script>-</i> Tour Operador Crista Travel
+                            Legajo N°18358 <a href="" target="_blank">Políticas de
+                                privacidad, Términos de condiciones</a>
                         </p>
                     </div>
                     <div class="col-xl-4 col-md-5 col-lg-3">
                         <div class="socail_links">
-                            <p class="copy_right"  > by <a href="https://github.com/MSoledadC"
+                            <p class="copy_right"> by <a href="https://github.com/MSoledadC"
                                     target="_blank">MSoledadC</a>
                             </p>
                             <ul style="padding-left: 0px;">
@@ -482,66 +491,66 @@
                 </form>
             </div>
         </div>
-    </div>
-    <!-- form itself end -->
+        </div>
+        <!-- form itself end -->
 
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/gijgo.min.js"></script>
+        <!-- JS here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/scrollIt.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/nice-select.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/gijgo.min.js"></script>
 
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
+        <!--contact js-->
+        <script src="js/contact.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.form.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/mail-script.js"></script>
 
-    <script src="js/main.js"></script>
-    <script>
-        $('#datepicker').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: 
+        <script src="js/main.js"></script>
+        <script>
+            $('#datepicker').datepicker({
+                iconsLibrary: 'fontawesome',
+                icons: {
+                    rightIcon: 
      }
-        });
-        $('#datepicker2').datepicker({
-            iconsLibrary: 'fontawesome',
-            icons: {
-                rightIcon: '<span class="fa fa-caret-down"></span>'
-            }
+            });
+            $('#datepicker2').datepicker({
+                iconsLibrary: 'fontawesome',
+                icons: {
+                    rightIcon: '<span class="fa fa-caret-down"></span>'
+                }
 
-        });
-    </script>
+            });
+        </script>
 
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.querySelector(".hide-on-scroll").classList.remove("hide");
-            } else {
-                document.querySelector(".hide-on-scroll").classList.add("hide");
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.querySelector(".hide-on-scroll").classList.remove("hide");
+                } else {
+                    document.querySelector(".hide-on-scroll").classList.add("hide");
+                }
+                prevScrollpos = currentScrollPos;
             }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
+        </script>
 
 </body>
 
