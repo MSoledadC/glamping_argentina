@@ -11,37 +11,72 @@
     .about_bg_4 {
         background-image: url(../img/banner/bsas_bosque1png\ png.png);
         }
+
+  /*----Salta banner about---*/   
+ /*---- Siilu Wasi Refugio ---*/  
+
+       
+ .breadcam_bgsiilu {
+  background-image: url(../img/listaprovincias/salta_siiluwasi.png);
+  height: 100vh;
+  background-position-y: 20px;
+}
+
+.about_bgsiilu1 {
+  background-image: url(../img/carruselprov/salta_siilu4.png);
+}
+
+.about_bgsiilu2 {
+  background-image:url(../img/carruselprov/salta_siilu5.png)
+}
+
+.about_bgsiilu3 {
+  background-image:url(../img/carruselprov/salta_siilu6.png)
+}
+
+.about_bgsiilu4 {
+  background-image:url(../img/carruselprov/salta_siilu7.png)
+}
+
+.about_bgsiilu5 {
+background-image:url(../img/carruselprov/salta_siilu8.png)
+}
+
+.about_bgsiilu6 {
+background-image:url(../img/carruselprov/salta_siilu9.png)
+}
+
   
   /*----JUJUY banner about---*/      
     /*----Prinstine Camps ---*/ 
 
-    .breadcam_bgjujuy {
+    .breadcam_bgpristine {
         background-image: url(../img/listaprovincias/jujuy_pristinecamps2.png);
         height: 100vh;
     }
 
-    .about_bg_jujuy1 {
-        background-image: url(../img/listaprovincias/jujuy_pristinecamps7.png);
+    .about_bgpristine1 {
+        background-image: url(../img/carruselprov/jujuy_pristine4.png);
     }
 
-    .about_bg_jujuy2 {
-        background-image:url(../img/listaprovincias/jujuy_pristinecamps6.png)
+    .about_bgpristine2 {
+        background-image:url(../img/carruselprov/jujuy_pristine5.png)
     }
 
-    .about_bg_jujuy3 {
-        background-image:url(../img/listaprovincias/jujuy_pristinecamps3.png)
+    .about_bgpristine3 {
+        background-image:url(../img/carruselprov/jujuy_pristine6.png)
     }
 
-    .about_bg_jujuy4 {
-        background-image:url(../img/listaprovincias/jujuy_pristinecamps8.png)
+    .about_bgpristine4 {
+        background-image:url(../img/carruselprov/jujuy_pristine7.png)
     }
 
-    .about_bg_jujuy5 {
-      background-image:url(../img/listaprovincias/jujuy_pristinecamps9.png)
+    .about_bgpristine5 {
+      background-image:url(../img/carruselprov/jujuy_pristine8.png)
     }
 
-    .about_bg_jujuy6 {
-      background-image:url(../img/listaprovincias/jujuy_pristinecamps10.png)
+    .about_bgpristine6 {
+      background-image:url(../img/carruselprov/jujuy_pristine9.png)
     }
 
     .about_info p {
@@ -58,28 +93,28 @@
   background-position-y: 20px;
 }
 
-.about_bg_mza_uspallata1 {
-  background-image: url(../img/listaprovincias/mza_uspallata1.png);
+.about_bguspallata1 {
+  background-image: url(../img/carruselprov/mza_uspallata4.png);
 }
 
-.about_bg_mza_uspallata2 {
-  background-image:url(../img/listaprovincias/mza_uspallata9.png)
+.about_bguspallata2 {
+  background-image:url(../img/carruselprov/mza_uspallata5.png)
 }
 
-.about_bg_mza_uspallata3 {
-  background-image:url(../img/listaprovincias/mza_uspallata4.png)
+.about_bguspallata3 {
+  background-image:url(../img/carruselprov/mza_uspallata6.png)
 }
 
-.about_bg_mza_uspallata4 {
-  background-image:url(../img/listaprovincias/mza_uspallata5.png)
+.about_bguspallata4 {
+  background-image:url(../img/carruselprov/mza_uspallata7.png)
 }
 
-.about_bg_mza_uspallata5 {
-background-image:url(../img/listaprovincias/mza_uspallata7.png)
+.about_bguspallata5 {
+background-image:url(../img/carruselprov/mza_uspallata8.png)
 }
 
-.about_bg_mza_uspallata6 {
-background-image:url(../img/listaprovincias/mza_uspallata10.png)
+.about_bguspallata6 {
+background-image:url(../img/carruselprov/mza_uspallata9.png)
 }
 
 /*----Santa Cruz banner about---*/   
@@ -94,27 +129,27 @@ background-image:url(../img/listaprovincias/mza_uspallata10.png)
 
 
 .about_bgecodomes1 {
-  background-image: url(../img/listaprovincias/stacruz_pateco4.png);
+  background-image: url(../img/carruselprov/stacruz_pateco4.png);
 }
 
 .about_bgecodomes2 {
-  background-image:url(../img/listaprovincias/stacruz_pateco5.png)
+  background-image:url(../img/carruselprov/stacruz_pateco5.png)
 }
 
 .about_bgecodomes3 {
-  background-image:url(../img/listaprovincias/stacruz_pateco6.png)
+  background-image:url(../img/carruselprov/mza_uspallata6.png)
 }
 
 .about_bgecodomes4 {
-  background-image:url(../img/listaprovincias/stacruz_pateco7.png)
+  background-image:url(../img/carruselprov/mza_uspallata7.png)
 }
 
 .about_bgecodomes5 {
-background-image:url(../img/listaprovincias/stacruz_pateco8.png)
+background-image:url(../img/carruselprov/mza_uspallata8.png)
 }
 
 .about_bgecodomes6 {
-background-image:url(../img/listaprovincias/stacruz_pateco9.png)
+background-image:url(../img/carruselprov/mza_uspallata9.png)
 }
 
 
