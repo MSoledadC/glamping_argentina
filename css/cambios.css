@@ -186,12 +186,16 @@
         top: 53%;
     }
 
-   .btn-ws {
+   
+
+  .btn-wrapper {
     position: fixed;
-    top: 85%;
-    z-index: 20;
-    right: 2%;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
   }
+
+  
 
   .espacios_textos {
     white-space: pre-line;
@@ -1043,6 +1047,11 @@ padding-top: 100px;
       font-size: 2rem;
     }
 
+    .btn-wrapper{
+      right: 20px;
+      bottom: 80px;
+    }
+
     .provincias_mapa{
       width: 450px;
       height: 300px
@@ -1092,6 +1101,10 @@ padding-top: 100px;
       top: 10px;
   }
 
+  .slider_area .single_slider{
+    height: 60vh;
+  }
+
   .slicknav_menu .slicknav_nav a.active{
     color: #099268;
   }
@@ -1111,9 +1124,53 @@ padding-top: 100px;
     left: 60%;
   }
 
+  .breadcam_bg_nosotros{
+    height: 60vh;
+  }
+
+  .breadcam_bg_blog{
+    height: 95vh;
+  }
+
+
+  .breadcam_bguspallata{
+    height: 60vh !important;
+  }
+
+  .breadcam_bgecodomes{
+    height: 60vh !important;
+  }
+
+  .breadcam_bgpristine{
+    height: 60vh !important;
+  }
+
+  .breadcam_bgsiilu{
+    height: 60vh !important;
+  }
+
+  .btn-wrapper{
+    right: 10px;
+    bottom: 125px;
+  }
+
   .provincias_mapa{
     width: 355px;
     height: 300px
+  }
+
+  .blog_item {
+    
+    margin-bottom: 20px;
+  }
+
+  .blog_details h2{
+    font-size: 12px !important;
+    height: 70px;
+  }
+
+  .mostrar {
+     left: 35%;
   }
 
   .footer .footer_top .footer_widget .newsletter_form{
@@ -1125,7 +1182,7 @@ padding-top: 100px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0px;
-
+    margin-top: 10px;
   }
 
   .footer .footer_top .footer_widget .newsletter_form input{
@@ -1137,6 +1194,10 @@ padding-top: 100px;
   .footer .copy-right_text .socail_links{
     justify-content: space-between;
     margin-top: 0px;
+  }
+
+  #list{
+    margin-left: 15px;
   }
   }
 
@@ -1153,7 +1214,7 @@ padding-top: 100px;
       }
 
       .slider_area .single_slider{
-        height: 35vh;
+        height: 60vh;
       }
 
       .titulo_provincias{
@@ -1170,9 +1231,30 @@ padding-top: 100px;
         padding: 0px 0;
       }
 
+      .breadcam_bguspallata{
+        height: 60vh !important;
+      }
+
+      .breadcam_bgecodomes{
+        height: 60vh !important;
+      }
+
+      .breadcam_bgpristine{
+        height: 60vh !important;
+      }
+
+      .breadcam_bgsiilu{
+        height: 60vh !important;
+      }
+
       .breadcam_bg_nosotros{
         height: 35vh;
       }
+
+      .breadcam_bg_blog {
+        height: 60vh;
+      }
+
       .about_area{
         padding-top: 10px;
       }
@@ -1227,6 +1309,11 @@ padding-top: 100px;
       .provincias_mapa{
         width: 300px;
         height: 300px
+      }
+
+      .btn-wrapper{
+        right: 10px;
+        bottom: 130px;
       }
     }
 
