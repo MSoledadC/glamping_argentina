@@ -3,7 +3,7 @@
 
 $to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Consulta';
-$logo_url =  '';
+$logo_url = 'img\logo.png';
 $url = $_SERVER['HTTP_REFERER'];
 
 
@@ -44,6 +44,12 @@ $message = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Gl
     /* Estilos para el correo electrónico */
     body { font-family: Arial, sans-serif; font-size: 16px; }
     h1 { color: #0dbf6f; }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
