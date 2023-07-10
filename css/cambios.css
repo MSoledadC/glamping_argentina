@@ -1126,32 +1126,66 @@ padding-top: 100px;
 
   .breadcam_bg_nosotros{
     height: 60vh;
+    margin-bottom: 15px;
   }
 
   .breadcam_bg_blog{
     height: 95vh;
+    margin-bottom: 15px;
   }
 
 
   .breadcam_bguspallata{
     height: 60vh !important;
+    margin-bottom: 15px;
   }
 
   .breadcam_bgecodomes{
     height: 60vh !important;
+    margin-bottom: 15px;
   }
 
   .breadcam_bgpristine{
     height: 60vh !important;
+    margin-bottom: 15px;
   }
 
   .breadcam_bgsiilu{
     height: 60vh !important;
+    margin-bottom: 15px;
+  }
+
+  .features_room {
+    padding-top: 15px;
+  }
+
+  .section_title {
+  margin-bottom: 15px;
+  }
+
+  .features_room .rooms_here .single_rooms {
+    margin-bottom: 0px;
+  }
+
+  .about_area {
+    margin-bottom: -10px;
+  }
+
+  .about_area .about_thumb {
+    margin-top: -50px;
+  }
+
+  .titulo_provincias {
+    margin-top: 25px;
   }
 
   .btn-wrapper{
     right: 10px;
     bottom: 125px;
+  }
+
+  .instragram_area {
+    margin-top: 0px;
   }
 
   .provincias_mapa{
@@ -1165,7 +1199,7 @@ padding-top: 100px;
   }
 
   .blog_details h2{
-    font-size: 12px !important;
+    
     height: 70px;
   }
 
@@ -1191,14 +1225,33 @@ padding-top: 100px;
     height: 25px;
   }
 
+  .footer .copy-right_text .copy_right {
+    text-align: center;
+  }
+
   .footer .copy-right_text .socail_links{
-    justify-content: space-between;
+    justify-content: end;
     margin-top: 0px;
+  }
+
+  .footer .footer_top {
+    margin-top: 0px; 
   }
 
   #list{
     margin-left: 15px;
   }
+  
+  .blog-pagination {
+    margin-top: 0px;
+    margin-bottom: -40px;
+  }
+
+  .blog_right_sidebar .single_sidebar_widget {
+    margin-bottom: 20px
+  }
+
+
   }
 
   
