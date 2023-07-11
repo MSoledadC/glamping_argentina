@@ -590,6 +590,15 @@
     margin-right: calc(-0.1 * var(--bs-gutter-x)) !important;
    }
 
+   .video_area .video_area_inner a {
+    width: 80px;
+    height: 80px
+   }
+
+   .video_area .video_area_inner a i {
+    top: 10px;
+   }
+
    /*---ITINERARIO*/
 
    .itinerario {

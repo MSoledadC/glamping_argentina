@@ -1,9 +1,9 @@
 <?php
 // Variables para el correo electrónico
 
-$to = 'mariasoledadcabanillas@gmail.com';
+$to = 'info@glampingargentina.com.ar';
 $subject = 'Consulta';
-$logo_url = 'img\logo.png';
+$logo_url = 'https://msoledadc.000webhostapp.com/img/logo.png';
 $url = $_SERVER['HTTP_REFERER'];
 
 
@@ -21,6 +21,7 @@ $email = $_POST['email'];
 $fecha_ingreso = htmlspecialchars(trim($fecha_ingreso));
 $fecha_egreso = htmlspecialchars(trim($fecha_egreso));
 $huespedes = htmlspecialchars(trim($huespedes));
+$email = htmlspecialchars(trim($_POST['email']));
 
 
 
@@ -37,14 +38,25 @@ if (!filter_var($huespedes, FILTER_VALIDATE_INT)) {
     // El número de huéspedes no es válido
 }
 
+// Validar la dirección de correo electrónico
+if (!empty($email) && filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  // La dirección de correo electrónico es válida, proceder con el envío del correo
+  // Resto del código para enviar el correo aquí
+  // ...
+} else {
+  // La dirección de correo electrónico no es válida o está vacía
+  // Mostrar un mensaje de error o tomar alguna acción adicional
+  echo 'La dirección de correo electrónico no es válida';
+}
+
 // Construir el mensaje del correo electrónico
 $message = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Glamping Argentina</title></head>
 <head>
   <style>
     /* Estilos para el correo electrónico */
-    body { font-family: Arial, sans-serif; font-size: 16px; }
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 16px; }
     h1 { color: #0dbf6f; }
-    ul {
+    ul li {
       margin: 0;
       padding: 0;
       list-style-type: none;
@@ -62,8 +74,9 @@ $message = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Gl
     <li>Fecha de egreso: $fecha_egreso</li>
     <li>Huéspedes: $huespedes</li>
   </ul>
-  <p>Esperamos tenerlo pronto con nosotros.</p>
-  <p>Saludos cordiales,<br>El equipo de Glamping Argentina</p>
+  <p>Nos complace informarle que nuestro equipo revisará cuidadosamente su consulta 
+    y nos pondremos en contacto con usted a la brevedad posible. </p>
+  <p>Saludos cordiales, equipo de <strong>Glamping Argentina</strong></p>
 </body>
 </html>";
 
@@ -74,8 +87,6 @@ $headers .= "Content-type: text/html\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-// Enviar el correo electrónico
-//mail($to, $subject, $message, $headers);
 
 // Enviar el correo electrónico
 mail($to, $subject, $message, $headers);

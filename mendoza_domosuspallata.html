@@ -176,8 +176,8 @@
 
     <div class="btn-wrapper">
         <a href="https://wa.me/5491134308534/?text=%20Glamping%20Argentina%20-%20Deje%20su%20consulta%20sobre%20Domos%20Uspallata,%20será%20respondida%20a%20la%20brevedad.%20"
-           target="_blank" class="btn-ws">
-          <img src="img/logo_ws.png" alt="glampingargentina_ws" width="60" height="60" />
+            target="_blank" class="btn-ws">
+            <img src="img/logo_ws.png" alt="glampingargentina_ws" width="60" height="60" />
         </a>
     </div>
 
@@ -306,16 +306,12 @@
                                 </div>
                                 <div class="col-xl-12 text-estadia">
                                     <p class="rconsulta">Estadía mínima 2 noches</p>
-                                    <p class="rconsulta"><span style="font-weight:bold">us</span><i
+                                    <!--   <p class="rconsulta"><span style="font-weight:bold">us</span><i
                                             class="fa-solid fa-dollar-sign">300 </i> x noche </p>
                                     <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120
                                             dólares estadounidenses</span></p>
-                                    <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>
-                                    <p class="consultatexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        A, perspiciatis cum libero eum quidem,
-                                        aspernatur voluptates officiis dolor molestias pariatur, impedit qui.
-                                        Voluptatem, quia tempore.
-                                        Illo consectetur eligendi non hic?</p>
+                                    <p class="consultatexto1">Impuestos y Tarifa de Servicios incluidos</p>-->
+                                    <p class="consultatexto">Consultas por disponibilidad, servicios, tarifas. </p>
                                 </div>
                             </div>
                             <div class="col-xl-12">
@@ -326,12 +322,11 @@
 
                 </div>
             </div>
-            
+
         </div>
     </div>
-    </div>
-    </div>
     <!-- about_main_info_end -->
+    
     <!-- instragram_area_start -->
     <div class="instragram_area">
         <div class="single_instagram">
@@ -443,115 +438,114 @@
     </footer>
     <!-- footer_end -->
 
+
     <!-- form itself end-->
     <form id="test-form" class="white-popup-block mfp-hide" action="mail.php" method="post">
         <div class="popup_box ">
             <div class="popup_inner">
-                <h3>Consulta</h3>
-                <form>
-                    <div class="row">
-                        <div class="col-xl-4">
-                            <input id="datepicker" type="date" placeholder="Fecha Ingreso" name="Fechaingreso" required>
-                        </div>
-                        <div class="col-xl-4">
-                            <input id="datepicker2" type="date" placeholder="Fecha Egreso" name="Fechaegreso" required>
-                        </div>
-                        <div class="col-xl-4">
-                            <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes"
-                                class="" required>
-                                <option data-display="Huespedes"></option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
-                        </div>
-                        <div class="col-xl-4">
-                            <label for="email">Correo electrónico:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="col-xl-12 text-estadia">
-                            <p class="p_reserva">Estadía mínima 1 noche</p>
-                            <p><span style="font-weight:bold">us</span><i class="fa-solid fa-dollar-sign">300 </i> x
-                                noche </p>
-                            <br>
-                            <p class="p_reserva"><span style="font-weight:bold">Total Reserva 300 dólares
-                                    estadounidenses</span></p>
-                            <p class="p_reservait"><strong>Impuestos y Tarifa de Servicios incluidos</strong></p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, perspiciatis cum libero eum
-                                quidem,
-                                aspernatur voluptates officiis dolor molestias pariatur, impedit qui. Voluptatem, quia
-                                tempore.
-                                Illo consectetur eligendi non hic?</p>
-                        </div>
-                        <div class="col-xl-12">
-                            <button type="submit" class="boxed-btn3">Consulta</button>
-                        </div>
+                <h3>Consulta Glamping Argentina</h3>
+                <div class="row ">
+                    <div class="col-xl-6 mb-1">
+                        <label for="Fechaingreso">Fecha Ingreso</label>
+                        <input type="date" class="form-control" placeholder="Fecha Ingreso" name="Fechaingreso"
+                            required>
                     </div>
-                </form>
+                    <div class="col-xl-6">
+                        <label for="Fechaegreso">Fecha Egreso</label>
+                        <input type="date" class="form-control" placeholder="Fecha Egreso" name="Fechaegreso" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <select class="form-select wide" id="default-select" type="checkbox" name="Huespedes" class=""
+                            required>
+                            <option data-display="Huespedes"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5+</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-6">
+                        <input class="small-button form-control" type="email" id="email" name="email"
+                            placeholder="Correo electrónico" required>
+                    </div>
+                </div>
+                <div class="col-xl-12 text-estadia">
+                    <!--<p class="rconsulta">Estadía mínima 2 noches</p>
+                        <p class="rconsulta"><span style="font-weight:bold">us</span><i
+                                    class="fa-solid fa-dollar-sign">300 </i> x noche </p>
+                        <p class="p_reserva rconsulta"><span style="font-weight:bold">Total Reserva 120
+                                    dólares estadounidenses</span></p>-->
+                    <p class="consultatexto1">Consultas por disponibilidad, servicios, tarifas. </p>
+                    <p class="consultatexto"></p>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <button type="submit" class="boxed-btn3 botonconsulta">Consulta</button>
             </div>
         </div>
-        </div>
-        <!-- form itself end -->
+    </form>
+    <!-- form itself end -->
 
 
-        <!-- JS here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/scrollIt.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/nice-select.min.js"></script>
-        <script src="js/jquery.slicknav.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/gijgo.min.js"></script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
 
-        <!--contact js-->
-        <script src="js/contact.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/mail-script.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
 
-        <script src="js/main.js"></script>
-        <script>
-            $('#datepicker').datepicker({
-                iconsLibrary: 'fontawesome',
-                icons: {
-                    rightIcon: 
+    <script src="js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: 
      }
-            });
-            $('#datepicker2').datepicker({
-                iconsLibrary: 'fontawesome',
-                icons: {
-                    rightIcon: '<span class="fa fa-caret-down"></span>'
-                }
-
-            });
-        </script>
-
-        <script>
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function () {
-                var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.querySelector(".hide-on-scroll").classList.remove("hide");
-                } else {
-                    document.querySelector(".hide-on-scroll").classList.add("hide");
-                }
-                prevScrollpos = currentScrollPos;
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-caret-down"></span>'
             }
-        </script>
+
+        });
+    </script>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.querySelector(".hide-on-scroll").classList.remove("hide");
+            } else {
+                document.querySelector(".hide-on-scroll").classList.add("hide");
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 
 </body>
 
