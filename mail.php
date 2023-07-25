@@ -1,9 +1,9 @@
 <?php
 // Variables para el correo electrónico
 
-$to = 'info@glampingargentina.com.ar';
+$to = 'mariasoledadcabanillas@gmail.com';
 $subject = 'Consulta';
-$logo_url = 'https://msoledadc.000webhostapp.com/img/logo.png';
+$logo_url = 'http://www.glampingargentina.com.ar/img/logo.png';
 $url = $_SERVER['HTTP_REFERER'];
 
 
@@ -14,17 +14,11 @@ $huespedes = $_POST['Huespedes'];
 $email = $_POST['email'];
 
 
-
-//$titulo = $_POST['titulo'];
-
 // Validar y escapar los datos del formulario aquí
 $fecha_ingreso = htmlspecialchars(trim($fecha_ingreso));
 $fecha_egreso = htmlspecialchars(trim($fecha_egreso));
 $huespedes = htmlspecialchars(trim($huespedes));
 $email = htmlspecialchars(trim($_POST['email']));
-
-
-
 
 if (!filter_var($fecha_ingreso, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^(\d{4})-(\d{2})-(\d{2})$/")))) {
     // La fecha de ingreso no es válida
@@ -94,6 +88,5 @@ mail($email, $subject, $message, $headers);
 
 header('Location: index.html');
 ?>
-
 
 

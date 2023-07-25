@@ -1,16 +1,37 @@
    
 /*----BS AS  banner Nosotros---*/
-      /*----Bosque Glamping ---*/
+      /*----Glamping Puente Blanco ---*/
 
-  .about_bg_2 {
-    background-image: url(../img/banner/bsas_bosque4_png.png);
+  .breadcam_bgpuenteblanco{
+      background-image: url(../img/listaprovincias/bsas_puenteblanco.png);
+      height: 100vh;
     }
-    .about_bg_3 {
-        background-image: url(../img/banner/bsas_bosque6_png.png);
+
+  .about_bgpuenteblanco1 {
+    background-image: url(../img/carruselprov/bsas_puenteblanco4.png);
     }
-    .about_bg_4 {
-        background-image: url(../img/banner/bsas_bosque1png\ png.png);
-        }
+  
+    .about_bgpuenteblanco2 {
+      background-image: url(../img/carruselprov/bsas_puenteblanco5.png);
+    }
+    .about_bgpuenteblanco3{
+      background-image: url(../img/carruselprov/bsas_puenteblanco6.png);
+    }
+
+    .about_bgpuenteblanco4 {
+      background-image:url(../img/carruselprov/bsas_puenteblanco7.png);
+    }
+    
+    .about_bgpuenteblanco5 {
+    background-image:url(../img/carruselprov/bsas_puenteblanco8.png);
+    }
+    
+    .about_bgpuenteblanco6 {
+    background-image:url(../img/carruselprov/bsas_puenteblanco9.png);
+    }
+    
+
+
 
   /*----Salta banner about---*/   
  /*---- Siilu Wasi Refugio ---*/  
