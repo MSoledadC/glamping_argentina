@@ -191,7 +191,7 @@ right: 3%;
 .btn-wrapper {
 position: fixed;
 right: 20px;
-bottom: 20px;
+bottom: 35px;
 z-index: 10;
 }
 
@@ -969,9 +969,12 @@ padding-top: 20px;
 
 /*Footer*/
 
+.footer {
+  background: white; 
+}
+
 .footer_widget{
-width: 400px;
-margin-top: 30px;
+  margin-top: 15px;
 }
 
 .footer .footer_top{
@@ -999,8 +1002,14 @@ gap: 5px;
 justify-content: end;
 }
 
-.footer .copy-right_text .copy_right a {
-font-size: 12px;
+.copy_right {
+  font-size: 10px;
+  margin-top: 55px;
+  color: #000 !important;
+}
+
+.copy_right span {
+  color: #000 !important;
 }
 
 .footer .footer_top .footer_widget .newsletter_form button{
@@ -1217,6 +1226,7 @@ margin-right: auto;
 
 .footer .footer_top .footer_widget{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 margin-bottom: 0px;
 margin-top: 10px;
