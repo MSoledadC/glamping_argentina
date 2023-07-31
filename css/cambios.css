@@ -962,7 +962,7 @@ padding-top: 20px;
 /*Footer*/
 
 .footer {
-  background: #fff; 
+  background: #fff !important; 
 }
 
 
@@ -998,7 +998,7 @@ justify-content: end;
 }
 
 .copy_right {
-  font-size: 10px;
+  font-size: 10px !important;
   margin-top: 55px;
   color: #000 !important;
 }
@@ -1196,8 +1196,8 @@ margin-top: 25px;
 }
 
 .btn-wrapper{
-  right: 15%;
-  bottom: 45px;
+  right: 24%;
+  bottom: 165px;
 }
 
 .instragram_area {
@@ -1252,8 +1252,9 @@ height: 25px;
 }
 
 .copy_right{
-  margin-top: 0px;
-  margin-right: 65px
+  margin-top: -20px;
+  margin-right: 65px;
+  font-size: 8px;
 }
 
 .footer .copy-right_text .copy_right {
