@@ -58,7 +58,7 @@ padding-top: 50px;
 
 /*----Imagenes INICIO carrusel---*/
 .slider_bg_4 {
-background-image: url(../img/banner/4.png);
+background-image: url(../img/banner/4.jpeg);
 }
 
 
@@ -160,12 +160,12 @@ line-height: 22px;
 }
 
 .breadcam_bg_nosotros{
-background-image: url(../img/banner/sobre_nosotros.png);
+background-image: url(../img/banner/sobre_nosotros.jpeg);
 height: 100vh;
 }
 
 .breadcam_bg_blog {
-background-image: url(../img/banner/blog.png);
+background-image: url(../img/banner/blog.jpeg);
 height: 100vh;
 }
 
