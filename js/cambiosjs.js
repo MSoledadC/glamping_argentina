@@ -28,7 +28,7 @@ function ocultar() {
     containers[i].style.display = "none";
   }
   
-  var targetElement = document.getElementById("rooms");
+  var targetElement = document.getElementById("glamping");
   targetElement.scrollIntoView({ behavior: 'smooth' });
 }
 
