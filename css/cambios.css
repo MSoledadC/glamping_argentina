@@ -667,73 +667,6 @@ border-top: 1px solid #ddd;
 
 }
 
-
-/*---Google Traslate*/
-
-#btn-translate {
-color: #919191;
-font-size: 8px;
-font-weight: 400;
-display: inline-block;
-position: relative;
-padding-bottom: 2px;
-margin-left: 40px;
-&::before{
-  position: absolute;
-  content: "";
-  background: #919191;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-}
-&:hover{
-  color: #0dbf6f;
-}
-&:hover::before{
-  background: #0dbf6f;
-}
-}
-
-.goog-te-gadget .goog-te-combo {
-color: #919191;
-font-size: 8px;
-font-weight: 400;
-display: inline-block;
-position: relative;
-padding-bottom: 2px;
-margin-left: 40px !important;
-&::before{
-  position: absolute;
-  content: "";
-  background: #919191;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-}
-&:hover{
-  color: #0dbf6f;
-}
-&:hover::before{
-  background: #0dbf6f;
-}
-}
-
-.goog-te-gadget{
-font-size: 0px !important;
-}
-
-.goog-te-gadget img{
-margin-left: 40px;
-}
-
-.VIpgJd-ZVi9od-l4eHX-hSRGPd, .VIpgJd-ZVi9od-l4eHX-hSRGPd:link, .VIpgJd-ZVi9od-l4eHX-hSRGPd:visited, .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover, .VIpgJd-ZVi9od-l4eHX-hSRGPd:active{
-font-size: 2px !important;
-}
-
-
-
 /*---SLIDER BANNER INICIO*/
 
 .d-flex_inicio {
@@ -847,21 +780,10 @@ border-radius: 5px;
 margin-top: -60px;
 }
 
-/*--RESEÑAS GOOGLE*/
-
-.testimonios {
-font-family: "Roboto", cursive;
-font-size: 30px;
-background-color: linear-gradient(90deg, rgba(0,122,114,1) 0%, rgba(13,191,111,1) 100%);
-color: #1F1F1F;
-font-weight: 200;
-margin-top: 50px;
+.iconoyoutube{
+  color: #0dbf6f;
 }
 
-.pb-4 {
-width: 100%;
-overflow: hidden;
-}
 
 /*INSTAGRAM*/
 .instragram_area{
