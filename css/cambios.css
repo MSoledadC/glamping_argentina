@@ -372,7 +372,16 @@ position: absolute;
 left: -9999px;
 }
 
+/* blogs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.post_item {
+  display: flex;
+}
+
+.blog_right_sidebar .popular_post_widget .post_item .media-body {
+  padding-left: 8px;
+}
 
 
 /* FILTERS Provincias
